@@ -35,7 +35,7 @@ h1 {
 nav {
   position: fixed;
   overflow: hidden;
-  background: #1799b6;
+  background: #e69138;
   -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
@@ -69,7 +69,7 @@ nav img {
 
 .headname {
   font-size: 30px;
-  font-family: "Ma Shan Zheng", cursive;
+  font-family: "Ma Shan Zheng", sans-serif;
   margin-top: 20px;
   margin-bottom: 20px;
 }
