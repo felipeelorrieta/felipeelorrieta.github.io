@@ -35,7 +35,7 @@ h1 {
 nav {
   position: fixed;
   overflow: hidden;
-  background: #e69138;
+  background: #389be6;
   -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
@@ -88,7 +88,7 @@ li {
 
 nav a:after {
   border-radius: 1em;
-  border-top: 0.1em solid #1799b6;
+  border-top: 0.1em solid #389be6;
   content: "";
   position: absolute;
   right: 100%;
@@ -150,7 +150,7 @@ nav a:hover:after {
   border-radius: 20px;
   height: 30px;
   width: 600px;
-  background-color: #dbdbdb;
+  background-color: #389be6;
 }
 
 .skill {
@@ -341,7 +341,7 @@ h1 {
 nav {
   position: fixed;
   overflow: hidden;
-  background: #e69138;
+  background: #389be6;
   -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
@@ -380,7 +380,7 @@ li {
 
 nav a:after {
   border-radius: 1em;
-  border-top: 0.1em solid #e69138;
+  border-top: 0.1em solid #389be6;
   content: "";
   position: absolute;
   right: 100%;
@@ -442,7 +442,7 @@ nav a:hover:after {
   border-radius: 20px;
   height: 30px;
   width: 600px;
-  background-color: #dbdbdb;
+  background-color: #389be6;
 }
 
 .skill {
@@ -459,7 +459,7 @@ nav a:hover:after {
   font-size: 25px;
   height: 100%;
   width: 90%;
-  background-color: #e69138;
+  background-color: #389be6;
 }
 
 .js {
@@ -469,7 +469,7 @@ nav a:hover:after {
   font-size: 25px;
   height: 100%;
   width: 80%;
-  background-color: #e69138;
+  background-color: #389be6;
 }
 .php {
   border-radius: 20px;
@@ -477,7 +477,7 @@ nav a:hover:after {
   font-size: 25px;
   height: 100%;
   width: 75%;
-  background-color: #e69138;
+  background-color: #389be6;
 }
 
 .wp {
@@ -486,7 +486,7 @@ nav a:hover:after {
   height: 100%;
   border-radius: 20px;
   width: 80%;
-  background-color: #e69138;
+  background-color: #389be6;
 }
 
 .jm {
@@ -495,7 +495,7 @@ nav a:hover:after {
   font-size: 25px;
   height: 100%;
   width: 65%;
-  background-color: #e69138;
+  background-color: #389be6;
 }
 
 .services {
