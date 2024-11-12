@@ -8,9 +8,11 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: "Inicio"
+        text: "Home"
       - href: about.qmd
-        text: "Sobre mi"
+        text: "About Me"
+      - href: teaching.qmd
+        text: "Teaching"
 
 format:
   html:

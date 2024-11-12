@@ -1,5 +1,15 @@
 ---
 title: "Felipe Elorrieta's personal website"
+links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/felocarril
+    - icon: github
+      text: Github
+      href: https://github.com/felipeelorrieta
+    - icon: instagram
+      text: instagram
+      href: https://www.instagram.com/felocarril
 ---
 
 Hello, I am Felipe Elorrieta. 

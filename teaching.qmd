@@ -1,0 +1,15 @@
+---
+title: "Teaching"
+---
+
+## Time Series
+
+In this course I seek to present to the students basic concepts of time series and their applications.
+
+## Financial Time Series
+
+In this course I aim to familiarize the student with advanced time series methods with applications in finance.
+
+## Algorithms in Data Mining
+
+In this course I review Machine Learning concepts and techniques that allow segmenting, classifying and interpreting large volumes of data.
