@@ -1,0 +1,21 @@
+project:
+  type: website
+  title: "Pagina web con Quarto"
+
+website:
+  title: "paginapersonal"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Inicio"
+      - href: about.qmd
+        text: "Sobre mi"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

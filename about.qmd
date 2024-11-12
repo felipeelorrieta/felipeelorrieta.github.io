@@ -1,0 +1,19 @@
+---
+title: "Jornadas"
+about:
+  template: jolla
+  image: FelipeElorrieta.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+Las III Jornadas de Ingeniería Estadística son un evento que se efectúa desde hace tres años en el Departamento de Matemática y Ciencia de la Computación, en la Universidad de Santiago.
+
+## Fecha y lugar de realización
+
+Auditorio del Departamento de Matemática y Ciencia de la Computación, Universidad de Santiago | 11 y 12 de noviembre de 2024
