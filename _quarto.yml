@@ -1,10 +1,10 @@
 project:
   type: website
-  title: "Pagina web con Quarto"
+  title: "Felipe Elorrieta"
   output-dir: docs
 
 website:
-  title: "paginapersonal"
+  title: "Felipe Elorrieta"
   navbar:
     left:
       - href: index.qmd
