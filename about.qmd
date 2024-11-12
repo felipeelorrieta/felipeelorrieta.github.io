@@ -12,8 +12,11 @@ about:
       href: https://github.com
 ---
 
-Las III Jornadas de Ingeniería Estadística son un evento que se efectúa desde hace tres años en el Departamento de Matemática y Ciencia de la Computación, en la Universidad de Santiago.
+I am a statistical engineer from Universidad de Santiago, Santiago, Chile, received in 2011, M.S. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2013, Ph.D. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2018. I am currently an Associate Professor in the Faculty of Science, Department of Mathematics and Computer Science at Universidad de Santiago, Chile.
 
-## Fecha y lugar de realización
+My research interests are the analysis of time series data and the statistical methods used in classification problems. This research line has allowed me to approach the analysis of astronomical data. In the last 10 years I have collaborated in Astro-Statistics research teams at the Millennium Institute of Astrophysics (MAS), the Chilean broker for LSST, ALeRCE, and for the Center for Interdisciplinary Research in Astrophysics and Space Sciences (CIRAS) at the University of Santiago.
 
-Auditorio del Departamento de Matemática y Ciencia de la Computación, Universidad de Santiago | 11 y 12 de noviembre de 2024
+In addition, I have focused some of my research time on the statistical analysis of infectious diseases, particularly in their impact on the population. With the advent of COVID-19 in 2020 I was able to lead interdisciplinary research teams such as GEMVEP-USACH and Data Salud-USACH.
+
+For more information about my research and teaching expierence, please see my  CV. Furthermore, you can follow my research in my  Google Scholar, ResearchGate,
+and ORCID ID profiles. 

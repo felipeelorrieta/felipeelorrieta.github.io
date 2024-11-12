@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "paginapersonal",
+    "title": "Felipe Elorrieta’s personal website",
     "section": "",
-    "text": "Esta es una página web simple creada con Quarto en las III Jornadas de Ingeniería en Estadística.\n\n\nQuarto te permite crear documentos y sitios web de forma rápida y sencilla.\n\n\n\n\nCódigo reproducible\nFácil de publicar en GitHub Pages\nCompatible con múltiples lenguajes"
+    "text": "Hello, I am Felipe Elorrieta. Associate Professor at Universidad de Santiago de Chile."
   },
   {
     "objectID": "index.html#sección-1-introducción",
@@ -19,5 +19,12 @@
     "title": "paginapersonal",
     "section": "",
     "text": "Código reproducible\nFácil de publicar en GitHub Pages\nCompatible con múltiples lenguajes"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Jornadas",
+    "section": "",
+    "text": "I am a statistical engineer from Universidad de Santiago, Santiago, Chile, received in 2011, M.S. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2013, Ph.D. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2018. I am currently an Associate Professor in the Faculty of Science, Department of Mathematics and Computer Science at Universidad de Santiago, Chile.\nMy research interests are the analysis of time series data and the statistical methods used in classification problems. This research line has allowed me to approach the analysis of astronomical data. In the last 10 years I have collaborated in Astro-Statistics research teams at the Millennium Institute of Astrophysics (MAS), the Chilean broker for LSST, ALeRCE, and for the Center for Interdisciplinary Research in Astrophysics and Space Sciences (CIRAS) at the University of Santiago.\nIn addition, I have focused some of my research time on the statistical analysis of infectious diseases, particularly in their impact on the population. With the advent of COVID-19 in 2020 I was able to lead interdisciplinary research teams such as GEMVEP-USACH and Data Salud-USACH.\nFor more information about my research and teaching expierence, please see my CV. Furthermore, you can follow my research in my Google Scholar, ResearchGate, and ORCID ID profiles."
   }
 ]

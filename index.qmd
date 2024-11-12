@@ -1,17 +1,6 @@
 ---
-title: "paginapersonal"
+title: "Felipe Elorrieta's personal website"
 ---
 
-# ¡Hola, Mundo!
-
-Esta es una página web simple creada con Quarto en las III Jornadas de Ingeniería en Estadística.
-
-## Sección 1: Introducción
-
-Quarto te permite crear documentos y sitios web de forma rápida y sencilla.
-
-## Sección 2: Características
-
-- Código reproducible
-- Fácil de publicar en GitHub Pages
-- Compatible con múltiples lenguajes
+Hello, I am Felipe Elorrieta. 
+Associate Professor at Universidad de Santiago de Chile.
