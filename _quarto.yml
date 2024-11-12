@@ -1,6 +1,7 @@
 project:
   type: website
   title: "Pagina web con Quarto"
+  output-dir: docs
 
 website:
   title: "paginapersonal"
