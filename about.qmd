@@ -6,10 +6,13 @@ about:
   links:
     - icon: twitter
       text: twitter
-      href: https://twitter.com
+      href: https://twitter.com/felocarril
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/felipeelorrieta
+    - icon: instagram
+      text: instagram
+      href: https://www.instagram.com/felocarril
 ---
 
 I am a statistical engineer from Universidad de Santiago, Santiago, Chile, received in 2011, M.S. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2013, Ph.D. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2018. I am currently an Associate Professor in the Faculty of Science, Department of Mathematics and Computer Science at Universidad de Santiago, Chile.
