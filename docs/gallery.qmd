@@ -1,0 +1,11 @@
+---
+title: "My Research"
+filters:
+   - lightbox
+---
+
+![A Lovely Image](images/VIME.jpg){group="my-gallery"}
+
+![Another Lovely Image](images/ASA.jpeg){group="my-gallery"}
+
+![The Last Lovely Image](images/IMAGEN6.jpeg){group="my-gallery"}
