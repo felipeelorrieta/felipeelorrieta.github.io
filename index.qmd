@@ -1,5 +1,7 @@
 ---
-title: "Felipe Elorrieta's personal website"
+title: "Felipe Elorrieta"
+subtitle: "Hello, I am Felipe Elorrieta. 
+Associate Professor at Universidad de Santiago de Chile."
 links:
     - icon: twitter
       text: twitter
@@ -12,5 +14,4 @@ links:
       href: https://www.instagram.com/felocarril
 ---
 
-Hello, I am Felipe Elorrieta. 
-Associate Professor at Universidad de Santiago de Chile.
+
