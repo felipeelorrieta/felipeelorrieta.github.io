@@ -13,6 +13,8 @@ website:
         text: "About Me"
       - href: teaching.qmd
         text: "Teaching"
+      - href: myresearch.qmd
+        text: "My Research"
 
 format:
   html:

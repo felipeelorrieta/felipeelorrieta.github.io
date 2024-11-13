@@ -13,3 +13,7 @@ In this course I aim to familiarize the student with advanced time series method
 ## Algorithms in Data Mining
 
 In this course I review Machine Learning concepts and techniques that allow segmenting, classifying and interpreting large volumes of data.
+
+## Numerical Methods
+
+In this course, mathematical optimization algorithms are presented with application in statistical problems that require it.

@@ -1,0 +1,25 @@
+---
+title: "My Research"
+---
+
+## Astro-Statistics
+
+<a id="1">[1]</a> Eyheramendy S, Elorrieta F, Palma W (2018). “An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves.” Monthly Notices of the Royal Astronomical Society, 481(4), 4311–4322. ISSN 0035-8711, doi: 10.1093/mnras/sty2487, https://academic.oup.com/mnras/article-pdf/481/4/4311/25906473/sty2487.pdf.
+
+<a id="2">[2]</a> Elorrieta, F, Eyheramendy, S, Palma, W (2019). “Discrete-time autoregressive model for unequally spaced time-series observations.” A\& A, 627, A120. doi: 10.1051/00046361/201935560, https://doi.org/10.1051/0004-6361/201935560.
+
+<a id="3">[3]</a> Elorrieta, F, Eyheramendy, S, Palma, W, Ojeda, C (2021).A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series, Monthly Notices of the Royal Astronomical Society, 505 (1),1105–1116,https://doi.org/10.1093/mnras/stab1216
+
+<a id="4">[4]</a> Jordán A, Espinoza N, Rabus M, Eyheramendy S, Sing DK, Désert J, Bakos GÁ, Fortney JJ, LópezMorales M, Maxted PFL, Triaud AHMJ, Szentgyorgyi A (2013). “A Ground-based Optical Transmission Spectrum of WASP-6b.” The Astrophysical Journal, 778, 184. doi: 10.1088/0004637X/
+778/2/184, 1310.6048, https://doi.org/10.1088/0004-637X/778/2/184.
+
+<a id="5">[5]</a> Lira P, Arévalo P, Uttley P, McHardy IMM, Videla L (2015). “Long-term monitoring of the archetype Seyfert galaxy MCG-6-30-15: X-ray, optical and near-IR variability of the corona, disc and torus.” Monthly Notices of the Royal Astronomical Society, 454(1), 368–379. ISSN 0035-8711, doi: 10.1093/mnras/stv1945, https://doi.org/10.1093/mnras/stv1945.
+
+
+## Public Health
+
+In this course I aim to familiarize the student with advanced time series methods with applications in finance.
+
+## iAR Package
+
+In this course I review Machine Learning concepts and techniques that allow segmenting, classifying and interpreting large volumes of data.
