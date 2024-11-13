@@ -15,7 +15,21 @@ website:
         text: "Teaching"
       - href: myresearch.qmd
         text: "My Research"
-
+    right:
+      - icon: twitter
+        text: twitter
+        href: https://twitter.com/felocarril
+      - icon: github
+        text: Github
+        href: https://github.com/felipeelorrieta
+      - icon: instagram
+        text: instagram
+        href: https://www.instagram.com/felocarril
+      - icon: linkedin
+        aria-label: "LinkedIn"
+        href: https://www.linkedin.com/in/felipe-elorrieta-0165a259/
+      - icon: envelope
+        href: mailto:felipe.elorrieta@usach.cl
 format:
   html:
     theme: cosmo

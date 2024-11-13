@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -158,6 +178,33 @@ background: #00000000;
 <span class="menu-text">My Research</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/felocarril"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text">twitter</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/felipeelorrieta"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">Github</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.instagram.com/felocarril"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text">instagram</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/felipe-elorrieta-0165a259/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:felipe.elorrieta@usach.cl"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -204,19 +251,32 @@ background: #00000000;
 
 <section id="astro-statistics" class="level2">
 <h2 class="anchored" data-anchor-id="astro-statistics">Astro-Statistics</h2>
-<p><a id="1">[1]</a> Eyheramendy S, Elorrieta F, Palma W (2018). “An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves.” Monthly Notices of the Royal Astronomical Society, 481(4), 4311–4322. ISSN 0035-8711, doi: 10.1093/mnras/sty2487, https://academic.oup.com/mnras/article-pdf/481/4/4311/25906473/sty2487.pdf.</p>
-<p><a id="2">[2]</a> Elorrieta, F, Eyheramendy, S, Palma, W (2019). “Discrete-time autoregressive model for unequally spaced time-series observations.” A&amp; A, 627, A120. doi: 10.1051/00046361/201935560, https://doi.org/10.1051/0004-6361/201935560.</p>
-<p><a id="3">[3]</a> Elorrieta, F, Eyheramendy, S, Palma, W, Ojeda, C (2021).A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series, Monthly Notices of the Royal Astronomical Society, 505 (1),1105–1116,https://doi.org/10.1093/mnras/stab1216</p>
-<p><a id="4">[4]</a> Jordán A, Espinoza N, Rabus M, Eyheramendy S, Sing DK, Désert J, Bakos GÁ, Fortney JJ, LópezMorales M, Maxted PFL, Triaud AHMJ, Szentgyorgyi A (2013). “A Ground-based Optical Transmission Spectrum of WASP-6b.” The Astrophysical Journal, 778, 184. doi: 10.1088/0004637X/ 778/2/184, 1310.6048, https://doi.org/10.1088/0004-637X/778/2/184.</p>
-<p><a id="5">[5]</a> Lira P, Arévalo P, Uttley P, McHardy IMM, Videla L (2015). “Long-term monitoring of the archetype Seyfert galaxy MCG-6-30-15: X-ray, optical and near-IR variability of the corona, disc and torus.” Monthly Notices of the Royal Astronomical Society, 454(1), 368–379. ISSN 0035-8711, doi: 10.1093/mnras/stv1945, https://doi.org/10.1093/mnras/stv1945.</p>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Elorrieta_2021" class="csl-entry" role="listitem">
+Elorrieta, Felipe, Susana Eyheramendy, Wilfredo Palma, and Cesar Ojeda. 2021. <span>“<span class="nocase">A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series</span>.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 505 (1): 1105–16. <a href="https://doi.org/10.1093/mnras/stab1216">https://doi.org/10.1093/mnras/stab1216</a>.
+</div>
+<div id="ref-Elorrieta_2023" class="csl-entry" role="listitem">
+Elorrieta, Felipe, Lucas Osses, Matias Cáceres, Susana Eyheramendy, and Wilfredo Palma. 2023. <span>“Online Estimation Methods for Irregular Autoregressive Models.”</span> In <em>Theory and Applications of Time Series Analysis</em>, edited by Olga Valenzuela, Fernando Rojas, Luis Javier Herrera, Héctor Pomares, and Ignacio Rojas, 3–17. Cham: Springer Nature Switzerland.
+</div>
+<div id="ref-Elorrieta_2019" class="csl-entry" role="listitem">
+Elorrieta, F, S Eyheramendy, and W Palma. 2019. <span>“Discrete-Time Autoregressive Model for Unequally Spaced Time-Series Observations.”</span> <em>A&amp;A</em> 627: A120. <a href="https://doi.org/10.1051/0004-6361/201935560">https://doi.org/10.1051/0004-6361/201935560</a>.
+</div>
+<div id="ref-iAR" class="csl-entry" role="listitem">
+Eyheramendy, Susana, Felipe Elorrieta, and Wilfredo Palma. 2018. <span>“<span class="nocase">An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves</span>.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 481 (4): 4311–22. <a href="https://doi.org/10.1093/mnras/sty2487">https://doi.org/10.1093/mnras/sty2487</a>.
+</div>
+<div id="ref-Forster_2021" class="csl-entry" role="listitem">
+Förster, F., G. Cabrera-Vives, E. Castillo-Navarrete, P. A. Estévez, P. Sánchez-Sáez, J. Arredondo, F. E. Bauer, et al. 2021. <span>“The Automatic Learning for the Rapid Classification of Events (<span>ALeRCE</span>) Alert Broker.”</span> <em>The Astronomical Journal</em> 161 (5): 242. <a href="https://doi.org/10.3847/1538-3881/abe9bc">https://doi.org/10.3847/1538-3881/abe9bc</a>.
+</div>
+<div id="ref-Sanchez_Saez_2021" class="csl-entry" role="listitem">
+Sánchez-Sáez, P., I. Reyes, C. Valenzuela, F. Förster, S. Eyheramendy, F. Elorrieta, F. E. Bauer, et al. 2021. <span>“Alert Classification for the <span>ALeRCE</span> Broker System: The Light Curve Classifier.”</span> <em>The Astronomical Journal</em> 161 (3): 141. <a href="https://doi.org/10.3847/1538-3881/abd5c1">https://doi.org/10.3847/1538-3881/abd5c1</a>.
+</div>
+</div>
 </section>
 <section id="public-health" class="level2">
 <h2 class="anchored" data-anchor-id="public-health">Public Health</h2>
-<p>In this course I aim to familiarize the student with advanced time series methods with applications in finance.</p>
 </section>
 <section id="iar-package" class="level2">
 <h2 class="anchored" data-anchor-id="iar-package">iAR Package</h2>
-<p>In this course I review Machine Learning concepts and techniques that allow segmenting, classifying and interpreting large volumes of data.</p>
 
 
 </section>
