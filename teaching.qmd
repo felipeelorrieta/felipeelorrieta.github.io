@@ -2,13 +2,13 @@
 title: "Teaching"
 ---
 
-## Time Series [+](courses/ST/index.qmd)
+## [Time Series](courses/TS/index.qmd)
 
 In this course I seek to present to the students basic concepts of time series and their applications.
 
-## Financial Time Series
+## [Financial Time Series](courses/FinancialTS/index.qmd)
 
-In this course I aim to familiarize the student with advanced time series methods with applications in finance.
+In this course I aim to familiarize the student with advanced time series methods with applications in  finance.
 
 ## Algorithms in Data Mining
 

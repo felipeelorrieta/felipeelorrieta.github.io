@@ -45,7 +45,7 @@ library(reticulate)
 # Programa del curso
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 1: Introducción
+## Capítulo 1: Introducción
 
     1.1. Conceptos Básicos.
     1.2. Tipos de Series de Tiempo.
@@ -54,24 +54,24 @@ library(reticulate)
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 2: Descomposición clásica de una serie de Tiempo.
+## Capítulo 2: Descomposición clásica de una serie de Tiempo.
     
     2.1. Alisado Exponencial de Holt-Winters.
     2.2. Enfoque de Regresión
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 3: Procesos Lineales.
+## Capítulo 3: Procesos Lineales.
 
     3.1. Definición.
     3.2. Procesos Autoregresivos (AR)
     3.3. Procesos de Medias Móviles (MA)
     3.4. Procesos Mixtos (ARMA).
-    3.5. Representaciones AR(∞) y MA(∞).
+    3.5. Representaciones AR$(\infty)$ y MA$(\infty)$.
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 4: Estimación de modelos ARMA.
+## Capítulo 4: Estimación de modelos ARMA.
 
     4.1. Estimador de Yule-Walker
     4.2. Estimador de MCO
@@ -79,7 +79,7 @@ library(reticulate)
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 5: Predicción de modelos ARMA.
+## Capítulo 5: Predicción de modelos ARMA.
 
     5.1. Mejor Predictor Lineal.
     5.2. Función de Autocorrelación Parcial (PACF).
@@ -87,7 +87,7 @@ library(reticulate)
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 6: Procesos No Estacionarios.
+## Capítulo 6: Procesos No Estacionarios.
 
     6.1. Raíz Unitaria
     6.2. Modelos ARIMA.
@@ -95,7 +95,7 @@ library(reticulate)
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 7: Análisis Espectral
+## Capítulo 7: Análisis Espectral
     7.1. Densidad Espectral.
     7.2. Periodograma.
     7.3. Teorema de Herglotz.
@@ -114,6 +114,18 @@ Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overlin
 - $\overline{TF} \geq 4.0$
 - $\overline{NF} \geq 4.0$
 :::
+
+# Fechas de Evaluaciones
+
+::: {.callout-tip appearance="simple" icon=false}
+- Control 1 (C1): 7 de Abril (Capitulos 1-2)
+- Pep 1 (P1): 5 de Mayo (Capitulos 1-4)
+- Control 1 (C2): 26 de Mayo (Capitulos 5-6)
+- Pep 2 (P2): 23 de Junio (Capitulos 5-7)
+- Presentación Final (TF): 7 de Julio
+- Examen Final:  14 de Julio
+:::
+
 
 
 # Bibliografía

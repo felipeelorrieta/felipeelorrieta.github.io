@@ -11,5 +11,4 @@ My research interests are the analysis of time series data and the statistical m
 
 In addition, I have focused some of my research time on the statistical analysis of infectious diseases, particularly in their impact on the population. With the advent of COVID-19 in 2020 I was able to lead interdisciplinary research teams such as GEMVEP-USACH and Data Salud-USACH.
 
-For more information about my research and teaching expierence, please see my  CV. Furthermore, you can follow my research in my  Google Scholar, ResearchGate,
-and ORCID ID profiles. 
+For more information about my research and teaching expierence, please see my [CV](documents/CV_Felipe_Elorrieta.pdf). Furthermore, you can follow my research in my [Google Scholar](https://github.com/felipeelorrieta), [ResearchGate](https://www.researchgate.net/profile/Felipe-Elorrieta-Lopez), and [ORCID ID](https://orcid.org/0000-0002-1835-7433) profiles. 
