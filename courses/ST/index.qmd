@@ -39,86 +39,82 @@ library(reticulate)
 # Objetivos del curso 
 
 ::: {.callout-tip appearance="simple" icon=false}
-- Modelar estocásticamente y simular sistemas reales simples. 
-- Formular modelos de simulación
-para sistemas reales complejos. 
-- Verificar y validar los modelos de simulación. 
-- Manejar un lenguaje computacional que permita simular situaciones relativamente complejas.
+- Familiarizar al alumno con la teor´ıa de series de tiempo y sus aplicaciones
 :::
 
 # Programa del curso
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 0: Preliminares
+## Unidad 1: Introducción
 
-    0.1. Probabilidades
-    0.2. Probabilidad condicional e independencia
-    0.3. Distribuciones de probabilidad y variables aleatorias
-    0.4. Variables aleatorias
-    0.5. Distribuciones de probabilidad
-    0.6. Funciones de variables aleatorias
+    1.1. Conceptos Básicos.
+    1.2. Tipos de Series de Tiempo.
+    1.3. Estacionaridad.
+    1.4. Función de Autocovarianza.
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Unidad 2: Descomposición clásica de una serie de Tiempo.
     
+    2.1. Alisado Exponencial de Holt-Winters.
+    2.2. Enfoque de Regresión
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 1: Generación de Números Pseudos Aleatorios.
-    
-    1.1. Aspectos históricos.
-    1.2. Método Congruencial, Aditivo y Mixto.
-    1.3. Método Cuadrados Medios y otros métodos para generar números pseudos aleatorios
-    1.4. Test de Rachas y el test de Bondad de Ajuste para analizar la calidad de los números generados.
-    1.5. Aplicación: Aproximación de integrales mediante números pseudos aleatorios.
+## Unidad 3: Procesos Lineales.
+
+    3.1. Definición.
+    3.2. Procesos Autoregresivos (AR)
+    3.3. Procesos de Medias Móviles (MA)
+    3.4. Procesos Mixtos (ARMA).
+    3.5. Representaciones AR(∞) y MA(∞).
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 2: Generación de Variables Aleatorias (discretas y continuas)
+## Unidad 4: Estimación de modelos ARMA.
 
-    2.1. Método de la transformada inversa
-    2.2. Método de Aceptación y Rechazo
-    2.3. Método de composición
-    2.4. Método Polar para generar variables aleatorias normales
-    2.5. Método Box-Muller para generar variables aleatorias normales
-    2.6. Métodos para generar variables aleatorias bidimensionales: Caso Normal.
+    4.1. Estimador de Yule-Walker
+    4.2. Estimador de MCO
+    4.3. Estimador de Máxima Verosimilitud
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 3: Técnicas de Reducción de Varianza.
+## Unidad 5: Predicción de modelos ARMA.
 
-    3.1. Uso de variables antitéticas.
-    3.2. Uso de variables de control
-    3.3. Reducción de varianza mediante condicionamiento.
-    3.4. Uso de muestreo estratificado
+    5.1. Mejor Predictor Lineal.
+    5.2. Función de Autocorrelación Parcial (PACF).
+    5.3. Algoritmos Recursivos.
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Unidad 4: Método de simulación por medio de eventos discretos.
+## Unidad 6: Procesos No Estacionarios.
 
-    4.1. Generación de un Proceso de Poisson
-    4.2. Generación de un Proceso de Poisson No Homogéneo.
-    4.3. Simulación mediante eventos discretos.
-    4.4. Sistema de líneas de espera con un servidor
-    4.5. Sistema de línea de espera con dos servidores en serie.
-    4.6. Sistema de línea de espera con dos servidores en paralelo.
-    4.7. Aplicación de sistemas de líneas de espera mediante uso de software.
+    6.1. Raíz Unitaria
+    6.2. Modelos ARIMA.
+    6.3. Modelos ARIMA estacionales (SARIMA).
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Unidad 7: Análisis Espectral
+    7.1. Densidad Espectral.
+    7.2. Periodograma.
+    7.3. Teorema de Herglotz.
 :::
 
 # Procedimiento de evaluación
 
 ::: {.callout-tip appearance="simple" icon=false}
 [Evaluación:]{.green}</br>
-Tres pruebas escritas programadas (PEP) y trabajos grupales con ponderaciones:
+En el curso se realizaran 2 pruebas teóricas, 2 controles, 1 trabajo parcial y un proyecto final, el cual deberá ser presentado. La nota final del curso se calculará a partir de la siguiente expresión,
 
-- PEP$_1$: 25$\%$
-- PEP$_2$: 25$\%$
-- PEP$_3$: 25$\%$
-- Tareas: 25$\%$
+$$NF = 0.5P + 0.3T_p + 0.2TF$$
+Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overline{P} = 0.4*P_1 + 0.6 P_2$. Además, $T_p$ es el promedio de los controles y trabajos parciales y $TF$ es la nota del trabajo final. Para aprobar el curso se deberan cumplir los siguientes requisitos,
+
+$P_i \geq 4.0$, para algún i=1,2. (ie, Al menos una prueba sobre 4)
+$\overline{TF} \geq 4.0$
+$\overline{NF} \geq 4.0$
 :::
 
-# Asistencia
-
-::: {.callout-tip appearance="simple" icon=false}
-[Asistencia:]{.green} 75$\%$
-:::
 
 # Bibliografía
 

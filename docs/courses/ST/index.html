@@ -341,10 +341,7 @@ window.Quarto = {
 </div>
 <div class="callout-body-container">
 <ul>
-<li>Modelar estocásticamente y simular sistemas reales simples.</li>
-<li>Formular modelos de simulación para sistemas reales complejos.</li>
-<li>Verificar y validar los modelos de simulación.</li>
-<li>Manejar un lenguaje computacional que permita simular situaciones relativamente complejas.</li>
+<li>Familiarizar al alumno con la teor´ıa de series de tiempo y sus aplicaciones</li>
 </ul>
 </div>
 </div>
@@ -358,18 +355,16 @@ window.Quarto = {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Unidad 0: Preliminares
+Unidad 1: Introducción
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>0.1. Probabilidades
-0.2. Probabilidad condicional e independencia
-0.3. Distribuciones de probabilidad y variables aleatorias
-0.4. Variables aleatorias
-0.5. Distribuciones de probabilidad
-0.6. Funciones de variables aleatorias</code></pre>
+<pre><code>1.1. Conceptos Básicos.
+1.2. Tipos de Series de Tiempo.
+1.3. Estacionaridad.
+1.4. Función de Autocovarianza.</code></pre>
 </div>
 </div>
 </div>
@@ -379,17 +374,14 @@ Unidad 0: Preliminares
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Unidad 1: Generación de Números Pseudos Aleatorios.
+Unidad 2: Descomposición clásica de una serie de Tiempo.
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>1.1. Aspectos históricos.
-1.2. Método Congruencial, Aditivo y Mixto.
-1.3. Método Cuadrados Medios y otros métodos para generar números pseudos aleatorios
-1.4. Test de Rachas y el test de Bondad de Ajuste para analizar la calidad de los números generados.
-1.5. Aplicación: Aproximación de integrales mediante números pseudos aleatorios.</code></pre>
+<pre><code>2.1. Alisado Exponencial de Holt-Winters.
+2.2. Enfoque de Regresión</code></pre>
 </div>
 </div>
 </div>
@@ -399,18 +391,17 @@ Unidad 1: Generación de Números Pseudos Aleatorios.
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Unidad 2: Generación de Variables Aleatorias (discretas y continuas)
+Unidad 3: Procesos Lineales.
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>2.1. Método de la transformada inversa
-2.2. Método de Aceptación y Rechazo
-2.3. Método de composición
-2.4. Método Polar para generar variables aleatorias normales
-2.5. Método Box-Muller para generar variables aleatorias normales
-2.6. Métodos para generar variables aleatorias bidimensionales: Caso Normal.</code></pre>
+<pre><code>3.1. Definición.
+3.2. Procesos Autoregresivos (AR)
+3.3. Procesos de Medias Móviles (MA)
+3.4. Procesos Mixtos (ARMA).
+3.5. Representaciones AR(∞) y MA(∞).</code></pre>
 </div>
 </div>
 </div>
@@ -420,16 +411,15 @@ Unidad 2: Generación de Variables Aleatorias (discretas y continuas)
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Unidad 3: Técnicas de Reducción de Varianza.
+Unidad 4: Estimación de modelos ARMA.
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>3.1. Uso de variables antitéticas.
-3.2. Uso de variables de control
-3.3. Reducción de varianza mediante condicionamiento.
-3.4. Uso de muestreo estratificado</code></pre>
+<pre><code>4.1. Estimador de Yule-Walker
+4.2. Estimador de MCO
+4.3. Estimador de Máxima Verosimilitud</code></pre>
 </div>
 </div>
 </div>
@@ -439,19 +429,51 @@ Unidad 3: Técnicas de Reducción de Varianza.
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Unidad 4: Método de simulación por medio de eventos discretos.
+Unidad 5: Predicción de modelos ARMA.
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>4.1. Generación de un Proceso de Poisson
-4.2. Generación de un Proceso de Poisson No Homogéneo.
-4.3. Simulación mediante eventos discretos.
-4.4. Sistema de líneas de espera con un servidor
-4.5. Sistema de línea de espera con dos servidores en serie.
-4.6. Sistema de línea de espera con dos servidores en paralelo.
-4.7. Aplicación de sistemas de líneas de espera mediante uso de software.</code></pre>
+<pre><code>5.1. Mejor Predictor Lineal.
+5.2. Función de Autocorrelación Parcial (PACF).
+5.3. Algoritmos Recursivos.</code></pre>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Unidad 6: Procesos No Estacionarios.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<pre><code>6.1. Raíz Unitaria
+6.2. Modelos ARIMA.
+6.3. Modelos ARIMA estacionales (SARIMA).</code></pre>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Unidad 7: Análisis Espectral
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<pre><code>7.1. Densidad Espectral.
+7.2. Periodograma.
+7.3. Teorema de Herglotz.</code></pre>
 </div>
 </div>
 </div>
@@ -464,13 +486,9 @@ Unidad 4: Método de simulación por medio de eventos discretos.
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><span class="green">Evaluación:</span><br> Tres pruebas escritas programadas (PEP) y trabajos grupales con ponderaciones:</p>
-<ul>
-<li>PEP<span class="math inline">_1</span>: 25<span class="math inline">\%</span></li>
-<li>PEP<span class="math inline">_2</span>: 25<span class="math inline">\%</span></li>
-<li>PEP<span class="math inline">_3</span>: 25<span class="math inline">\%</span></li>
-<li>Tareas: 25<span class="math inline">\%</span></li>
-</ul>
+<p><span class="green">Evaluación:</span><br> En el curso se realizaran 2 pruebas teóricas, 2 controles, 1 trabajo parcial y un proyecto final, el cual deberá ser presentado. La nota final del curso se calculará a partir de la siguiente expresión,</p>
+<p><span class="math display">NF = 0.5P + 0.3T_p + 0.2TF</span> Donde <span class="math inline">\overline{P}</span> es el promedio ponderado de las Pep, definido por <span class="math inline">\overline{P} = 0.4*P_1 + 0.6 P_2</span>. Además, <span class="math inline">T_p</span> es el promedio de los controles y trabajos parciales y <span class="math inline">TF</span> es la nota del trabajo final. Para aprobar el curso se deberan cumplir los siguientes requisitos,</p>
+<p><span class="math inline">P_i \geq 4.0</span>, para algún i=1,2. (ie, Al menos una prueba sobre 4) <span class="math inline">\overline{TF} \geq 4.0</span> <span class="math inline">\overline{NF} \geq 4.0</span></p>
 </div>
 </div>
 </div>
