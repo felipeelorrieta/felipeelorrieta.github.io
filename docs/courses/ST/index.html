@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Descripción del curso">
 
-<title>Felipe Elorrieta</title>
+<title>Series de Tiempo – Felipe Elorrieta</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -35,10 +55,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6fbc3b7d0ac83ab8a043646d6c6d94a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8bda806db8b623a4dafb352339cca83f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-2650f4f69f0701b854b772b400f7a41a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -53,17 +73,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 <style>
@@ -119,12 +139,80 @@ background: #00000000;
   font-size: 2.5em;
 }
 </style>
+<style>
+.quarto-title-block .quarto-title-banner {
+  height: 200px;
+  background-image: 
+  /* top, transparent gray */
+      linear-gradient(
+           rgba(100, 100, 100, 0.8), 
+          rgba(100, 100, 100, 0.8)
+          ),
+          url(cover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+ .quarto-title-block .quarto-title-banner::before {
+  content: '';
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 0px;
+  height: 0px;
+  margin-right: 0px;
+}
+</style>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -135,8 +223,8 @@ background: #00000000;
     <span class="navbar-title">Felipe Elorrieta</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -196,12 +284,16 @@ background: #00000000;
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Felipe Elorrieta</h1>
-            <p class="subtitle lead">Hello, I am Felipe Elorrieta. Associate Professor at Universidad de Santiago de Chile.</p>
-                      </div>
+      <h1 class="title">Series de Tiempo</h1>
+                  <div>
+        <div class="description">
+          Descripción del curso
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -215,9 +307,23 @@ background: #00000000;
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Contenidos</h2>
+   
+  <ul class="collapse">
+  <li><a href="#objetivos-del-curso" id="toc-objetivos-del-curso" class="nav-link active" data-scroll-target="#objetivos-del-curso"><span class="header-section-number">1</span> Objetivos del curso</a></li>
+  <li><a href="#programa-del-curso" id="toc-programa-del-curso" class="nav-link" data-scroll-target="#programa-del-curso"><span class="header-section-number">2</span> Programa del curso</a></li>
+  <li><a href="#procedimiento-de-evaluación" id="toc-procedimiento-de-evaluación" class="nav-link" data-scroll-target="#procedimiento-de-evaluación"><span class="header-section-number">3</span> Procedimiento de evaluación</a></li>
+  <li><a href="#asistencia" id="toc-asistencia" class="nav-link" data-scroll-target="#asistencia"><span class="header-section-number">4</span> Asistencia</a></li>
+  <li><a href="#bibliografía" id="toc-bibliografía" class="nav-link" data-scroll-target="#bibliografía"><span class="header-section-number">5</span> Bibliografía</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias"><span class="header-section-number">6</span> Referencias</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -226,8 +332,180 @@ background: #00000000;
 
 
 
+<section id="objetivos-del-curso" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Objetivos del curso</h1>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ul>
+<li>Modelar estocásticamente y simular sistemas reales simples.</li>
+<li>Formular modelos de simulación para sistemas reales complejos.</li>
+<li>Verificar y validar los modelos de simulación.</li>
+<li>Manejar un lenguaje computacional que permita simular situaciones relativamente complejas.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="programa-del-curso" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Programa del curso</h1>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Unidad 0: Preliminares
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<pre><code>0.1. Probabilidades
+0.2. Probabilidad condicional e independencia
+0.3. Distribuciones de probabilidad y variables aleatorias
+0.4. Variables aleatorias
+0.5. Distribuciones de probabilidad
+0.6. Funciones de variables aleatorias</code></pre>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Unidad 1: Generación de Números Pseudos Aleatorios.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<pre><code>1.1. Aspectos históricos.
+1.2. Método Congruencial, Aditivo y Mixto.
+1.3. Método Cuadrados Medios y otros métodos para generar números pseudos aleatorios
+1.4. Test de Rachas y el test de Bondad de Ajuste para analizar la calidad de los números generados.
+1.5. Aplicación: Aproximación de integrales mediante números pseudos aleatorios.</code></pre>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Unidad 2: Generación de Variables Aleatorias (discretas y continuas)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<pre><code>2.1. Método de la transformada inversa
+2.2. Método de Aceptación y Rechazo
+2.3. Método de composición
+2.4. Método Polar para generar variables aleatorias normales
+2.5. Método Box-Muller para generar variables aleatorias normales
+2.6. Métodos para generar variables aleatorias bidimensionales: Caso Normal.</code></pre>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Unidad 3: Técnicas de Reducción de Varianza.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<pre><code>3.1. Uso de variables antitéticas.
+3.2. Uso de variables de control
+3.3. Reducción de varianza mediante condicionamiento.
+3.4. Uso de muestreo estratificado</code></pre>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Unidad 4: Método de simulación por medio de eventos discretos.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<pre><code>4.1. Generación de un Proceso de Poisson
+4.2. Generación de un Proceso de Poisson No Homogéneo.
+4.3. Simulación mediante eventos discretos.
+4.4. Sistema de líneas de espera con un servidor
+4.5. Sistema de línea de espera con dos servidores en serie.
+4.6. Sistema de línea de espera con dos servidores en paralelo.
+4.7. Aplicación de sistemas de líneas de espera mediante uso de software.</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="procedimiento-de-evaluación" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Procedimiento de evaluación</h1>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="green">Evaluación:</span><br> Tres pruebas escritas programadas (PEP) y trabajos grupales con ponderaciones:</p>
+<ul>
+<li>PEP<span class="math inline">_1</span>: 25<span class="math inline">\%</span></li>
+<li>PEP<span class="math inline">_2</span>: 25<span class="math inline">\%</span></li>
+<li>PEP<span class="math inline">_3</span>: 25<span class="math inline">\%</span></li>
+<li>Tareas: 25<span class="math inline">\%</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="asistencia" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Asistencia</h1>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="green">Asistencia:</span> 75<span class="math inline">\%</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="bibliografía" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Bibliografía</h1>
+<p>Los principales libros que usaremos, además de otros recursos online son los siguientes:</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="4">
+
+</div>
+</section>
+<section id="referencias" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Referencias</h1>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -273,12 +551,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",

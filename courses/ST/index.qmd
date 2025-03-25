@@ -1,17 +1,135 @@
 ---
-title: "Felipe Elorrieta"
-subtitle: "Hello, I am Felipe Elorrieta. 
-Associate Professor at Universidad de Santiago de Chile."
-links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/felocarril
-    - icon: github
-      text: Github
-      href: https://github.com/felipeelorrieta
-    - icon: instagram
-      text: instagram
-      href: https://www.instagram.com/felocarril
+title: "Series de Tiempo"
+description: "Descripción del curso"
+# author:
+#   - name: Felipe Elorrieta López
+#     email: felipe.elorrieta@usach.cl
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    toc-expand: 2
+    html-math-method: katex
+#    theme: simplex
+lang: es
+highlight-style: github
+toc: false
+toc-title: "Contenidos"
+toc-expand: false
+toc-depth: 2
+number-sections: true
+number-depth: 2
+bibliography: refs.bib
+#title-block-banner: false
+#image: cover.png
 ---
 
 
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(reticulate)
+# use_python('C:/ProgramData/Anaconda3/python.exe')
+```
+
+
+
+# Objetivos del curso 
+
+::: {.callout-tip appearance="simple" icon=false}
+- Modelar estocásticamente y simular sistemas reales simples. 
+- Formular modelos de simulación
+para sistemas reales complejos. 
+- Verificar y validar los modelos de simulación. 
+- Manejar un lenguaje computacional que permita simular situaciones relativamente complejas.
+:::
+
+# Programa del curso
+
+::: {.callout-tip collapse="true" icon=false}
+## Unidad 0: Preliminares
+
+    0.1. Probabilidades
+    0.2. Probabilidad condicional e independencia
+    0.3. Distribuciones de probabilidad y variables aleatorias
+    0.4. Variables aleatorias
+    0.5. Distribuciones de probabilidad
+    0.6. Funciones de variables aleatorias
+    
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Unidad 1: Generación de Números Pseudos Aleatorios.
+    
+    1.1. Aspectos históricos.
+    1.2. Método Congruencial, Aditivo y Mixto.
+    1.3. Método Cuadrados Medios y otros métodos para generar números pseudos aleatorios
+    1.4. Test de Rachas y el test de Bondad de Ajuste para analizar la calidad de los números generados.
+    1.5. Aplicación: Aproximación de integrales mediante números pseudos aleatorios.
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Unidad 2: Generación de Variables Aleatorias (discretas y continuas)
+
+    2.1. Método de la transformada inversa
+    2.2. Método de Aceptación y Rechazo
+    2.3. Método de composición
+    2.4. Método Polar para generar variables aleatorias normales
+    2.5. Método Box-Muller para generar variables aleatorias normales
+    2.6. Métodos para generar variables aleatorias bidimensionales: Caso Normal.
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Unidad 3: Técnicas de Reducción de Varianza.
+
+    3.1. Uso de variables antitéticas.
+    3.2. Uso de variables de control
+    3.3. Reducción de varianza mediante condicionamiento.
+    3.4. Uso de muestreo estratificado
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Unidad 4: Método de simulación por medio de eventos discretos.
+
+    4.1. Generación de un Proceso de Poisson
+    4.2. Generación de un Proceso de Poisson No Homogéneo.
+    4.3. Simulación mediante eventos discretos.
+    4.4. Sistema de líneas de espera con un servidor
+    4.5. Sistema de línea de espera con dos servidores en serie.
+    4.6. Sistema de línea de espera con dos servidores en paralelo.
+    4.7. Aplicación de sistemas de líneas de espera mediante uso de software.
+:::
+
+# Procedimiento de evaluación
+
+::: {.callout-tip appearance="simple" icon=false}
+[Evaluación:]{.green}</br>
+Tres pruebas escritas programadas (PEP) y trabajos grupales con ponderaciones:
+
+- PEP$_1$: 25$\%$
+- PEP$_2$: 25$\%$
+- PEP$_3$: 25$\%$
+- Tareas: 25$\%$
+:::
+
+# Asistencia
+
+::: {.callout-tip appearance="simple" icon=false}
+[Asistencia:]{.green} 75$\%$
+:::
+
+# Bibliografía
+
+Los principales libros que usaremos, además de otros recursos online son los siguientes:
+
+::: {layout-ncol=4}
+
+
+:::
+
+# Referencias
+
+::: {#refs}
+:::
