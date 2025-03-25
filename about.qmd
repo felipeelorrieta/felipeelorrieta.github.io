@@ -2,10 +2,10 @@
 title: "About Me"
 about:
   template: jolla
-  image: images/FelipeElorrieta.jpg
+  image: images/Felo.png
 ---
 
-I am a statistical engineer from Universidad de Santiago, Santiago, Chile, received in 2011, M.S. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2013, Ph.D. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2018. I am currently an Associate Professor in the Faculty of Science, Department of Mathematics and Computer Science at Universidad de Santiago, Chile.
+I am a statistical engineer from Universidad de Santiago, Santiago, Chile, received in 2011, M.S. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2013, Ph.D. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2018. I am currently an Associate Professor in the Faculty of Science, Department of Mathematics and Computer Science at Universidad de Santiago, Chile. Additionally, I serve as the Director of Outreach and Community Engagement at the Faculty of Science, where I have had the opportunity to participate in the organization of the III Festival de Ciencia and Concierto Cielos, Winter School for High School Teachers, alumni talks, and community engagement initiatives. 
 
 My research interests are the analysis of time series data and the statistical methods used in classification problems. This research line has allowed me to approach the analysis of astronomical data. In the last 10 years I have collaborated in Astro-Statistics research teams at the Millennium Institute of Astrophysics (MAS), the Chilean broker for LSST, ALeRCE, and for the Center for Interdisciplinary Research in Astrophysics and Space Sciences (CIRAS) at the University of Santiago.
 
