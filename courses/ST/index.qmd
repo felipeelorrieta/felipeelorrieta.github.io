@@ -1,0 +1,17 @@
+---
+title: "Felipe Elorrieta"
+subtitle: "Hello, I am Felipe Elorrieta. 
+Associate Professor at Universidad de Santiago de Chile."
+links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/felocarril
+    - icon: github
+      text: Github
+      href: https://github.com/felipeelorrieta
+    - icon: instagram
+      text: instagram
+      href: https://www.instagram.com/felocarril
+---
+
+

@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-## Time Series
+## Time Series [+](courses/ST/index.qmd)
 
 In this course I seek to present to the students basic concepts of time series and their applications.
 
