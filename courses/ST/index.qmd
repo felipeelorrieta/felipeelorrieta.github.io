@@ -110,9 +110,9 @@ En el curso se realizaran 2 pruebas teóricas, 2 controles, 1 trabajo parcial y 
 $$NF = 0.5P + 0.3T_p + 0.2TF$$
 Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overline{P} = 0.4*P_1 + 0.6 P_2$. Además, $T_p$ es el promedio de los controles y trabajos parciales y $TF$ es la nota del trabajo final. Para aprobar el curso se deberan cumplir los siguientes requisitos,
 
-$P_i \geq 4.0$, para algún i=1,2. (ie, Al menos una prueba sobre 4)
-$\overline{TF} \geq 4.0$
-$\overline{NF} \geq 4.0$
+- $P_i \geq 4.0$, para algún i=1,2. (ie, Al menos una prueba sobre 4)
+- $\overline{TF} \geq 4.0$
+- $\overline{NF} \geq 4.0$
 :::
 
 
