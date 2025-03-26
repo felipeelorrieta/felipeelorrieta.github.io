@@ -49,7 +49,7 @@ library(reticulate)
 
     1.1. Retornos de Activos
     1.2. Caracteristicas Estilizadas
-- [Diapositivas](Clase1.pdf){target="_blank"}
+- [Diapositivas](Clase1_FTS.pdf){target="_blank"}
 - [Código R](C1-Retornos.R){target="_blank"}
 - [Datos](AAPL.csv){target="_blank"}
 :::
@@ -72,6 +72,7 @@ library(reticulate)
     3.2. Modelos ARMA-GARCH.
     3.3. Efecto Leverage.
     3.4. Modelos GARCH Asímetricos.
+- [Diapositivas](Clase2_FTS.pdf){target="_blank"}
 - [Código R](c3-armagarch.R){target="_blank"}
 - [Código R-2](c4_rugarch.R){target="_blank"}
 - [Datos](IPSA.txt){target="_blank"}
@@ -84,6 +85,7 @@ library(reticulate)
     4.2. Sistemas de Espacio Estado.
     4.3. Filtro de Kalman.
     4.4. Modelos de Volatilidad Estocastica de Larga Memoria.
+- [Diapositivas](Clase3_FTS.pdf){target="_blank"}
 - [Código R](c5-stochastic.R){target="_blank"}
 :::
 
@@ -94,6 +96,7 @@ library(reticulate)
     5.2. Modelo ARIMAX
     5.3. Modelo VAR
     5.4. Modelo VARMA
+- [Diapositivas](Clase4_FTS.pdf){target="_blank"}
 - [Código R](c6-statespace.R){target="_blank"}
 - [Código R-2](c7-VAR.R){target="_blank"}
 - [Datos](MALLPLAZA.SN.csv){target="_blank"}
