@@ -132,14 +132,19 @@ Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overlin
 
 # Bibliografía
 
-Los principales libros que usaremos, además de otros recursos online son los siguientes:
-
 ::: {layout-ncol=4}
+![@Box]
 
+![@Bro]
 
-:::
+![@Cha]
 
-# Referencias
+![@Ham]
 
-::: {#refs}
+![@Pal1]
+
+![@Pal2]
+
+![@Shu]
+
 :::

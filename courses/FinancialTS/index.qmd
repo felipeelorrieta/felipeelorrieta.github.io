@@ -133,8 +133,6 @@ Donde $\overline{T}$ es el promedio de los Trabajos y $\overline{P}$ es el prome
 
 # Bibliografía
 
-Los principales libros que usaremos, además de otros recursos online son los siguientes:
-
 ::: {layout-ncol=4}
 ![@Box]
 
