@@ -22,7 +22,7 @@ number-sections: true
 number-depth: 2
 bibliography: refs.bib
 #title-block-banner: false
-#image: cover.png
+#image: cover.jpg
 ---
 
 
