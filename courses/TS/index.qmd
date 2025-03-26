@@ -132,19 +132,10 @@ Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overlin
 
 # Bibliografía
 
-::: {layout-ncol=4}
-![@Box]
+---
+nocite: |
+  @Box,@Bro,@Cha,@Ham,@Mor,@Pal1,@Pal2,@Shu
+---
 
-![@Bro]
-
-![@Cha]
-
-![@Ham]
-
-![@Pal1]
-
-![@Pal2]
-
-![@Shu]
-
+::: {#refs}
 :::
