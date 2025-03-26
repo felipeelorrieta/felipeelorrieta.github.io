@@ -133,19 +133,10 @@ Donde $\overline{T}$ es el promedio de los Trabajos y $\overline{P}$ es el prome
 
 # Bibliografía
 
-::: {layout-ncol=4}
-![@Box]
+---
+nocite: |
+  @Ame,@Bro,@Gre,@Elt,@Mor,@Pal1,@Pal2,@Tsa
+---
 
-![@Bro]
-
-![@Cha]
-
-![@Ham]
-
-![@Pal1]
-
-![@Pal2]
-
-![@Shu]
-
+::: {#refs}
 :::
