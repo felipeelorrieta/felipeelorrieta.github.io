@@ -1,11 +1,47 @@
 ---
-title: "My Research"
-filters:
-   - lightbox
+title: "Gallery"
+format: html
 ---
 
-![A Lovely Image](images/VIME.jpg){group="my-gallery"}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
-![Another Lovely Image](images/ASA.jpeg){group="my-gallery"}
+```{css}
+.body {
+  margin: 0; /* Elimina los márgenes predeterminados de la página */
+  padding: 0; /* Elimina el relleno predeterminado */
+  width: 100%;
+}
+.mosaic {
+  column-count: 4; /* Define cuántas columnas tendrá el mosaico */
+  column-gap: 10px; /* Espacio entre las columnas */
+  padding: 10px;
+}
 
-![The Last Lovely Image](images/IMAGEN6.jpeg){group="my-gallery"}
+.mosaic img {
+  width: 100%;
+  height: auto; /* Mantiene la proporción de las imágenes */
+  margin-bottom: 10px; /* Espacio debajo de cada imagen */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto agradable */
+  transition: transform 0.2s ease-in-out;
+}
+
+.mosaic img:hover {
+  transform: scale(3); /* Hacer que la imagen crezca ligeramente al pasar el mouse */
+}
+```
+
+```{r,results = 'asis'}
+# Obtener lista de imágenes en la carpeta "galeria/"
+imagenes <- list.files("gallery", pattern = "\\.(jpg|jpeg|png)$", full.names = TRUE)
+
+# Generar las etiquetas HTML para las imágenes
+imagenes_html <- paste0('<img src="', imagenes, '" alt="Imagen">')
+
+# Imprimir el HTML para la galería de imágenes
+cat('<div class="mosaic">')
+cat(imagenes_html, sep = "\n")
+cat('</div>')
+```

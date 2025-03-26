@@ -1,0 +1,52 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Mi Galería de Fotos\"\n",
+        "format: html\n",
+        "echo: FALSE\n",
+        "---\n",
+        "\n",
+        "```{css}\n",
+        ".mosaic {\n",
+        "  display: grid;\n",
+        "  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n",
+        "  gap: 10px;\n",
+        "}\n",
+        "\n",
+        ".mosaic img {\n",
+        "  width: 100%;\n",
+        "  height: auto;\n",
+        "  object-fit: cover;\n",
+        "  border-radius: 5px;\n",
+        "}\n",
+        "```\n",
+        "\n",
+        "```{html}\n",
+        "# Obtener lista de imágenes en la carpeta \"galeria/\"\n",
+        "imagenes <- list.files(\"galeria/\", pattern = \"\\\\.jpg$\", full.names = TRUE)\n",
+        "\n",
+        "# Generar el HTML dinámicamente\n",
+        "cat('<div class=\"mosaic\">')\n",
+        "for (img in imagenes) {\n",
+        "  cat(sprintf('<img src=\"%s\" alt=\"Imagen\">', img))\n",
+        "}\n",
+        "cat('</div>')\n",
+        "```"
+      ],
+      "id": "e762e995"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

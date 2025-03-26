@@ -93,9 +93,9 @@
   {
     "objectID": "Gallery.html",
     "href": "Gallery.html",
-    "title": "My Research",
+    "title": "Mi Galería de Fotos",
     "section": "",
-    "text": "A Lovely Image\n\n\n\n\n\nAnother Lovely Image\n\n\n\n\n\nThe Last Lovely Image"
+    "text": ".mosaic {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 10px;\n}\n\n.mosaic img {\n  width: 100%;\n  height: auto;\n  object-fit: cover;\n  border-radius: 5px;\n}\n\n\n\n# Obtener lista de imágenes en la carpeta \"galeria/\"\nimagenes &lt;- list.files(\"images\", pattern = \"\\\\.(jpg|jpeg|png)$\", full.names = TRUE)\n\n# Generar las etiquetas HTML para las imágenes\nimagenes_html &lt;- paste0('&lt;img src=\"', imagenes, '\" alt=\"Imagen\"&gt;')\n\n# Imprimir el HTML para la galería de imágenes\ncat('&lt;div class=\"mosaic\"&gt;')\n\n&lt;div class=\"mosaic\"&gt;\n\ncat(imagenes_html, sep = \"\\n\")\n\n&lt;img src=\"images/0A3A9520.jpg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/1500x500.jpeg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/8478_Felipe_Elorrieta_Lopez-430x450.jpeg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/AM.png\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/ASA.jpeg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/AstroStat.png\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/DSC01334.jpg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/FELIPE-ELORRIETA.jpg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/FelipeElorrieta.jpg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/FelipeElorrieta.png\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/Felo.png\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/iAR.png\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/IMAGEN6.jpeg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/jornada-bannerweb.png\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/PH.png\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/UNADJUSTEDNONRAW_thumb_15c.jpg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/UNADJUSTEDNONRAW_thumb_15f.jpg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/VIME.jpg\" alt=\"Imagen\"&gt;\n&lt;img src=\"images/Yo2.png\" alt=\"Imagen\"&gt;\n\ncat('&lt;/div&gt;')\n\n&lt;/div&gt;"
   },
   {
     "objectID": "courses/ST/index.html",
