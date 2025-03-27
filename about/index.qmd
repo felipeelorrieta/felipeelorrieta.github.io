@@ -2,7 +2,8 @@
 title: "About Me"
 about:
   template: jolla
-  image: images/Felo.png
+  image: Felo.png
+lang: en
 ---
 
 I am a statistical engineer from Universidad de Santiago, Santiago, Chile, received in 2011, M.S. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2013, Ph.D. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2018. I am currently an Associate Professor in the Faculty of Science, Department of Mathematics and Computer Science at Universidad de Santiago, Chile. Additionally, I serve as the Director of Outreach and Community Engagement at the Faculty of Science, where I have had the opportunity to participate in the organization of the III Festival de Ciencia and Concierto Cielos, Winter School for High School Teachers, alumni talks, and community engagement initiatives. 
