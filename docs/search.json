@@ -166,5 +166,33 @@
     "title": "Teaching",
     "section": "Numerical Methods",
     "text": "Numerical Methods\nIn this course, mathematical optimization algorithms are presented with application in statistical problems that require it."
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "My Research",
+    "section": "",
+    "text": "Elorrieta, Felipe, Susana Eyheramendy, Wilfredo Palma, and Cesar Ojeda. 2021. “A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series.” Monthly Notices of the Royal Astronomical Society 505 (1): 1105–16. https://doi.org/10.1093/mnras/stab1216.\n\n\nElorrieta, Felipe, Lucas Osses, Matias Cáceres, Susana Eyheramendy, and Wilfredo Palma. 2023. “Online Estimation Methods for Irregular Autoregressive Models.” In Theory and Applications of Time Series Analysis, edited by Olga Valenzuela, Fernando Rojas, Luis Javier Herrera, Héctor Pomares, and Ignacio Rojas, 3–17. Cham: Springer Nature Switzerland.\n\n\nElorrieta, F, S Eyheramendy, and W Palma. 2019. “Discrete-Time Autoregressive Model for Unequally Spaced Time-Series Observations.” A&A 627: A120. https://doi.org/10.1051/0004-6361/201935560.\n\n\nEyheramendy, Susana, Felipe Elorrieta, and Wilfredo Palma. 2018. “An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves.” Monthly Notices of the Royal Astronomical Society 481 (4): 4311–22. https://doi.org/10.1093/mnras/sty2487.\n\n\nFörster, F., G. Cabrera-Vives, E. Castillo-Navarrete, P. A. Estévez, P. Sánchez-Sáez, J. Arredondo, F. E. Bauer, et al. 2021. “The Automatic Learning for the Rapid Classification of Events (ALeRCE) Alert Broker.” The Astronomical Journal 161 (5): 242. https://doi.org/10.3847/1538-3881/abe9bc.\n\n\nSánchez-Sáez, P., I. Reyes, C. Valenzuela, F. Förster, S. Eyheramendy, F. Elorrieta, F. E. Bauer, et al. 2021. “Alert Classification for the ALeRCE Broker System: The Light Curve Classifier.” The Astronomical Journal 161 (3): 141. https://doi.org/10.3847/1538-3881/abd5c1."
+  },
+  {
+    "objectID": "research/index.html#astro-statistics",
+    "href": "research/index.html#astro-statistics",
+    "title": "My Research",
+    "section": "",
+    "text": "Elorrieta, Felipe, Susana Eyheramendy, Wilfredo Palma, and Cesar Ojeda. 2021. “A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series.” Monthly Notices of the Royal Astronomical Society 505 (1): 1105–16. https://doi.org/10.1093/mnras/stab1216.\n\n\nElorrieta, Felipe, Lucas Osses, Matias Cáceres, Susana Eyheramendy, and Wilfredo Palma. 2023. “Online Estimation Methods for Irregular Autoregressive Models.” In Theory and Applications of Time Series Analysis, edited by Olga Valenzuela, Fernando Rojas, Luis Javier Herrera, Héctor Pomares, and Ignacio Rojas, 3–17. Cham: Springer Nature Switzerland.\n\n\nElorrieta, F, S Eyheramendy, and W Palma. 2019. “Discrete-Time Autoregressive Model for Unequally Spaced Time-Series Observations.” A&A 627: A120. https://doi.org/10.1051/0004-6361/201935560.\n\n\nEyheramendy, Susana, Felipe Elorrieta, and Wilfredo Palma. 2018. “An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves.” Monthly Notices of the Royal Astronomical Society 481 (4): 4311–22. https://doi.org/10.1093/mnras/sty2487.\n\n\nFörster, F., G. Cabrera-Vives, E. Castillo-Navarrete, P. A. Estévez, P. Sánchez-Sáez, J. Arredondo, F. E. Bauer, et al. 2021. “The Automatic Learning for the Rapid Classification of Events (ALeRCE) Alert Broker.” The Astronomical Journal 161 (5): 242. https://doi.org/10.3847/1538-3881/abe9bc.\n\n\nSánchez-Sáez, P., I. Reyes, C. Valenzuela, F. Förster, S. Eyheramendy, F. Elorrieta, F. E. Bauer, et al. 2021. “Alert Classification for the ALeRCE Broker System: The Light Curve Classifier.” The Astronomical Journal 161 (3): 141. https://doi.org/10.3847/1538-3881/abd5c1."
+  },
+  {
+    "objectID": "research/index.html#public-health",
+    "href": "research/index.html#public-health",
+    "title": "My Research",
+    "section": "Public Health",
+    "text": "Public Health"
+  },
+  {
+    "objectID": "research/index.html#iar-package",
+    "href": "research/index.html#iar-package",
+    "title": "My Research",
+    "section": "iAR Package",
+    "text": "iAR Package"
   }
 ]

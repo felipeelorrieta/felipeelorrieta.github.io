@@ -1,6 +1,6 @@
 ---
 title: "My Research"
-bibliography: docs/Astrobib.bib
+bibliography: Astrobib.bib
 bibliographystyle: apa
 ---
 

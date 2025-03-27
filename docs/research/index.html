@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Felipe Elorrieta</title>
+<title>My Research – Felipe Elorrieta</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8bda806db8b623a4dafb352339cca83f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8bda806db8b623a4dafb352339cca83f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -119,9 +139,21 @@ background: #00000000;
   font-size: 2.5em;
 }
 </style>
+<style>
+  /* Oculta solo el banner en la plantilla Jolla */
+  .about-banner {
+    display: none !important;
+  }
+  .quarto-title > h1.title {
+    opacity: 0 !important;
+  }
+  .quarto-title-block .quarto-title-banner {
+    display: none !important;
+  }
+</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -131,7 +163,7 @@ background: #00000000;
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Felipe Elorrieta</span>
     </a>
   </div>
@@ -142,23 +174,23 @@ background: #00000000;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about/index.html"> 
+    <a class="nav-link" href="../about/index.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./courses/index.html"> 
+    <a class="nav-link" href="../courses/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html"> 
+    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
 <span class="menu-text">My Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./gallery/index.html"> 
+    <a class="nav-link" href="../gallery/index.html"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
 </ul>
@@ -199,8 +231,7 @@ background: #00000000;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Felipe Elorrieta</h1>
-            <p class="subtitle lead">Hello, I am Felipe Elorrieta. Associate Professor at Universidad de Santiago de Chile.</p>
+      <h1 class="title">My Research</h1>
                       </div>
   </div>
     
@@ -216,8 +247,16 @@ background: #00000000;
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#astro-statistics" id="toc-astro-statistics" class="nav-link active" data-scroll-target="#astro-statistics">Astro-Statistics</a></li>
+  <li><a href="#public-health" id="toc-public-health" class="nav-link" data-scroll-target="#public-health">Public Health</a></li>
+  <li><a href="#iar-package" id="toc-iar-package" class="nav-link" data-scroll-target="#iar-package">iAR Package</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -226,8 +265,37 @@ background: #00000000;
 
 
 
+<section id="astro-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="astro-statistics">Astro-Statistics</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Elorrieta_2021" class="csl-entry" role="listitem">
+Elorrieta, Felipe, Susana Eyheramendy, Wilfredo Palma, and Cesar Ojeda. 2021. <span>“<span class="nocase">A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series</span>.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 505 (1): 1105–16. <a href="https://doi.org/10.1093/mnras/stab1216">https://doi.org/10.1093/mnras/stab1216</a>.
+</div>
+<div id="ref-Elorrieta_2023" class="csl-entry" role="listitem">
+Elorrieta, Felipe, Lucas Osses, Matias Cáceres, Susana Eyheramendy, and Wilfredo Palma. 2023. <span>“Online Estimation Methods for Irregular Autoregressive Models.”</span> In <em>Theory and Applications of Time Series Analysis</em>, edited by Olga Valenzuela, Fernando Rojas, Luis Javier Herrera, Héctor Pomares, and Ignacio Rojas, 3–17. Cham: Springer Nature Switzerland.
+</div>
+<div id="ref-Elorrieta_2019" class="csl-entry" role="listitem">
+Elorrieta, F, S Eyheramendy, and W Palma. 2019. <span>“Discrete-Time Autoregressive Model for Unequally Spaced Time-Series Observations.”</span> <em>A&amp;A</em> 627: A120. <a href="https://doi.org/10.1051/0004-6361/201935560">https://doi.org/10.1051/0004-6361/201935560</a>.
+</div>
+<div id="ref-iAR" class="csl-entry" role="listitem">
+Eyheramendy, Susana, Felipe Elorrieta, and Wilfredo Palma. 2018. <span>“<span class="nocase">An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves</span>.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 481 (4): 4311–22. <a href="https://doi.org/10.1093/mnras/sty2487">https://doi.org/10.1093/mnras/sty2487</a>.
+</div>
+<div id="ref-Forster_2021" class="csl-entry" role="listitem">
+Förster, F., G. Cabrera-Vives, E. Castillo-Navarrete, P. A. Estévez, P. Sánchez-Sáez, J. Arredondo, F. E. Bauer, et al. 2021. <span>“The Automatic Learning for the Rapid Classification of Events (<span>ALeRCE</span>) Alert Broker.”</span> <em>The Astronomical Journal</em> 161 (5): 242. <a href="https://doi.org/10.3847/1538-3881/abe9bc">https://doi.org/10.3847/1538-3881/abe9bc</a>.
+</div>
+<div id="ref-Sanchez_Saez_2021" class="csl-entry" role="listitem">
+Sánchez-Sáez, P., I. Reyes, C. Valenzuela, F. Förster, S. Eyheramendy, F. Elorrieta, F. E. Bauer, et al. 2021. <span>“Alert Classification for the <span>ALeRCE</span> Broker System: The Light Curve Classifier.”</span> <em>The Astronomical Journal</em> 161 (3): 141. <a href="https://doi.org/10.3847/1538-3881/abd5c1">https://doi.org/10.3847/1538-3881/abd5c1</a>.
+</div>
+</div>
+</section>
+<section id="public-health" class="level2">
+<h2 class="anchored" data-anchor-id="public-health">Public Health</h2>
+</section>
+<section id="iar-package" class="level2">
+<h2 class="anchored" data-anchor-id="iar-package">iAR Package</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

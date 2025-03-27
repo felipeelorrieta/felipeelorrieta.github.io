@@ -13,7 +13,7 @@ website:
         text: "About Me"
       - href: courses/index.qmd
         text: "Teaching"
-      - href: myresearch.qmd
+      - href: research/index.qmd
         text: "My Research"
       - href: gallery/index.qmd
         text: "Gallery"
