@@ -15,7 +15,7 @@ website:
         text: "Teaching"
       - href: myresearch.qmd
         text: "My Research"
-      - href: gallery.html
+      - href: gallery/index.qmd
         text: "Gallery"
     right:
       - icon: twitter

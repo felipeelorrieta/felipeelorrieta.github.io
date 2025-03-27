@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r,results = 'asis'}
 # Obtener lista de imágenes en la carpeta "galeria/"
-imagenes <- list.files("gallery", pattern = "\\.(jpg|jpeg|png)$", full.names = TRUE)
+imagenes <- list.files(, pattern = "\\.(jpg|jpeg|png)$", full.names = TRUE)
 
 # Generar las etiquetas HTML para las imágenes
 imagenes_html <- paste0('<img src="', imagenes, '" alt="Imagen">')
