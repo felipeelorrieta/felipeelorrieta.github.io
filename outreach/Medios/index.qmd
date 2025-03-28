@@ -1,10 +1,10 @@
 ---
-title: "Outreach"
+title: "Apariciones en Medios"
 format: html
 page-layout: full
 ---
 
-# Outreach
+# Apariciones en Medios
 
 Aquí encontrarás algunos videos de divulgación científica y presentaciones.
 
