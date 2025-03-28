@@ -1,18 +1,27 @@
 ---
 title: "Felipe Elorrieta"
 subtitle: "Hello, I am Felipe Elorrieta. Associate Professor at Universidad de Santiago de Chile"
+image: images/guia.png  
+toc: false
 about: 
   template: jolla
   image-shape: round
   image-width: 17em
-  image: images/guia.png  
-links:
-      - text: twitter
+  links:
+      - icon: twitter
+        text: twitter
         href: https://twitter.com/felocarril
-      - text: Github
+      - icon: github
+        text: Github
         href: https://github.com/felipeelorrieta
-      - text: instagram
+      - icon: instagram
+        text: instagram
         href: https://www.instagram.com/felocarril
-      - text: linkedin
+      - icon: linkedin
+        aria-label: "LinkedIn"
         href: https://www.linkedin.com/in/felipe-elorrieta-0165a259/
+      - icon: envelope
+        href: mailto:felipe.elorrieta@usach.cl
+      - text: "CV"
+        href: about/CV_Felipe_Elorrieta.pdf
 ---
