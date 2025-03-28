@@ -1,0 +1,51 @@
+---
+title: "Outreach"
+format: html
+page-layout: full
+---
+
+# 📢 Outreach
+
+Aquí encontrarás algunos videos de divulgación científica y presentaciones.
+
+<div class="video-grid">
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/8BOY6Scva10/0.jpg)](https://youtu.be/8BOY6Scva10)
+<p>📌 Inteligencia Artificial en la Educación</p>
+:::
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/363KtLXtEbg/0.jpg)](https://youtu.be/363KtLXtEbg)
+<p>📊 Modelos Estadísticos en IA</p>
+:::
+
+</div>
+
+<style>
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video-item {
+    width: 30%;
+    min-width: 280px;
+    text-align: center;
+}
+
+.video-item img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video-item p {
+    font-size: 12px;
+    color: #444;
+    margin-top: 5px;
+}
+</style>

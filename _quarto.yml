@@ -17,6 +17,8 @@ website:
         text: "My Research"
       - href: gallery/index.qmd
         text: "Gallery"
+      - href: outreach/index.qmd
+        text: "Outreach"
     right:
       - icon: twitter
         text: twitter
