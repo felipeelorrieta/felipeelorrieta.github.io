@@ -66,59 +66,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: rgba(255, 255, 255, 0.9);
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: rgba(255, 255, 255, 0.9);
-background: #00000000;
-      }
-</style>
-<style>
-.quarto-title-block .quarto-title-banner {
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  z-index: 2;
-  padding: 0 ;
-  background-image: 
-  /* top, transparent red */
-      linear-gradient(
-          rgba(100, 100, 100, 0.8), 
-          rgba(100, 100, 100, 0.8)
-          ),
-          url(images/AM.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  }
- .quarto-title-block .quarto-title-banner::before {
-  content: '';
-  background-image: url(images/Yo2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 300px;
-  height: 300px;
-  margin-right: 20px;
-}
-.quarto-title-block .quarto-title-banner h1.title {
-  margin: 0;
-  text-align: left;
-  font-size: 2.5em;
-}
-</style>
-<style>
   /* Oculta solo el banner en la plantilla Jolla */
   .about-banner {
     display: none !important;
@@ -135,10 +82,10 @@ background: #00000000;
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -211,23 +158,21 @@ background: #00000000;
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">About Me</h1>
-                      </div>
-  </div>
-  <div class="quarto-title-meta">
-    </div>
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
+<div class="quarto-about-jolla column-page">
   <img src="guia.png" class="about-image
   round " style="height: 15em; width: 15em;">
- <main class="content quarto-banner-title-block" id="quarto-document-content">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">About Me</h1>
+</div>
+<div class="quarto-title-meta column-page">
+  </div>
+</header><main class="content column-page" id="quarto-document-content">
 <p>I am a statistical engineer from Universidad de Santiago, Santiago, Chile, received in 2011, M.S. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2013, Ph.D.&nbsp;degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2018. I am currently an Associate Professor in the Faculty of Science, Department of Mathematics and Computer Science at Universidad de Santiago, Chile. Additionally, I serve as the Director of Outreach and Community Engagement at the Faculty of Science, where I have had the opportunity to participate in the organization of the III Festival de Ciencia and Concierto Cielos, Winter School for High School Teachers, alumni talks, and community engagement initiatives.</p>
 <p>My research interests are the analysis of time series data and the statistical methods used in classification problems. This research line has allowed me to approach the analysis of astronomical data. In the last 10 years I have collaborated in Astro-Statistics research teams at the Millennium Institute of Astrophysics (MAS), the Chilean broker for LSST, ALeRCE, and for the Center for Interdisciplinary Research in Astrophysics and Space Sciences (CIRAS) at the University of Santiago.</p>
 <p>In addition, I have focused some of my research time on the statistical analysis of infectious diseases, particularly in their impact on the population. With the advent of COVID-19 in 2020 I was able to lead interdisciplinary research teams such as GEMVEP-USACH and Data Salud-USACH.</p>
