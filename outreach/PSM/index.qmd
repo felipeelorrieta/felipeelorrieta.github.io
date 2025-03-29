@@ -1,0 +1,63 @@
+---
+title: "Por sobre la Media"
+about:
+  template: trestles
+  image: file.jpg
+lang: en
+---
+
+El podcast "Por Sobre la Media: Hablemos con confianza" explora la estadística de forma poco convencional y profundamente humana. En el episodio piloto 'Orígenes' se revelan las trayectorias de los cuatro protagonistas de este podcast hacia la estadística y la academia. Se abordan temas desde docencia y buenas prácticas, hasta la historia de la estadística en Chile. Únete para descubrir un enfoque único y humano de los datos. Disponible en [Spotify](https://open.spotify.com/show/1ygvqwPDgCP5uirXkMeYnG) y [Apple Podcast](https://podcasts.apple.com/us/podcast/por-sobre-la-media-hablemos-con-confianza/id1747829825) y [Youtube](https://www.youtube.com/@porsobrelamedia)
+
+<div class="video-grid">
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/mCHdYRo9Xzk/0.jpg)](https://youtu.be/mCHdYRo9Xzk)
+<p> Especial de Navidad I </p>
+:::
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/tKTQlqzNjM4/0.jpg)](https://youtu.be/tKTQlqzNjM4)
+<p> T1-C13:ENDGAME </p>
+:::
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/vapZ_qMvWP0/0.jpg)](https://youtu.be/vapZ_qMvWP0)
+<p> T1-C12: Team Estocástico o Team Deterministico</p>
+:::
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/TAbJEqcBRvU/0.jpg)](https://youtu.be/TAbJEqcBRvU)
+<p> T1-C11: Andrés vs Iturriaga</p>
+:::
+
+
+
+</div>
+
+<style>
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video-item {
+    width: 30%;
+    min-width: 280px;
+    text-align: center;
+}
+
+.video-item img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video-item p {
+    font-size: 12px;
+    color: #444;
+    margin-top: 5px;
+}
+</style>
