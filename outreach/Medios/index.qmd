@@ -4,9 +4,9 @@ format: html
 page-layout: full
 ---
 
-# Apariciones en Medios
+# Divulgación en Medios
 
-Aquí encontrarás algunos videos de divulgación científica y presentaciones.
+Aquí encontrarás algunos videos de divulgación científica en medios de comunicación.
 
 <div class="video-grid">
 
