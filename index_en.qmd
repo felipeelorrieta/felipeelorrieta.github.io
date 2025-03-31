@@ -1,6 +1,6 @@
 ---
 title: "Felipe Elorrieta"
-subtitle: "Hola, soy Felipe Elorrieta. Profesor Asociado en la Universidad de Santiago de Chile"
+subtitle: "Hello, I am Felipe Elorrieta. Associate Professor at Universidad de Santiago de Chile"
 image: images/guia.png  
 toc: false
 about: 
@@ -24,6 +24,5 @@ about:
         href: mailto:felipe.elorrieta@usach.cl
       - text: "CV"
         href: about/CV_Felipe_Elorrieta.pdf
-lang: es
 ---
-<a href="index-en.html" class="language-switch"> <img src="usa.png" alt="english" width="20" height="20"/> </br> </a>
+<a href="index.html" class="language-switch"> <img src="spain.png" alt="spanish" width="20" height="20"/> </br> </a></a>

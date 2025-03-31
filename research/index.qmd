@@ -1,6 +1,6 @@
 ---
 title: "My Research"
-bibliography: Astrobib.bib
+bibliography: [PH.bib,Astrobib.bib]
 bibliographystyle: apa
 ---
 
@@ -15,7 +15,6 @@ nocite: |
 :::
 
 ## Public Health
-
 
 ## iAR Package
 

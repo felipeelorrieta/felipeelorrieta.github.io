@@ -3,7 +3,7 @@ title: "Por sobre la Media"
 about:
   template: trestles
   image: file.jpg
-lang: en
+lang: es
 ---
 
 El podcast "Por Sobre la Media: Hablemos con confianza" explora la estadística de forma poco convencional y profundamente humana. En el episodio piloto 'Orígenes' se revelan las trayectorias de los cuatro protagonistas de este podcast hacia la estadística y la academia. Se abordan temas desde docencia y buenas prácticas, hasta la historia de la estadística en Chile. Únete para descubrir un enfoque único y humano de los datos. Disponible en [Spotify](https://open.spotify.com/show/1ygvqwPDgCP5uirXkMeYnG) y [Apple Podcast](https://podcasts.apple.com/us/podcast/por-sobre-la-media-hablemos-con-confianza/id1747829825) y [Youtube](https://www.youtube.com/@porsobrelamedia)
