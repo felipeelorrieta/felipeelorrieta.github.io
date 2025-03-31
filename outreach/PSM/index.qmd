@@ -8,6 +8,19 @@ lang: es
 
 El podcast "Por Sobre la Media: Hablemos con confianza" explora la estadística de forma poco convencional y profundamente humana. En el episodio piloto 'Orígenes' se revelan las trayectorias de los cuatro protagonistas de este podcast hacia la estadística y la academia. Se abordan temas desde docencia y buenas prácticas, hasta la historia de la estadística en Chile. Únete para descubrir un enfoque único y humano de los datos. Disponible en [Spotify](https://open.spotify.com/show/1ygvqwPDgCP5uirXkMeYnG) y [Apple Podcast](https://podcasts.apple.com/us/podcast/por-sobre-la-media-hablemos-con-confianza/id1747829825) y [Youtube](https://www.youtube.com/@porsobrelamedia)
 
+## Temporada 2
+
+<div class="video-grid">
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/blcxe6wTo-g/0.jpg)](https://youtu.be/blcxe6wTo-g)
+<p> Especial de Navidad I </p>
+:::
+
+</div>
+
+## Temporada 1
+
 <div class="video-grid">
 
 ::: {.video-item}
@@ -30,8 +43,6 @@ El podcast "Por Sobre la Media: Hablemos con confianza" explora la estadística 
 <p> T1-C11: Andrés vs Iturriaga</p>
 :::
 
-
-
 </div>
 
 <style>
@@ -45,7 +56,7 @@ El podcast "Por Sobre la Media: Hablemos con confianza" explora la estadística 
 
 .video-item {
     width: 30%;
-    min-width: 280px;
+    min-width: 200px;
     text-align: center;
 }
 
