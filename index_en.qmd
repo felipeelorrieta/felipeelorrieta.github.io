@@ -25,4 +25,4 @@ about:
       - text: "CV"
         href: about/CV_Felipe_Elorrieta.pdf
 ---
-<a href="index.html" class="language-switch"> <img src="spain.png" alt="spanish" width="20" height="20"/> </br> </a></a>
+<a href="index.qmd" class="language-switch"> <img src="spain.png" alt="spanish" width="20" height="20"/> </br> </a></a>

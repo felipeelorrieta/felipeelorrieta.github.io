@@ -26,4 +26,4 @@ about:
         href: about/CV_Felipe_Elorrieta.pdf
 lang: es
 ---
-<a href="index-en.html" class="language-switch"> <img src="usa.png" alt="english" width="20" height="20"/> </br> </a>
+<a href="index-en.qmd" class="language-switch"> <img src="usa.png" alt="english" width="20" height="20"/> </br> </a>
