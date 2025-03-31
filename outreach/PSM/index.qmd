@@ -14,7 +14,7 @@ El podcast "Por Sobre la Media: Hablemos con confianza" explora la estadística 
 
 ::: {.video-item}
 [![Ver video](https://img.youtube.com/vi/blcxe6wTo-g/0.jpg)](https://youtu.be/blcxe6wTo-g)
-<p> Especial de Navidad I </p>
+<p> T2-C1: Statistical Deathmatch </p>
 :::
 
 </div>
