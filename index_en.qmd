@@ -3,6 +3,7 @@ title: "Felipe Elorrieta"
 subtitle: "Hello, I am Felipe Elorrieta. Associate Professor at Universidad de Santiago de Chile"
 image: images/guia.png  
 toc: false
+lang: en 
 about: 
   template: jolla
   image-shape: round

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Felipe Elorrieta",
     "section": "",
-    "text": "Inglés"
+    "text": "Mi Sitio Web\n\n\n&lt;li class=\"nav-item active\"&gt;\n  &lt;a class=\"nav-link\" href=\"index.qmd\"&gt;Inicio&lt;/a&gt;\n&lt;/li&gt;\n&lt;li class=\"nav-item\"&gt;\n  &lt;a class=\"nav-link\" href=\"about/index.qmd\"&gt;Sobre mí&lt;/a&gt;\n&lt;/li&gt;\n&lt;li class=\"nav-item\"&gt;\n  &lt;a class=\"nav-link\" href=\"courses/index.qmd\"&gt;Enseñanza&lt;/a&gt;\n&lt;/li&gt;\n&lt;li class=\"nav-item\"&gt;\n  &lt;a class=\"nav-link\" href=\"research/index.qmd\"&gt;Investigación&lt;/a&gt;\n&lt;/li&gt;\n&lt;li class=\"nav-item\"&gt;\n  &lt;a class=\"nav-link\" href=\"gallery/index.qmd\"&gt;Galería&lt;/a&gt;\n&lt;/li&gt;\n&lt;li class=\"nav-item\"&gt;\n  &lt;a class=\"nav-link\" href=\"outreach/index.qmd\"&gt;Vinculación&lt;/a&gt;\n&lt;/li&gt;"
   },
   {
     "objectID": "index.html#sección-1-introducción",
@@ -268,6 +268,132 @@
   {
     "objectID": "outreach/PSM/index.html#temporada-1",
     "href": "outreach/PSM/index.html#temporada-1",
+    "title": "Por sobre la Media",
+    "section": "Temporada 1",
+    "text": "Temporada 1\n\n\n\n\nEspecial de Navidad I\n\n\n\n\n\nT1-C13:ENDGAME\n\n\n\n\n\nT1-C12: Team Estocástico o Team Deterministico\n\n\n\n\n\nT1-C11: Andrés vs Iturriaga"
+  },
+  {
+    "objectID": "english/outreach/index.html#por-sobre-la-media",
+    "href": "english/outreach/index.html#por-sobre-la-media",
+    "title": "Outreach",
+    "section": "Por sobre la Media",
+    "text": "Por sobre la Media"
+  },
+  {
+    "objectID": "english/outreach/index.html#all-you-need-is-lab",
+    "href": "english/outreach/index.html#all-you-need-is-lab",
+    "title": "Outreach",
+    "section": "All you need is Lab",
+    "text": "All you need is Lab"
+  },
+  {
+    "objectID": "english/outreach/Medios/index.html",
+    "href": "english/outreach/Medios/index.html",
+    "title": "Apariciones en Medios",
+    "section": "",
+    "text": "Divulgación en Medios\nAquí encontrarás algunos videos de divulgación científica en medios de comunicación.\n\n\n\n\n¿Que es Data Salud USACH?\n\n\n\n\n\nEntrevista Admision USACH\n\n\n\n\n\nEntrevista Ojo Clinico\n\n\n\n\n\nWebinar Covid-19\n\n\n\n\n\nEntrevista El Mostrador\n\n\n\n\n\nConversatorio COVID 19 SOCHE"
+  },
+  {
+    "objectID": "english/courses/FinancialTS/index.html",
+    "href": "english/courses/FinancialTS/index.html",
+    "title": "Econometría",
+    "section": "",
+    "text": "1 Objetivos del curso\n\n\n\n\n\n\n\nEn este curso se busca familiarizar al alumno con métodos avanzados de series de tiempo con aplicaciones en finanzas.\n\n\n\n\n\n\n2 Programa del curso\n\n\n\n\n\n\nCapítulo 1: Introducción a la Series de Tiempos Financieras\n\n\n\n\n\n1.1. Retornos de Activos\n1.2. Caracteristicas Estilizadas\n\nDiapositivas\nCódigo R\nDatos\n\n\n\n\n\n\n\n\n\n\nCapítulo 2: Modelos Heterocedásticos I: (ARCH)\n\n\n\n\n\n2.1. Modelos ARCH.\n2.2. Propiedades Modelo ARCH.\n2.3. Representación de Volterra.\n2.4. Estimación de parametros de un modelo ARCH.\n2.5. Predicción en modelos ARCH.\n\nCódigo R\n\n\n\n\n\n\n\n\n\n\nCapítulo 3: Modelos Heterocedásticos 2: (GARCH)\n\n\n\n\n\n3.1. Modelos GARCH.\n3.2. Modelos ARMA-GARCH.\n3.3. Efecto Leverage.\n3.4. Modelos GARCH Asímetricos.\n\nDiapositivas\nCódigo R\nCódigo R-2\nDatos\n\n\n\n\n\n\n\n\n\n\nCapítulo 4: Modelos de Volatilidad Estocástica.\n\n\n\n\n\n4.1. Propiedades.\n4.2. Sistemas de Espacio Estado.\n4.3. Filtro de Kalman.\n4.4. Modelos de Volatilidad Estocastica de Larga Memoria.\n\nDiapositivas\nCódigo R\n\n\n\n\n\n\n\n\n\n\nCapítulo 5: Procesos Estacionarios Multivariados.\n\n\n\n\n\n5.1. Función de Correlación Cruzada\n5.2. Modelo ARIMAX\n5.3. Modelo VAR\n5.4. Modelo VARMA\n\nDiapositivas\nCódigo R\nCódigo R-2\nDatos\nDatos-2\n\n\n\n\n\n\n\n\n\n\nCapítulo 6: Cointegración\n\n\n\n\n\n6.1. Test de Cointegración de Granger\n\n\n\n\n\n3 Procedimiento de evaluación\n\n\n\n\n\n\nEvaluación: El mayor enfoque del curso estara en las aplicaciones de la teoria de series de tiempo a series financieras y en las investigaciones que los alumnos puedan realizar sobre el tema. De esta manera, el curso será dividido en dos etapas una práctica y una teorica. En cada una de ellas se realizaran dos o tres evaluaciones y el promedio final del curso sera el promedio de cada una de las areas siguiendo la siguiente estructura.\\\n NF = 0.6\\overline{T} + 0.4\\overline{P}\nDonde \\overline{T} es el promedio de los Trabajos y \\overline{P} es el promedio de las pruebas. Para aprobar el curso se deberan cumplir los siguientes requisitos,\\\n\nT_i \\geq 4.0, \\forall ~ i=1,\\ldots,3. (ie, todos los trabajos aprobados)\n\\overline{NF} \\geq 4.0\n\n\n\n\n\n\n4 Fechas de Evaluaciones\n\n\n\n\n\n\n\nTrabajo 1 (T1): 25 de Octubre (Planteamiento Problema-Hechos Estilizados-ARCH)\nPep 1 (P1): 8 de Noviembre (Calculo de Retornos y Modelos Heterocedásticos)\nTrabajo 2 (T2): 6 de Diciembre (Investigación-Ajuste Modelos Heterocedásticos)\nPep 2 (P2): 20 de Diciembre (Volatilidad Estocástica y Métodos Multivariados)\nTrabajo 3 (T3): 15 de Enero (Modelos Multivariados y Conclusiones)\n\n\n\n\n\n\n5 Bibliografía\n\n\nAmenc, Noel, y Veronique Le Sourd. 2003. Portfolio Theory and Performance Analysis. John Wiley & Sons. https://www.wiley.com/en-dk/Portfolio+Theory+and+Performance+Analysis-p-9780470858745.\n\n\nBrockwell, Peter J., y Richard A. Davis. 1996. Introduction to Time Series and Forecasting. Springer Texts en Statistics. Springer. https://doi.org/10.1007/978-1-4757-2526-1.\n\n\nElton, Edwin J., y Martin J. Gruber. 1995. Modern Portfolio Theory and Investment Analysis. Wiley. https://books.google.com/books/about/Modern_Portfolio_Theory_and_Investment_A.html?id=aOtcTEQ3DAUC.\n\n\nGreene, William H. 2003. Econometric Analysis. 5th ed. Pearson Education. https://books.google.com/books/about/Econometric_Analysis.html?id=7i9lQgAACAAJ.\n\n\nMorettin, P. A. 2008. Econometria Financeira: Um Curso Em Séries Temporais Financeiras. Edgard Blucher. https://www.blucher.com.br/livro/detalhes/econometria-financeira-um-curso-em-series-temporais-financeiras-9788521204516.\n\n\nPalma, Wilfredo. 2007. Long-Memory Time Series: Theory and Methods. Wiley Series en Probability y Statistics. Wiley. https://doi.org/10.1002/9780470131466.\n\n\n———. 2016. Time Series Analysis. Wiley Series en Probability y Statistics. Wiley. https://www.wiley.com/en-us/Time+Series+Analysis-p-9781118634325.\n\n\nTsay, Ruey S. 2005. Analysis of Financial Time Series. 2nd ed. Wiley Series en Probability y Statistics. Wiley-Interscience. https://onlinelibrary.wiley.com/doi/book/10.1002/0471746193."
+  },
+  {
+    "objectID": "english/courses/index.html",
+    "href": "english/courses/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "In this course I seek to present to the students basic concepts of time series and their applications."
+  },
+  {
+    "objectID": "english/courses/index.html#time-series",
+    "href": "english/courses/index.html#time-series",
+    "title": "Teaching",
+    "section": "",
+    "text": "In this course I seek to present to the students basic concepts of time series and their applications."
+  },
+  {
+    "objectID": "english/courses/index.html#financial-time-series",
+    "href": "english/courses/index.html#financial-time-series",
+    "title": "Teaching",
+    "section": "Financial Time Series",
+    "text": "Financial Time Series\nIn this course I aim to familiarize the student with advanced time series methods with applications in finance."
+  },
+  {
+    "objectID": "english/courses/index.html#algorithms-in-data-mining",
+    "href": "english/courses/index.html#algorithms-in-data-mining",
+    "title": "Teaching",
+    "section": "Algorithms in Data Mining",
+    "text": "Algorithms in Data Mining\nIn this course I review Machine Learning concepts and techniques that allow segmenting, classifying and interpreting large volumes of data."
+  },
+  {
+    "objectID": "english/courses/index.html#numerical-methods",
+    "href": "english/courses/index.html#numerical-methods",
+    "title": "Teaching",
+    "section": "Numerical Methods",
+    "text": "Numerical Methods\nIn this course, mathematical optimization algorithms are presented with application in statistical problems that require it."
+  },
+  {
+    "objectID": "english/research/index.html",
+    "href": "english/research/index.html",
+    "title": "My Research",
+    "section": "",
+    "text": "Elorrieta, Felipe et al. 2023. “Online Estimation Methods for Irregular Autoregressive Models.” In Theory and Applications of Time Series Analysis, edited by Olga Valenzuela et al., 3–17. Cham: Springer Nature Switzerland.\n\n\nElorrieta, Felipe, Susana Eyheramendy, Wilfredo Palma, and Cesar Ojeda. 2021. “A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series.” Monthly Notices of the Royal Astronomical Society 505 (1): 1105–16.\n\n\nElorrieta, F, S Eyheramendy, and W Palma. 2019. “Discrete-Time Autoregressive Model for Unequally Spaced Time-Series Observations.” A&A 627: A120. https://doi.org/10.1051/0004-6361/201935560.\n\n\nEyheramendy, Susana, Felipe Elorrieta, and Wilfredo Palma. 2018. “An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves.” Monthly Notices of the Royal Astronomical Society 481 (4): 4311–22.\n\n\nFörster, F., G. Cabrera-Vives, E. Castillo-Navarrete, et al. 2021. “The Automatic Learning for the Rapid Classification of Events (ALeRCE) Alert Broker.” The Astronomical Journal 161 (5): 242. https://doi.org/10.3847/1538-3881/abe9bc.\n\n\nSánchez-Sáez, P. et al. 2021. “Alert Classification for the ALeRCE Broker System: The Light Curve Classifier.” The Astronomical Journal 161 (3): 141. https://doi.org/10.3847/1538-3881/abd5c1."
+  },
+  {
+    "objectID": "english/research/index.html#astro-statistics",
+    "href": "english/research/index.html#astro-statistics",
+    "title": "My Research",
+    "section": "",
+    "text": "Elorrieta, Felipe et al. 2023. “Online Estimation Methods for Irregular Autoregressive Models.” In Theory and Applications of Time Series Analysis, edited by Olga Valenzuela et al., 3–17. Cham: Springer Nature Switzerland.\n\n\nElorrieta, Felipe, Susana Eyheramendy, Wilfredo Palma, and Cesar Ojeda. 2021. “A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series.” Monthly Notices of the Royal Astronomical Society 505 (1): 1105–16.\n\n\nElorrieta, F, S Eyheramendy, and W Palma. 2019. “Discrete-Time Autoregressive Model for Unequally Spaced Time-Series Observations.” A&A 627: A120. https://doi.org/10.1051/0004-6361/201935560.\n\n\nEyheramendy, Susana, Felipe Elorrieta, and Wilfredo Palma. 2018. “An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves.” Monthly Notices of the Royal Astronomical Society 481 (4): 4311–22.\n\n\nFörster, F., G. Cabrera-Vives, E. Castillo-Navarrete, et al. 2021. “The Automatic Learning for the Rapid Classification of Events (ALeRCE) Alert Broker.” The Astronomical Journal 161 (5): 242. https://doi.org/10.3847/1538-3881/abe9bc.\n\n\nSánchez-Sáez, P. et al. 2021. “Alert Classification for the ALeRCE Broker System: The Light Curve Classifier.” The Astronomical Journal 161 (3): 141. https://doi.org/10.3847/1538-3881/abd5c1."
+  },
+  {
+    "objectID": "english/research/index.html#public-health",
+    "href": "english/research/index.html#public-health",
+    "title": "My Research",
+    "section": "Public Health",
+    "text": "Public Health"
+  },
+  {
+    "objectID": "english/research/index.html#iar-package",
+    "href": "english/research/index.html#iar-package",
+    "title": "My Research",
+    "section": "iAR Package",
+    "text": "iAR Package"
+  },
+  {
+    "objectID": "english/about/index.html",
+    "href": "english/about/index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a statistical engineer from Universidad de Santiago, Santiago, Chile, received in 2011, M.S. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2013, Ph.D. degree in statistics from Pontificia Universidad Católica, Santiago, Chile, received in 2018. I am currently an Associate Professor in the Faculty of Science, Department of Mathematics and Computer Science at Universidad de Santiago, Chile. Additionally, I serve as the Director of Outreach and Community Engagement at the Faculty of Science, where I have had the opportunity to participate in the organization of the III Festival de Ciencia and Concierto Cielos, Winter School for High School Teachers, alumni talks, and community engagement initiatives.\nMy research interests are the analysis of time series data and the statistical methods used in classification problems. This research line has allowed me to approach the analysis of astronomical data. In the last 10 years I have collaborated in Astro-Statistics research teams at the Millennium Institute of Astrophysics (MAS), the Chilean broker for LSST, ALeRCE, and for the Center for Interdisciplinary Research in Astrophysics and Space Sciences (CIRAS) at the University of Santiago.\nIn addition, I have focused some of my research time on the statistical analysis of infectious diseases, particularly in their impact on the population. With the advent of COVID-19 in 2020 I was able to lead interdisciplinary research teams such as GEMVEP-USACH and Data Salud-USACH.\nFor more information about my research and teaching expierence, please see my CV. Furthermore, you can follow my research in my Google Scholar, ResearchGate, and ORCID ID profiles."
+  },
+  {
+    "objectID": "english/courses/TS/index.html",
+    "href": "english/courses/TS/index.html",
+    "title": "Series de Tiempo",
+    "section": "",
+    "text": "1 Objetivos del curso\n\n\n\n\n\n\n\nFamiliarizar al alumno con la teoría de series de tiempo y sus aplicaciones\n\n\n\n\n\n\n2 Programa del curso\n\n\n\n\n\n\nCapítulo 1: Introducción\n\n\n\n\n\n1.1. Conceptos Básicos.\n1.2. Tipos de Series de Tiempo.\n1.3. Estacionaridad.\n1.4. Función de Autocovarianza.\n\nDiapositivas\nCódigo R\n\n\n\n\n\n\n\n\n\n\nCapítulo 2: Descomposición clásica de una serie de Tiempo.\n\n\n\n\n\n2.1. Alisado Exponencial de Holt-Winters.\n2.2. Enfoque de Regresión\n\nDiapositivas\nCódigo R\n\n\n\n\n\n\n\n\n\n\nCapítulo 3: Procesos Lineales.\n\n\n\n\n\n3.1. Definición.\n3.2. Procesos Autoregresivos (AR)\n3.3. Procesos de Medias Móviles (MA)\n3.4. Procesos Mixtos (ARMA).\n3.5. Representaciones AR$(\\infty)$ y MA$(\\infty)$.\n\n\n\n\n\n\n\n\n\nCapítulo 4: Estimación de modelos ARMA.\n\n\n\n\n\n4.1. Estimador de Yule-Walker\n4.2. Estimador de MCO\n4.3. Estimador de Máxima Verosimilitud\n\n\n\n\n\n\n\n\n\nCapítulo 5: Predicción de modelos ARMA.\n\n\n\n\n\n5.1. Mejor Predictor Lineal.\n5.2. Función de Autocorrelación Parcial (PACF).\n5.3. Algoritmos Recursivos.\n\n\n\n\n\n\n\n\n\nCapítulo 6: Procesos No Estacionarios.\n\n\n\n\n\n6.1. Raíz Unitaria\n6.2. Modelos ARIMA.\n6.3. Modelos ARIMA estacionales (SARIMA).\n\n\n\n\n\n\n\n\n\nCapítulo 7: Análisis Espectral\n\n\n\n\n\n7.1. Densidad Espectral.\n7.2. Periodograma.\n7.3. Teorema de Herglotz.\n\n\n\n\n\n3 Material de Apoyo\n\n\n\n\n\n\n\nGuia 1\n\n\n\n\n\n\n4 Procedimiento de evaluación\n\n\n\n\n\n\nEvaluación: En el curso se realizaran 2 pruebas teóricas, 2 controles, 1 trabajo parcial y un proyecto final, el cual deberá ser presentado. La nota final del curso se calculará a partir de la siguiente expresión,\nNF = 0.5P + 0.3T_p + 0.2TF Donde \\overline{P} es el promedio ponderado de las Pep, definido por \\overline{P} = 0.4*P_1 + 0.6 P_2. Además, T_p es el promedio de los controles y trabajos parciales y TF es la nota del trabajo final. Para aprobar el curso se deberan cumplir los siguientes requisitos,\n\nP_i \\geq 4.0, para algún i=1,2. (ie, Al menos una prueba sobre 4)\n\\overline{TF} \\geq 4.0\n\\overline{NF} \\geq 4.0\n\n\n\n\n\n\n5 Fechas de Evaluaciones\n\n\n\n\n\n\n\nControl 1 (C1): 7 de Abril (Capitulos 1-2)\nPep 1 (P1): 5 de Mayo (Capitulos 1-4)\nControl 1 (C2): 26 de Mayo (Capitulos 5-6)\nPep 2 (P2): 23 de Junio (Capitulos 5-7)\nPresentación Final (TF): 7 de Julio\nExamen Final: 14 de Julio\n\n\n\n\n\n\n6 Bibliografía\n\n\nBox, George E. P., y Gwilym M. Jenkins. 1976. Time Series Analysis: Forecasting and Control. Holden-Day. https://books.google.com/books/about/Time_Series_Analysis.html?id=5BVfnXaq03oC.\n\n\nBrockwell, Peter J., y Richard A. Davis. 2002. Introduction to Time Series and Forecasting. Springer. https://doi.org/10.1007/978-1-4757-2526-1.\n\n\nChatfield, C. 1980. The Analysis of Time Series: An Introduction. 2nd ed. Chapman; Hall. https://books.google.com/books/about/The_Analysis_of_Time_Series.html?id=5BVfnXaq03oC.\n\n\nHamilton, James D. 1994. Time Series Analysis. Princeton University Press. https://www.jstor.org/stable/j.ctv14jx6sm.\n\n\nMorettin, P. A., y C. M. C. Toloi. 1981. Modelos para Previsão de Séries Temporais. Instituto de Matemática Pura e Aplicada. https://books.google.com/books/about/Modelos_para_previs%C3%A3o_de_s%C3%A9ries_tempor.html?id=fhbvAAAAMAAJ.\n\n\nPalma, Wilfredo. 2007. Long-Memory Time Series: Theory and Methods. Wiley. https://doi.org/10.1002/9780470131466.\n\n\n———. 2016. Time Series Analysis. Wiley. https://www.wiley.com/en-us/Time+Series+Analysis-p-9781118634325.\n\n\nShumway, Robert H., y David S. Stoffer. 2000. Time Series Analysis and Its Applications. Springer. https://doi.org/10.1007/978-1-4757-2526-1."
+  },
+  {
+    "objectID": "english/outreach/PSM/index.html",
+    "href": "english/outreach/PSM/index.html",
+    "title": "Por sobre la Media",
+    "section": "",
+    "text": "El podcast “Por Sobre la Media: Hablemos con confianza” explora la estadística de forma poco convencional y profundamente humana. En el episodio piloto ‘Orígenes’ se revelan las trayectorias de los cuatro protagonistas de este podcast hacia la estadística y la academia. Se abordan temas desde docencia y buenas prácticas, hasta la historia de la estadística en Chile. Únete para descubrir un enfoque único y humano de los datos. Disponible en Spotify y Apple Podcast y Youtube"
+  },
+  {
+    "objectID": "english/outreach/PSM/index.html#temporada-2",
+    "href": "english/outreach/PSM/index.html#temporada-2",
+    "title": "Por sobre la Media",
+    "section": "Temporada 2",
+    "text": "Temporada 2\n\n\n\n\nT2-C1: Statistical Deathmatch"
+  },
+  {
+    "objectID": "english/outreach/PSM/index.html#temporada-1",
+    "href": "english/outreach/PSM/index.html#temporada-1",
     "title": "Por sobre la Media",
     "section": "Temporada 1",
     "text": "Temporada 1\n\n\n\n\nEspecial de Navidad I\n\n\n\n\n\nT1-C13:ENDGAME\n\n\n\n\n\nT1-C12: Team Estocástico o Team Deterministico\n\n\n\n\n\nT1-C11: Andrés vs Iturriaga"

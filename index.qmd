@@ -3,6 +3,7 @@ title: "Felipe Elorrieta"
 subtitle: "Hola, soy Felipe Elorrieta. Profesor Asociado en la Universidad de Santiago de Chile"
 image: images/guia.png  
 toc: false
+lang: es 
 about: 
   template: jolla
   image-shape: round
@@ -23,7 +24,7 @@ about:
       - icon: envelope
         href: mailto:felipe.elorrieta@usach.cl
       - text: "CV"
-        href: about/CV_Felipe_Elorrieta.pdf
-lang: es
+        href: about/CV_Felipe_Elorrieta_sp.pdf
 ---
-<a href="index-en.qmd" class="language-switch"> <img src="usa.png" alt="english" width="20" height="20"/> </br> </a>
+<a href="index_en.qmd" class="language-switch"> <img src="usa.png" alt="english" width="20" height="20"/> </br> </a>
+
