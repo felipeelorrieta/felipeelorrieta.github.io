@@ -13,6 +13,6 @@ Mis intereses de investigación son el análisis de datos temporales y los méto
 
 Además, he dedicado parte de mi tiempo de investigación en el análisis estadístico de enfermedades infecciosas, particularmente en su impacto en la población. Con la llegada de COVID-19 en 2020 pude liderar equipos de investigación interdisciplinarios como GEMVEP-USACH y Data Salud-USACH.
 
-Para más información sobre mi investigación y mi experiencia en docencia, por favor revise mi [CV](CV_Felipe_Elorrieta_sp.pdf). Además, puede seguir mi investigación en mis perfiles de [Google Scholar](https://github.com/felipeelorrieta), [ResearchGate](https://www.researchgate.net/profile/Felipe-Elorrieta-Lopez) y [ORCID ID](https://orcid.org/0000-0002-1835-7433). 
+Para más información sobre mi investigación y mi experiencia en docencia, por favor revise mi [CV](CV_Felipe_Elorrieta_sp.pdf). Además, puede seguir mi investigación en mis perfiles de [Google Scholar](https://scholar.google.cl/citations?user=iux_OB0AAAAJ&hl=es), [ResearchGate](https://www.researchgate.net/profile/Felipe-Elorrieta-Lopez) y [ORCID ID](https://orcid.org/0000-0002-1835-7433). 
 
 <a href="index_en.qmd" class="language-switch"> <img src="usa.png" alt="english" width="20" height="20"/> </br> </a>
