@@ -76,6 +76,8 @@ library(reticulate)
     3.4. Procesos Mixtos (ARMA).
     3.5. Representaciones AR$(\infty)$ y MA$(\infty)$.
 - [Procesos Lineales](Clase5.pdf){target="_blank"}
+- [Proceso Autoregresivo](Clase6.pdf){target="_blank"}
+- [Proceso de Medias Móviles](Clase7.pdf){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
