@@ -116,6 +116,7 @@ library(reticulate)
 
 ::: {.callout-tip appearance="simple" icon=false}
 - [Guia 1](Guia1.pdf){target="_blank"}
+- [Guia 2](Guia2.pdf){target="_blank"}
 :::
 
 # Procedimiento de evaluación
