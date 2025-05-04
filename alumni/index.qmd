@@ -1,6 +1,5 @@
 ---
-title: ""
-description: ""
+title: "Alumni"
 format:
   html:
     toc: true
@@ -26,6 +25,9 @@ number-depth: 2
 #| warning: false
 #| message: false
 library(reticulate)
+library(rvest)
+library(tm)
+library(wordcloud)
 # use_python('C:/ProgramData/Anaconda3/python.exe')
 ```
 
@@ -85,3 +87,36 @@ ID | Nombre           | Titulo                               | Año |
 --|----------------|--------------------------------------|------|
 |2| Juan Carlos Cornejo | Extracción de características desde estimaciones en línea del Modelo Autorregresivo Irregular (iAR) | 2024 |
 |1| Miguel Valdés Hernández | Filtro de Partículas Para la Estimación Online de Procesos Autorregresivos Irregularmente Observados  | 2024 |
+
+# Nube de palabras
+
+```{r wordcloud}
+#| echo: false
+#| warning: false
+text <- readLines("index.qmd", encoding = "UTF-8")
+text <- text[!grepl("^---|^```", text)]
+text_full <- paste(text, collapse = " ")
+corpus <- Corpus(VectorSource(text_full)) |>
+  tm_map(content_transformer(tolower)) |> tm_map(content_transformer(function(x) iconv(x, to='ASCII//TRANSLIT'))) |>
+  tm_map(removePunctuation) |>
+  tm_map(removeNumbers) |>
+  tm_map(removeWords, c(stopwords("spanish"),"false","wordfreq","word","true","text")) |>
+  tm_map(stripWhitespace)
+
+# Crear matriz y word cloud
+dtm <- TermDocumentMatrix(corpus)
+matrix <- as.matrix(dtm)
+word_freq <- sort(rowSums(matrix), decreasing = TRUE)
+word_freq <- word_freq[word_freq > 2]
+
+# Generar word cloud
+wordcloud(
+  words = names(word_freq),
+  freq = word_freq,
+  min.freq = 2,
+  random.order = FALSE,           # palabras más frecuentes al centro
+  colors = brewer.pal(9, "Set1"), # colores más vivos
+  rot.per = 0.2,                  # porcentaje de palabras rotadas
+  scale = c(4, 0.5)               # tamaño relativo de las palabras
+)
+```
