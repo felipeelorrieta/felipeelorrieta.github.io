@@ -1,0 +1,87 @@
+---
+title: ""
+description: ""
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    toc-expand: 2
+    html-math-method: katex
+#    theme: simplex
+lang: es
+highlight-style: github
+toc: false
+toc-title: "Contenidos"
+toc-expand: false
+toc-depth: 2
+number-sections: true
+number-depth: 2
+#title-block-banner: false
+---
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(reticulate)
+# use_python('C:/ProgramData/Anaconda3/python.exe')
+```
+
+# Tesis Ingeniería Estadística
+
+ID | Nombre           | Titulo                               | Año |
+--|----------------|--------------------------------------|------|
+|44| Alan Vivar Yancas       | Detección de Cambios Estructurales en Modelos Autorregresivos Streaming Data | 2024 |
+|43| Pablo Vicari Ruíz    | Estimación de Parámetros mediante Simulación-Extrapolación en Procesos Autorregresivos cercanos a la Raíz Unitaria  | 2024 |
+|42| Michael Lizama Gaete   | Perfilación de comunas chilenas basada en datos delictuales: un enfoque de machine learning con clustering no supervisado   | 2024 |
+|41| Guillermo Grandón Rodríguez | Clasificación de datos astronómicos bajo regresión logística funcional | 2024 |
+|40| Michelle Vergara Olivares | Análisis espacial de la mortalidad por enfermedad renal crónica y coronaria y su asociación con la deprivación comunal en Chile | 2023 |
+|39| Patricia Tobar Echegoyen | Modelos predictivos a corto plazo para el número de contagios diario del virus SARS-COV-2 en Chile | 2023 |
+|38| Estefany Muñoz Ponce | Análisis Intracomunal de la Deprivación en Chile | 2023 |
+|37| Nathaly Garrido Neira | Evaluación de métodos de estimación bayesiana para clasificación logística con efectos temporales | 2023 |
+|36| Sebastián Ríos Silva | Criterios de Selección para Modelos Estacionarios e Irregularmente Observados | 2022 |
+|35| Andrés Ayala Muñoz | Entendiendo las causas y consecuencias del COVID-19: un análisis espacio-temporal | 2022 |
+|34| Lucas Osses Camblor | Modelos Autoregresivos Online Bayesianos | 2022 |
+|33| Catalina Hernández Martínez | El brote epidémico de SARS-COV-2 en Santiago | 2021 |
+|32| Pedro Osorio Meza | Sistema de monitoreo de la pandemia de Covid-19 en Chile mediante análisis de Change-Point | 2021 |
+|31| Valentina Navarro Muñoz | Métodos de nowcasting en base a los informes epidemiológicos de SARS-CoV-2 | 2021 |
+|30| Darinka Carvajal Miranda | Análisis Espacio-Temporal de la Tasa de Contagios de Covid-19 en base a la Movilidad en la Región Metropolitana, Chile | 2021 |
+|29| Alberto Umanzor Troncoso | Métodos de estimación de periodo para series de tiempo astronómicas irregularmente espaciadas | 2021 |
+|28| Jorge Quevedo Álvarez | Revisión de Métodos para Estimar la Dependencia Temporal de Series de Tiempo Desigualmente Espaciadas | 2021 |
+|27| Matías Cáceres Parravicini | Métodos de Aprendizaje en línea para Modelos ARIMA | 2020 |
+|26| Estefanía Cerda Millán | Análisis bayesiano de un modelo espacio temporal aplicado a hurtos en la Región Metropolitana de Chile | 2020 |
+|25| Yerko Carreño Pérez | Implementación de un algoritmo de clasificación en línea usando técnicas de Ensemble learning | 2020 |
+|24| Belén Tramolao Mardones | Determinar factores que expliquen la Percepción de Inseguridad en Chile controlado por las elecciones | 2020 |
+|23| Camila Guerrero Padilla | ¿Se modifica el efecto de la contaminación del aire sobre la mortalidad diaria cuando hay un brote de influenza estacional? | 2020 |
+|22| Sebastián Fuentes Aleuy | Procesos Gaussianos para mejorar la performance de un clasificador con clases desbalanceadas | 2019 |
+|21| Alejandra Lobos Márquez | Modelo de Predicción de la Demanda de Gas Natural para el corto y largo plazo en la Región Metropolitana | 2019 |
+|20| Darling Navarrete Soto	| Evaluación del impacto de la ley Emilia en los accidentes de tránsito usando series de tiempo interrumpidas| 2019 |
+|19| Carolina Olmos Saez | Clasificación de Streaming Data usando Naïve Bayes | 2019 |
+|18| Katherine Carrasco Vargas | Análisis Espacial para la determinación de factores que influyen en el reporte de Delitos | 2019 |
+|17| Rodrigo Barraza Cartagena | Implementación de Series de Tiempo Continuas para la Modelación de Datos Irregularmente Espaciados | 2019 |
+|16| Angélica Garrido Agurto | Un modelo temporal para anticipar congestión en el HUAP | 2018 |
+|15| Patricio Romero Vargas | Análisis espacial para determinar los factores socioeconómicos tras las denuncias de violencia intrafamiliar | 2018 |
+|14| Paz Gaete Acevedo | Análisis Espacio Temporal Clásico de las Tasas de "DMCS" en Chile | 2017 |
+|13| Nicolás Rondán Flores | Un modelo para anticipar periodos de congestión en el Hospital de Urgencia Asistencia Pública (HUAP) | 2017 |
+|12| Camila Sobarzo Tapia | Evolución de cánceres en Chile bajo un modelo Edad-Período-Cohorte | 2017 |
+|11| Carla Lastra Oliva | Estimación de Provisiones para los Bancos de Chile usando Modelos de Datos de Panel | 2017 |
+|10| Solange Hidalgo Adriazola | Identificación de Conglomerados a partir de Características Fenotípicas en Acinetobacter Baumannii | 2016 |
+|9| Claudia Riquelme Riffo | Perfiles de Rentabilidad en Seguros de Vida a través de metodologías de Segmentación de Clientes | 2016 |
+|8| Andrea Quintrilef Almuna | Análisis Factorial Bayesiano aplicado a la creación de un Índice de Criminalidad para las comunas de la Región Metropolitana | 2016 |
+|7| Yanitza Espinoza Neira | Poder predictivo de la prueba CL-PT con respecto al SIMCE | 2016 |
+|6| Javiera Lizana Aguilera | Identificación de fuentes contaminantes de agua en Chile usando PMF | 2016 |
+|5| Gerardo Sepúlveda Barrera | Modelo de Predicción de la Demanda de Cemento para corto y largo plazo en Chile | 2016 |
+|4| Katherine Arratia Barrera | Un modelo dinámico generalizado para predecir el comportamiento del precio del oro y del cobre al corto plazo | 2016 |
+|3| Tamara Barahona Bustamante | Un clasificador delictual aplicado al proceso logístico del área transporte | 2016 |
+|2| Valeska Pizarro Correa | Modelo de estimación de la renta personal para clientes bancarizados | 2015 |
+|1| Boris Diaz Castro | Clasificador óptimo de estrellas del tipo RRab para el sondeo VVV | 2015 |
+
+
+# Tesis Ingeniería Matemática
+
+ID | Nombre           | Titulo                               | Año |
+--|----------------|--------------------------------------|------|
+|2| Juan Carlos Cornejo | Extracción de características desde estimaciones en línea del Modelo Autorregresivo Irregular (iAR) | 2024 |
+|1| Miguel Valdés Hernández | Filtro de Partículas Para la Estimación Online de Procesos Autorregresivos Irregularmente Observados  | 2024 |

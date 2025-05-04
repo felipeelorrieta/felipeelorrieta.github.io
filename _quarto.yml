@@ -19,6 +19,8 @@ website:
         text: "Gallery"
       - href: outreach/index.qmd
         text: "Outreach"
+      - href: alumni/index.qmd
+        text: "Alumni"
     right:
       - icon: twitter
         text: twitter
