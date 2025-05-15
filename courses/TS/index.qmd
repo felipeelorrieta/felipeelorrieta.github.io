@@ -78,6 +78,7 @@ library(reticulate)
 - [Procesos Lineales](Clase5.pdf){target="_blank"}
 - [Proceso Autoregresivo](Clase6.pdf){target="_blank"}
 - [Proceso de Medias Móviles](Clase7.pdf){target="_blank"}
+- [Proceso ARMA](Clase8.pdf){target="_blank"}
 - [Codigo](Clase4.R){target="_blank"}
 :::
 
