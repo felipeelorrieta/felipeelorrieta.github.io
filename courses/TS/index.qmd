@@ -88,6 +88,7 @@ library(reticulate)
     4.1. Estimador de Yule-Walker
     4.2. Estimador de MCO
     4.3. Estimador de Máxima Verosimilitud
+- [Diapositivas](Clase9.pdf){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
