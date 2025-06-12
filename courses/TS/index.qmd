@@ -106,6 +106,8 @@ library(reticulate)
     6.1. Raíz Unitaria
     6.2. Modelos ARIMA.
     6.3. Modelos ARIMA estacionales (SARIMA).
+- [Diapositivas](ClaseEspST.pdf){target="_blank"}    
+- [Codigo](ClaseSN.R){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
