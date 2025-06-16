@@ -60,13 +60,13 @@ par(mfrow=c(2,1))
 y2=diff(y,12)
 acf(y2,lag.max=50,lwd=2,main="") 
 pacf(y2,lag.max=50,lwd=2,main="")
-ggtsdisplay(y2)
+ggtsdisplay(y2,lag.max=60)
 
-model4=arima(y,order=c(1,0,1),seasonal=list(order=c(0,1,1),period=12))
+model4=arima(y,order=c(2,0,2),seasonal=list(order=c(0,1,1),period=12))
 summary(model4)
-tsdiag(model4)
 coeftest(model4)
 tsdiag(model4,gof.lag=36)
+Box.test(residuals(model4),lag=24)
 
 
 #SARIMA astsa
@@ -83,7 +83,7 @@ lines(exp(Forecast$pred-2*Forecast$se),col="blue",lty=3)
 
 p=trunc(0.9*length(y))
 y1=y[1:p]
-model4val=arima(y1,order=c(1,0,1),seasonal=list(order=c(0,1,1),period=12))
+model4val=arima(y1,order=c(2,0,2),seasonal=list(order=c(0,1,1),period=12))
 Forecastval<-predict(model4val,n.ahead=57)
 error=y[(p+1):length(y)]-Forecastval$pred
 MSE=mean(error**2)
