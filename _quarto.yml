@@ -15,7 +15,7 @@ website:
         text: "Teaching"
       - href: research/index.qmd
         text: "My Research"
-      - href: iAR/index.html
+      - href: https://felipeelorrieta.github.io/iAR-package/
         text: "iAR"
       - href: gallery/index.qmd
         text: "Gallery"
