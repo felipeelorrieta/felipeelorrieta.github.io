@@ -13,6 +13,16 @@ El podcast "Por Sobre la Media: Hablemos con confianza" explora la estadística 
 <div class="video-grid">
 
 ::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/ySiBjgJGOfs/0.jpg)](https://youtu.be/ySiBjgJGOfs)
+<p> T2-C3: R2 - D2 </p>
+:::
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/MJlYPkQjLeQ/0.jpg)](https://youtu.be/MJlYPkQjLeQ)
+<p> T2-C2: Esta díficil el semestre </p>
+:::
+
+::: {.video-item}
 [![Ver video](https://img.youtube.com/vi/blcxe6wTo-g/0.jpg)](https://youtu.be/blcxe6wTo-g)
 <p> T2-C1: Statistical Deathmatch </p>
 :::
