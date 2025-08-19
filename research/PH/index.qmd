@@ -1,0 +1,26 @@
+---
+title: "My Research"
+bibliography: [PH.bib]
+bibliographystyle: apa
+---
+
+## Public-Health
+
+Mi investigación en salud pública se centra en entender cómo los determinantes sociales y territoriales impactan en la distribución de enfermedades y la mortalidad en Chile. Durante la pandemia de COVID-19, participé en estudios que caracterizaron las olas de contagio, la adherencia a medidas de protección y el impacto desigual de la pandemia según nivel socioeconómico, evidenciando un exceso de mortalidad y años de vida perdidos en las comunas más vulnerables del Gran Santiago. Más recientemente, amplié esta línea al estudio de tuberculosis, analizando cómo factores como la migración, el hacinamiento y los ingresos modelan su distribución espacial. Estos trabajos buscan aportar evidencia para reducir inequidades en salud y orientar políticas públicas más justas y focalizadas.
+
+# Artículos relacionados
+
+---
+nocite: |
+  @AYALA2023
+  @MUNOZ2024
+  @Vargas_2025
+  @Varas_2022
+  @Ayala2023_2
+  @Ayala2021
+---
+
+::: {#refs}
+:::
+
+

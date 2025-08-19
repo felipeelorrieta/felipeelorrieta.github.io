@@ -1,0 +1,17 @@
+---
+title: "My Research"
+bibliography: [iAR.bib]
+bibliographystyle: apa
+---
+
+## iAR-Package
+
+---
+nocite: |
+  @iAR
+---
+
+::: {#refs}
+:::
+
+

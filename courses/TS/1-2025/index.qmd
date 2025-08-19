@@ -1,0 +1,166 @@
+---
+title: "Series de Tiempo"
+description: "Descripción del curso"
+# author:
+#   - name: Felipe Elorrieta López
+#     email: felipe.elorrieta@usach.cl
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    toc-expand: 2
+    html-math-method: katex
+#    theme: simplex
+lang: es
+highlight-style: github
+toc: false
+toc-title: "Contenidos"
+toc-expand: false
+toc-depth: 2
+number-sections: true
+number-depth: 2
+bibliography: refs.bib
+#title-block-banner: false
+#image: cover.png
+---
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(reticulate)
+# use_python('C:/ProgramData/Anaconda3/python.exe')
+```
+
+
+
+# Objetivos del curso 
+
+::: {.callout-tip appearance="simple" icon=false}
+- Familiarizar al alumno con la teoría de series de tiempo y sus aplicaciones
+:::
+
+# Programa del curso
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 1: Introducción
+
+    1.1. Conceptos Básicos.
+    1.2. Tipos de Series de Tiempo.
+    1.3. Estacionaridad.
+    1.4. Función de Autocovarianza.
+- [Diapositivas](Clase1.pdf){target="_blank"}
+- [Código R](Clase1.R){target="_blank"}
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 2: Descomposición clásica de una serie de Tiempo.
+    
+    2.1. Alisado Exponencial de Holt-Winters.
+    2.2. Enfoque de Regresión
+- [Diapositivas](Clase2.pdf){target="_blank"}
+- [Código R](Clase2.R){target="_blank"}
+- [Diapositivas Regresión](Clase3.pdf){target="_blank"}
+- [Código R Regresión](Clase3.R){target="_blank"}
+- [Diapositivas Residuos](Clase4.pdf){target="_blank"}
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 3: Procesos Lineales.
+
+    3.1. Definición.
+    3.2. Procesos Autoregresivos (AR)
+    3.3. Procesos de Medias Móviles (MA)
+    3.4. Procesos Mixtos (ARMA).
+    3.5. Representaciones AR$(\infty)$ y MA$(\infty)$.
+- [Procesos Lineales](Clase5.pdf){target="_blank"}
+- [Proceso Autoregresivo](Clase6.pdf){target="_blank"}
+- [Proceso de Medias Móviles](Clase7.pdf){target="_blank"}
+- [Proceso ARMA](Clase8.pdf){target="_blank"}
+- [Codigo](Clase4.R){target="_blank"}
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 4: Estimación de modelos ARMA.
+
+    4.1. Estimador de Yule-Walker
+    4.2. Estimador de MCO
+    4.3. Estimador de Máxima Verosimilitud
+- [Diapositivas](Clase9.pdf){target="_blank"}
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 5: Predicción de modelos ARMA.
+
+    5.1. Mejor Predictor Lineal.
+    5.2. Función de Autocorrelación Parcial (PACF).
+    5.3. Algoritmos Recursivos.
+- [Diapositivas](Clase10.pdf){target="_blank"}
+- [PACF](Clase11.pdf){target="_blank"}
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 6: Procesos No Estacionarios.
+
+    6.1. Raíz Unitaria
+    6.2. Modelos ARIMA.
+    6.3. Modelos ARIMA estacionales (SARIMA).
+- [Diapositivas](ClaseEspST.pdf){target="_blank"}    
+- [Codigo](ClaseSN.R){target="_blank"}
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 7: Análisis Espectral
+    7.1. Densidad Espectral.
+    7.2. Periodograma.
+    7.3. Teorema de Herglotz.
+:::
+
+# Material de Apoyo
+
+::: {.callout-tip appearance="simple" icon=false}
+- [Guia 1](Guia1.pdf){target="_blank"}
+- [Guia 2](Guia2.pdf){target="_blank"}
+- [Guia 3](Guia3.pdf){target="_blank"}
+- [Guia 4](Guia4.pdf){target="_blank"}
+- [Tarea 1](Tarea1.pdf){target="_blank"}
+:::
+
+# Procedimiento de evaluación
+
+::: {.callout-tip appearance="simple" icon=false}
+[Evaluación:]{.green}</br>
+En el curso se realizaran 2 pruebas teóricas, 2 controles, 1 trabajo parcial y un proyecto final, el cual deberá ser presentado. La nota final del curso se calculará a partir de la siguiente expresión,
+
+$$NF = 0.5P + 0.3T_p + 0.2TF$$
+Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overline{P} = 0.4*P_1 + 0.6 P_2$. Además, $T_p$ es el promedio de los controles y trabajos parciales y $TF$ es la nota del trabajo final. Para aprobar el curso se deberan cumplir los siguientes requisitos,
+
+- $P_i \geq 4.0$, para algún i=1,2. (ie, Al menos una prueba sobre 4)
+- $\overline{TF} \geq 4.0$
+- $\overline{NF} \geq 4.0$
+:::
+
+# Fechas de Evaluaciones
+
+::: {.callout-tip appearance="simple" icon=false}
+- Control 1 (C1): 7 de Abril (Capitulos 1-2)
+- Pep 1 (P1): 5 de Mayo (Capitulos 1-4)
+- Control 1 (C2): 2 de Junio (Capitulos 5-6)
+- Pep 2 (P2): 30 de Junio (Capitulos 5-7)
+- Presentación Final (TF): 14 de Julio
+- Examen Final:  21 de Julio
+:::
+
+
+
+# Bibliografía
+
+---
+nocite: |
+  @Box,@Bro,@Cha,@Ham,@Mor,@Pal1,@Pal2,@Shu
+---
+
+::: {#refs}
+:::

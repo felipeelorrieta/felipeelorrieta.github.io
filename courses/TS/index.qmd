@@ -60,11 +60,6 @@ library(reticulate)
     
     2.1. Alisado Exponencial de Holt-Winters.
     2.2. Enfoque de Regresión
-- [Diapositivas](Clase2.pdf){target="_blank"}
-- [Código R](Clase2.R){target="_blank"}
-- [Diapositivas Regresión](Clase3.pdf){target="_blank"}
-- [Código R Regresión](Clase3.R){target="_blank"}
-- [Diapositivas Residuos](Clase4.pdf){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
@@ -75,11 +70,6 @@ library(reticulate)
     3.3. Procesos de Medias Móviles (MA)
     3.4. Procesos Mixtos (ARMA).
     3.5. Representaciones AR$(\infty)$ y MA$(\infty)$.
-- [Procesos Lineales](Clase5.pdf){target="_blank"}
-- [Proceso Autoregresivo](Clase6.pdf){target="_blank"}
-- [Proceso de Medias Móviles](Clase7.pdf){target="_blank"}
-- [Proceso ARMA](Clase8.pdf){target="_blank"}
-- [Codigo](Clase4.R){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
@@ -88,7 +78,6 @@ library(reticulate)
     4.1. Estimador de Yule-Walker
     4.2. Estimador de MCO
     4.3. Estimador de Máxima Verosimilitud
-- [Diapositivas](Clase9.pdf){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
@@ -97,8 +86,6 @@ library(reticulate)
     5.1. Mejor Predictor Lineal.
     5.2. Función de Autocorrelación Parcial (PACF).
     5.3. Algoritmos Recursivos.
-- [Diapositivas](Clase10.pdf){target="_blank"}
-- [PACF](Clase11.pdf){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
@@ -107,8 +94,6 @@ library(reticulate)
     6.1. Raíz Unitaria
     6.2. Modelos ARIMA.
     6.3. Modelos ARIMA estacionales (SARIMA).
-- [Diapositivas](ClaseEspST.pdf){target="_blank"}    
-- [Codigo](ClaseSN.R){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
@@ -121,11 +106,6 @@ library(reticulate)
 # Material de Apoyo
 
 ::: {.callout-tip appearance="simple" icon=false}
-- [Guia 1](Guia1.pdf){target="_blank"}
-- [Guia 2](Guia2.pdf){target="_blank"}
-- [Guia 3](Guia3.pdf){target="_blank"}
-- [Guia 4](Guia4.pdf){target="_blank"}
-- [Tarea 1](Tarea1.pdf){target="_blank"}
 :::
 
 # Procedimiento de evaluación
@@ -145,15 +125,19 @@ Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overlin
 # Fechas de Evaluaciones
 
 ::: {.callout-tip appearance="simple" icon=false}
-- Control 1 (C1): 7 de Abril (Capitulos 1-2)
-- Pep 1 (P1): 5 de Mayo (Capitulos 1-4)
-- Control 1 (C2): 2 de Junio (Capitulos 5-6)
-- Pep 2 (P2): 30 de Junio (Capitulos 5-7)
-- Presentación Final (TF): 14 de Julio
-- Examen Final:  21 de Julio
+- Control 1 (C1): 8 de Septiembre (Capitulos 1-2)
+- Pep 1 (P1): 6 de Octubre (Capitulos 1-4)
+- Control 1 (C2): 27 de Octubre (Capitulos 5-6)
+- Pep 2 (P2): 1 de Diciembre (Capitulos 5-7)
+- Presentación Final (TF): 15 de Diciembre
+- Examen Final:  Enero - Marzo
 :::
 
+# Cursos Anteriores
 
+::: {.callout-tip appearance="simple" icon=false}
+- [1-2025](1-2025/index.qmd){target="_blank"}
+:::
 
 # Bibliografía
 

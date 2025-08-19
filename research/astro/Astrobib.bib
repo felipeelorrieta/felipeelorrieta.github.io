@@ -1,0 +1,150 @@
+@article{Forster_2021,
+   doi = {10.3847/1538-3881/abe9bc},
+   url = {https://doi.org/10.3847/1538-3881/abe9bc},
+   year = {2021},
+   month = {apr},
+   publisher = {American Astronomical Society},
+   volume = {161},
+   number = {5},
+   pages = {242},
+   author = {F. Förster and G. Cabrera-Vives and E. Castillo-Navarrete and others},
+   title = {The Automatic Learning for the Rapid Classification of Events ({ALeRCE}) Alert Broker},
+   journal = {The Astronomical Journal},
+   keywords = {Astrostatistics}
+}
+
+@article{Elorrieta_2021,
+   author = {Elorrieta, Felipe and Eyheramendy, Susana and Palma, Wilfredo and Ojeda, Cesar},
+   title = "{A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series}",
+   journal = {Monthly Notices of the Royal Astronomical Society},
+   volume = {505},
+   number = {1},
+   pages = {1105-1116},
+   year = {2021},
+   month = {05},
+   keywords = {Astrostatistics}
+}
+
+@article{iAR,
+   author = {Eyheramendy, Susana and Elorrieta, Felipe and Palma, Wilfredo},
+   title = "{An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves}",
+   journal = {Monthly Notices of the Royal Astronomical Society},
+   volume = {481},
+   number = {4},
+   pages = {4311-4322},
+   year = {2018},
+   month = {09},
+   keywords = {Astrostatistics}
+}
+
+@article{Elorrieta_2019,
+   author = {{Elorrieta}, F and {Eyheramendy}, S and {Palma}, W},
+   title = {Discrete-time autoregressive model for unequally spaced time-series observations},
+   DOI= "10.1051/0004-6361/201935560",
+   url= "https://doi.org/10.1051/0004-6361/201935560",
+   journal = {A\&A},
+   year = 2019,
+   volume = 627,
+   pages = "A120",
+   keywords = {Astrostatistics}
+}
+
+@article{Sanchez_Saez_2021,
+   doi = {10.3847/1538-3881/abd5c1},
+   url = {https://doi.org/10.3847/1538-3881/abd5c1},
+   year = 2021,
+   month = {feb},
+   publisher = {American Astronomical Society},
+   volume = {161},
+   number = {3},
+   pages = {141},
+   author = {P. S{\'{a}}nchez-S{\'{a}}ez and others},
+   title = {Alert Classification for the {ALeRCE} Broker System: The Light Curve Classifier},
+   journal = {The Astronomical Journal},
+   keywords = {Astrostatistics}
+}
+
+@InProceedings{Elorrieta_2023,
+   author="Elorrieta, Felipe and others",
+   editor="Valenzuela, Olga and others",
+   title="Online Estimation Methods for Irregular Autoregressive Models",
+   booktitle="Theory and Applications of Time Series Analysis",
+   year="2023",
+   publisher="Springer Nature Switzerland",
+   address="Cham",
+   pages="3--17",
+   keywords = {Astrostatistics}
+}
+
+@article{Elorrieta_2025,
+    author = {Elorrieta, F and Palma, W and Eyheramendy, S and Bauer, F E and Camacho, E},
+    title = {Novel SIMEX algorithm for autoregressive models to estimate AGN variability},
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {540},
+    number = {1},
+    pages = {521-531},
+    year = {2025},
+    month = {05},
+    abstract = {The origin of the variability in accretion discs of active galactic nuclei (AGNs) is still unknown, but its behaviour can be characterized by modelling the time series of optical wavelength fluxes with damped random walk (DRW) being the most popular model for this purpose. The DRW depends on a fluctuation amplitude \$\\sigma\$ and damping time-scale \$\\tau\$, the latter potentially related to the mass and accretion rate on to the massive black hole. Estimating \$\\tau\$ is challenging. Popular methods such as maximum likelihood (ML) and least-square error (LSE) result in biased estimators. This bias typically arises due to: (i) light curve observed with additive noise, (ii) the cadence scheme, and/or (iii) autocorrelation parameter near one – the so-called unit root problem, a known statistical challenge. To improve the estimation procedures for \$\\tau\$, we developed a simulation-extrapolation (SIMEX) methodology in the context of time series analysis. We applied it to both a standard autoregressive process (regular time intervals) and a recently developed irregularly autoregressive process (iAR). Its performance was evaluated under near-unit-root behaviour and additive noise via Monte Carlo simulations. This methodology was also tested in AGN light curves from the Zwicky Transient Facility survey, assessing its accuracy in estimating \$\\tau\$. Simulation results confirm that the SIMEX approach outperforms ML and LSE methods, reducing estimation bias by 30 per cent to 90 per cent. Real-data applications validate the methodology, yielding better fits and lower mean squared errors. A more accurate estimation of \$\\tau\$ can contribute to understanding the links between DRW parameters and physical characteristics of AGN.},
+    issn = {0035-8711},
+    doi = {10.1093/mnras/staf764},
+    url = {https://doi.org/10.1093/mnras/staf764},
+    eprint = {https://academic.oup.com/mnras/article-pdf/540/1/521/63168161/staf764.pdf},
+}
+
+@article{Ojeda_2023,
+    author = {Ojeda, C and Palma, W and Eyheramendy, S and Elorrieta, F},
+    title = {Extending time-series models for irregular observational gaps with a moving average structure for astronomical sequences},
+    journal = {RAS Techniques and Instruments},
+    volume = {2},
+    number = {1},
+    pages = {33-44},
+    year = {2023},
+    month = {01},
+    abstract = {In this study, we introduce a novel moving-average model for analyzing stationary time-series observed irregularly in time. The process is strictly stationary and ergodic under normality and weakly stationary when normality is not assumed. Maximum likelihood (ML) estimation can be efficiently carried out through a Kalman algorithm obtained from the state-space representation of the model. The Kalman algorithm has order O(n) (where n is the number of observations in the sequence), from which it is possible to efficiently generate parameter estimators, linear predictors, and their mean-squared errors. Two procedures were developed for assessing parameter estimation errors: one based on the Hessian of the likelihood function and another one based on the bootstrap method. The behaviour of these estimators was assessed through Monte Carlo experiments. Both methods give accurate estimation performance, even with relatively small number of observations. Moreover, it is shown that for non-Gaussian data, specifically for the Student's t and generalized error distributions, the parameters of the model can be estimated precisely by ML. The proposed model is compared to the continuous autoregressive moving average (MA) models, showing better performance when the MA parameter is negative or close to one. We illustrate the implementation of the proposed model with light curves of variable stars from the OGLE and HIPPARCOS surveys and stochastic objects from Zwicky Transient Facility. The results suggest that the irregular MA model is a suitable alternative for modelling astronomical light curves, particularly when they have negative autocorrelation.},
+    issn = {2752-8200},
+    doi = {10.1093/rasti/rzac011},
+    url = {https://doi.org/10.1093/rasti/rzac011},
+    eprint = {https://academic.oup.com/rasti/article-pdf/2/1/33/50653460/rzac011.pdf},
+}
+
+@article{gran:2016,
+	Author = {{Gran, F.} and {Minniti, D.} and {Saito, R. K.} and {Zoccali, M.} and {Gonzalez, O. A.} and {Navarrete, C.} and {Catelan, M.} and {Contreras Ramos, R.} and {Elorrieta, F.} and {Eyheramendy, S.} and {Jord{\'a}n, A.}},
+	Date-Added = {2017-11-10 16:35:55 +0000},
+	Date-Modified = {2017-11-10 16:36:09 +0000},
+	Doi = {10.1051/0004-6361/201527511},
+	Journal = {A&A},
+	Pages = {A145},
+	Title = {Mapping the outer bulge with RRab stars from the VVV Survey},
+	Url = {https://doi.org/10.1051/0004-6361/201527511},
+	Volume = 591,
+	Year = 2016,
+	Bdsk-Url-1 = {https://doi.org/10.1051/0004-6361/201527511},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1051/0004-6361/201527511}}
+
+@article{dekany:2018,
+	Abstract = {RR Lyrae stars (RRLs) are tracers of the Milky Way's fossil record, holding valuable information on its formation and early evolution. Owing to the high interstellar extinction endemic to the Galactic plane, distant RRLs lying at low Galactic latitudes have been elusive. We attained a census of 1892 high-confidence RRLs by exploiting the near-infrared photometric database of the VVV survey's disk footprint spanning ∼70$\,^{\circ}$ of Galactic longitude, using a machine-learned classifier. Novel data-driven methods were employed to accurately characterize their spatial distribution using sparsely sampled multi-band photometry. The RRL metallicity distribution function (MDF) was derived from their K s -band light-curve parameters using machine-learning methods. The MDF shows remarkable structural similarities to both the spectroscopic MDF of red clump giants and the MDF of bulge RRLs. We model the MDF with a multi-component density distribution and find that the number density of stars associated with the different model components systematically changes with both the Galactocentric radius and vertical distance from the Galactic plane, equivalent to weak metallicity gradients. Based on the consistency with results from the ARGOS survey, three MDF modes are attributed to the old disk populations, while the most metal-poor RRLs are probably halo interlopers. We propose that the dominant [Fe/H] component with a mean of −1 dex might correspond to the outskirts of an ancient Galactic spheroid or classical bulge component residing in the central Milky Way. The physical origins of the RRLs in this study need to be verified by kinematical information.},
+	Author = {Istv{\'a}n D{\'e}k{\'a}ny and Gergely Hajdu and Eva K. Grebel and M{\'a}rcio Catelan and Felipe Elorrieta and Susana Eyheramendy and Daniel Majaess and Andr{\'e}s Jord{\'a}n},
+	Date-Added = {2018-04-16 18:50:39 +0000},
+	Date-Modified = {2018-04-16 18:50:47 +0000},
+	Journal = {The Astrophysical Journal},
+	Number = {1},
+	Pages = {54},
+	Title = {A Near-infrared RR Lyrae Census along the Southern Galactic Plane: The Milky Way's Stellar Fossil Brought to Light},
+	Url = {http://stacks.iop.org/0004-637X/857/i=1/a=54},
+	Volume = {857},
+	Year = {2018},
+	Bdsk-Url-1 = {http://stacks.iop.org/0004-637X/857/i=1/a=54}}
+
+@article{Elorrieta_2016,
+	author = {{Elorrieta, Felipe} and {Eyheramendy, Susana} and {Jordán, Andrés} and {Dékány, István} and {Catelan, Márcio} and {Angeloni, Rodolfo} and {Alonso-García, Javier} and {Contreras-Ramos, Rodrigo} and {Gran, Felipe} and {Hajdu, Gergely} and {Espinoza, Néstor} and {Saito, Roberto K.} and {Minniti, Dante}},
+	title = {A machine learned classifier for RR Lyrae in the VVV survey},
+	DOI= "10.1051/0004-6361/201628700",
+	url= "https://doi.org/10.1051/0004-6361/201628700",
+	journal = {A&A},
+	year = 2016,
+	volume = 595,
+	pages = "A82",
+}
+
+

@@ -1,0 +1,28 @@
+---
+title: "My Research"
+bibliography: [Astrobib.bib]
+bibliographystyle: apa
+---
+
+## Astro-Statistics
+
+
+---
+nocite: |
+  @Elorrieta_2025
+  @Elorrieta_2023
+  @Ojeda_2023
+  @Forster_2021
+  @Sanchez_Saez_2021
+  @Elorrieta_2021
+  @Elorrieta_2019
+  @iAR
+  @dekany:2018
+  @gran:2016
+  @Elorrieta_2016
+---
+
+::: {#refs}
+:::
+
+
