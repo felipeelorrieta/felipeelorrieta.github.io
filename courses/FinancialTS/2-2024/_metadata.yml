@@ -1,0 +1,30 @@
+ # include CSS style for title blocks
+title-block-banner: "#00000000"
+title-block-banner-color: "rgba(255, 255, 255, 0.9)"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        height: 200px;
+        background-image: 
+        /* top, transparent gray */
+            linear-gradient(
+                 rgba(100, 100, 100, 0.8), 
+                rgba(100, 100, 100, 0.8)
+                ),
+                url(cover.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+       .quarto-title-block .quarto-title-banner::before {
+        content: '';
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 0px;
+        height: 0px;
+        margin-right: 0px;
+      }
+      </style>

@@ -45,69 +45,58 @@ library(reticulate)
 # Programa del curso
 
 ::: {.callout-tip collapse="true" icon=false}
-## Capítulo 1: Introducción a la Series de Tiempos Financieras
+## Capítulo 1: Análisis Descriptivo de Series de Tiempos Financieras
 
     1.1. Retornos de Activos
     1.2. Caracteristicas Estilizadas
-- [Diapositivas](Clase1_FTS.pdf){target="_blank"}
-- [Código R](C1-Retornos.R){target="_blank"}
-- [Datos](AAPL.csv){target="_blank"}
+    1.3. Función de Correlación Cruzada
+    1.4. Cointegración
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Capítulo 2: Modelos Heterocedásticos I: (ARCH)
+## Capítulo 2: Procesos de Larga Memoria
+
+    2.1. Diferenciación Fraccionaria
+    2.2. Indice de Hurst
+    2.3. Modelo ARFIMA
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 3: Modelos Heterocedásticos I: (ARCH)
     
-    2.1. Modelos ARCH.
-    2.2. Propiedades Modelo ARCH.
-    2.3. Representación de Volterra.
-    2.4. Estimación de parametros de un modelo ARCH.
-    2.5. Predicción en modelos ARCH.
-- [Código R](c2-arch.R){target="_blank"}
+    3.1. Modelos ARCH.
+    3.2. Propiedades Modelo ARCH.
+    3.3. Representación de Volterra.
+    3.4. Estimación de parametros de un modelo ARCH.
+    3.5. Predicción en modelos ARCH.
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Capítulo 3: Modelos Heterocedásticos 2: (GARCH)
+## Capítulo 4: Modelos Heterocedásticos 2: (GARCH)
 
-    3.1. Modelos GARCH.
-    3.2. Modelos ARMA-GARCH.
-    3.3. Efecto Leverage.
-    3.4. Modelos GARCH Asímetricos.
-- [Diapositivas](Clase2_FTS.pdf){target="_blank"}
-- [Código R](c3-armagarch.R){target="_blank"}
-- [Código R-2](c4_rugarch.R){target="_blank"}
-- [Datos](IPSA.txt){target="_blank"}
+    4.1. Modelos GARCH.
+    4.2. Modelos ARMA-GARCH.
+    4.3. Efecto Leverage.
+    4.4. Modelos GARCH Asímetricos.
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Capítulo 4: Modelos de Volatilidad Estocástica.
+## Capítulo 5: Modelos de Volatilidad Estocástica.
 
-    4.1. Propiedades.
-    4.2. Sistemas de Espacio Estado.
-    4.3. Filtro de Kalman.
-    4.4. Modelos de Volatilidad Estocastica de Larga Memoria.
-- [Diapositivas](Clase3_FTS.pdf){target="_blank"}
-- [Código R](c5-stochastic.R){target="_blank"}
+    5.1. Propiedades.
+    5.2. Sistemas de Espacio Estado.
+    5.3. Filtro de Kalman.
+    5.4. Modelos de Volatilidad Estocastica de Larga Memoria.
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
-## Capítulo 5: Procesos Estacionarios Multivariados.
+## Capítulo 6: Procesos Estacionarios Multivariados.
 
-    5.1. Función de Correlación Cruzada
-    5.2. Modelo ARIMAX
-    5.3. Modelo VAR
-    5.4. Modelo VARMA
-- [Diapositivas](Clase4_FTS.pdf){target="_blank"}
-- [Código R](c6-statespace.R){target="_blank"}
-- [Código R-2](c7-VAR.R){target="_blank"}
-- [Datos](MALLPLAZA.SN.csv){target="_blank"}
-- [Datos-2](PARAUCO.SN.csv){target="_blank"}
+    6.1. Modelo ARIMAX
+    6.2. Modelo VAR
+    6.3. Modelo VARMA
 :::
 
-::: {.callout-tip collapse="true" icon=false}
-## Capítulo 6: Cointegración
-
-    6.1. Test de Cointegración de Granger
-:::
 
 # Procedimiento de evaluación
 
@@ -115,7 +104,7 @@ library(reticulate)
 [Evaluación:]{.green}</br>
 El mayor enfoque del curso estara en las aplicaciones de la teoria de series de tiempo a series financieras y en las investigaciones que los alumnos puedan realizar sobre el tema. De esta manera, el curso será dividido en dos etapas una práctica y una teorica. En cada una de ellas se realizaran dos o tres evaluaciones y el promedio final del curso sera el promedio de cada una de las areas siguiendo la siguiente estructura.\\
 
-$$ NF = 0.6\overline{T} + 0.4\overline{P}$$ 
+$$ NF = 0.65\overline{T} + 0.35\overline{P}$$ 
 
 Donde $\overline{T}$ es el promedio de los Trabajos y $\overline{P}$ es el promedio de las pruebas. Para aprobar el curso se deberan cumplir los siguientes requisitos,\\
 
@@ -126,11 +115,16 @@ Donde $\overline{T}$ es el promedio de los Trabajos y $\overline{P}$ es el prome
 # Fechas de Evaluaciones
 
 ::: {.callout-tip appearance="simple" icon=false}
-- Trabajo 1 (T1): 25 de Octubre (Planteamiento Problema-Hechos Estilizados-ARCH)
-- Pep 1 (P1): 8 de Noviembre (Calculo de Retornos y Modelos Heterocedásticos)
-- Trabajo 2 (T2): 6 de Diciembre (Investigación-Ajuste Modelos Heterocedásticos)
-- Pep 2 (P2): 20 de Diciembre (Volatilidad Estocástica y Métodos Multivariados)
-- Trabajo 3 (T3): 15 de Enero (Modelos Multivariados y Conclusiones)
+- Trabajo 1 (T1): 24 de Septiembre (Planteamiento Problema-Análisis Descriptivo-Proceso de Larga Memoria)
+- Trabajo 2 (T2): 29 de Octubre (Investigación-Ajuste Modelos Heteroced{\'a}sticos)
+- Pep (P): 26 de Noviembre (Toda la Materia)
+- Trabajo 3 (T3): 17 de Diciembre (Modelos Multivariados y Conclusiones)
+:::
+
+# Cursos Anteriores
+
+::: {.callout-tip appearance="simple" icon=false}
+- [2-2024](2-2024/index.qmd){target="_blank"}
 :::
 
 

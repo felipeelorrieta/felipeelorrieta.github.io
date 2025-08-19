@@ -106,42 +106,6 @@ background: #00000000;
 </style>
 <style>
 .quarto-title-block .quarto-title-banner {
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  z-index: 2;
-  padding: 0 ;
-  background-image: 
-  /* top, transparent red */
-      linear-gradient(
-          rgba(100, 100, 100, 0.8), 
-          rgba(100, 100, 100, 0.8)
-          ),
-          url(images/AM.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  }
- .quarto-title-block .quarto-title-banner::before {
-  content: '';
-  background-image: url(images/Yo2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 300px;
-  height: 300px;
-  margin-right: 20px;
-}
-.quarto-title-block .quarto-title-banner h1.title {
-  margin: 0;
-  text-align: left;
-  font-size: 2.5em;
-}
-</style>
-<style>
-.quarto-title-block .quarto-title-banner {
   height: 200px;
   background-image: 
   /* top, transparent gray */
@@ -164,6 +128,18 @@ background: #00000000;
   height: 0px;
   margin-right: 0px;
 }
+</style>
+<style>
+  /* Oculta solo el banner en la plantilla Jolla */
+  .about-banner {
+    display: none !important;
+  }
+  .quarto-title > h1.title {
+    opacity: 0 !important;
+  }
+  .quarto-title-block .quarto-title-banner {
+    display: none !important;
+  }
 </style>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
@@ -235,20 +211,32 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../about/index.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html"> 
+    <a class="nav-link" href="../../courses/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../myresearch.html"> 
+    <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">My Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../gallery.html"> 
+    <a class="nav-link" href="https://felipeelorrieta.github.io/iAR-package/"> 
+<span class="menu-text">iAR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../gallery/index.html"> 
 <span class="menu-text">Gallery</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../outreach/index.html"> 
+<span class="menu-text">Outreach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../alumni/index.html"> 
+<span class="menu-text">Alumni</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -287,7 +275,7 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
+    <div class="quarto-title column-page-right">
       <h1 class="title">Econometría</h1>
                   <div>
         <div class="description">
@@ -298,7 +286,7 @@ window.Quarto = {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-right">
 
       
     
@@ -306,7 +294,7 @@ window.Quarto = {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
@@ -317,7 +305,8 @@ window.Quarto = {
   <li><a href="#programa-del-curso" id="toc-programa-del-curso" class="nav-link" data-scroll-target="#programa-del-curso"><span class="header-section-number">2</span> Programa del curso</a></li>
   <li><a href="#procedimiento-de-evaluación" id="toc-procedimiento-de-evaluación" class="nav-link" data-scroll-target="#procedimiento-de-evaluación"><span class="header-section-number">3</span> Procedimiento de evaluación</a></li>
   <li><a href="#fechas-de-evaluaciones" id="toc-fechas-de-evaluaciones" class="nav-link" data-scroll-target="#fechas-de-evaluaciones"><span class="header-section-number">4</span> Fechas de Evaluaciones</a></li>
-  <li><a href="#bibliografía" id="toc-bibliografía" class="nav-link" data-scroll-target="#bibliografía"><span class="header-section-number">5</span> Bibliografía</a></li>
+  <li><a href="#cursos-anteriores" id="toc-cursos-anteriores" class="nav-link" data-scroll-target="#cursos-anteriores"><span class="header-section-number">5</span> Cursos Anteriores</a></li>
+  <li><a href="#bibliografía" id="toc-bibliografía" class="nav-link" data-scroll-target="#bibliografía"><span class="header-section-number">6</span> Bibliografía</a></li>
   </ul>
 </nav>
 </nav>
@@ -326,7 +315,7 @@ window.Quarto = {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-right" id="quarto-document-content">
 
 
 
@@ -355,19 +344,16 @@ window.Quarto = {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Capítulo 1: Introducción a la Series de Tiempos Financieras
+Capítulo 1: Análisis Descriptivo de Series de Tiempos Financieras
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <pre><code>1.1. Retornos de Activos
-1.2. Caracteristicas Estilizadas</code></pre>
-<ul>
-<li><a href="Clase1_FTS.pdf" target="_blank">Diapositivas</a></li>
-<li><a href="C1-Retornos.R" target="_blank">Código R</a></li>
-<li><a href="AAPL.csv" target="_blank">Datos</a></li>
-</ul>
+1.2. Caracteristicas Estilizadas
+1.3. Función de Correlación Cruzada
+1.4. Cointegración</code></pre>
 </div>
 </div>
 </div>
@@ -377,20 +363,15 @@ Capítulo 1: Introducción a la Series de Tiempos Financieras
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Capítulo 2: Modelos Heterocedásticos I: (ARCH)
+Capítulo 2: Procesos de Larga Memoria
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>2.1. Modelos ARCH.
-2.2. Propiedades Modelo ARCH.
-2.3. Representación de Volterra.
-2.4. Estimación de parametros de un modelo ARCH.
-2.5. Predicción en modelos ARCH.</code></pre>
-<ul>
-<li><a href="c2-arch.R" target="_blank">Código R</a></li>
-</ul>
+<pre><code>2.1. Diferenciación Fraccionaria
+2.2. Indice de Hurst
+2.3. Modelo ARFIMA</code></pre>
 </div>
 </div>
 </div>
@@ -400,22 +381,17 @@ Capítulo 2: Modelos Heterocedásticos I: (ARCH)
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Capítulo 3: Modelos Heterocedásticos 2: (GARCH)
+Capítulo 3: Modelos Heterocedásticos I: (ARCH)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>3.1. Modelos GARCH.
-3.2. Modelos ARMA-GARCH.
-3.3. Efecto Leverage.
-3.4. Modelos GARCH Asímetricos.</code></pre>
-<ul>
-<li><a href="Clase2_FTS.pdf" target="_blank">Diapositivas</a></li>
-<li><a href="c3-armagarch.R" target="_blank">Código R</a></li>
-<li><a href="c4_rugarch.R" target="_blank">Código R-2</a></li>
-<li><a href="IPSA.txt" target="_blank">Datos</a></li>
-</ul>
+<pre><code>3.1. Modelos ARCH.
+3.2. Propiedades Modelo ARCH.
+3.3. Representación de Volterra.
+3.4. Estimación de parametros de un modelo ARCH.
+3.5. Predicción en modelos ARCH.</code></pre>
 </div>
 </div>
 </div>
@@ -425,20 +401,16 @@ Capítulo 3: Modelos Heterocedásticos 2: (GARCH)
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Capítulo 4: Modelos de Volatilidad Estocástica.
+Capítulo 4: Modelos Heterocedásticos 2: (GARCH)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>4.1. Propiedades.
-4.2. Sistemas de Espacio Estado.
-4.3. Filtro de Kalman.
-4.4. Modelos de Volatilidad Estocastica de Larga Memoria.</code></pre>
-<ul>
-<li><a href="Clase3_FTS.pdf" target="_blank">Diapositivas</a></li>
-<li><a href="c5-stochastic.R" target="_blank">Código R</a></li>
-</ul>
+<pre><code>4.1. Modelos GARCH.
+4.2. Modelos ARMA-GARCH.
+4.3. Efecto Leverage.
+4.4. Modelos GARCH Asímetricos.</code></pre>
 </div>
 </div>
 </div>
@@ -448,23 +420,16 @@ Capítulo 4: Modelos de Volatilidad Estocástica.
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Capítulo 5: Procesos Estacionarios Multivariados.
+Capítulo 5: Modelos de Volatilidad Estocástica.
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>5.1. Función de Correlación Cruzada
-5.2. Modelo ARIMAX
-5.3. Modelo VAR
-5.4. Modelo VARMA</code></pre>
-<ul>
-<li><a href="Clase4_FTS.pdf" target="_blank">Diapositivas</a></li>
-<li><a href="c6-statespace.R" target="_blank">Código R</a></li>
-<li><a href="c7-VAR.R" target="_blank">Código R-2</a></li>
-<li><a href="MALLPLAZA.SN.csv" target="_blank">Datos</a></li>
-<li><a href="PARAUCO.SN.csv" target="_blank">Datos-2</a></li>
-</ul>
+<pre><code>5.1. Propiedades.
+5.2. Sistemas de Espacio Estado.
+5.3. Filtro de Kalman.
+5.4. Modelos de Volatilidad Estocastica de Larga Memoria.</code></pre>
 </div>
 </div>
 </div>
@@ -474,13 +439,15 @@ Capítulo 5: Procesos Estacionarios Multivariados.
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Capítulo 6: Cointegración
+Capítulo 6: Procesos Estacionarios Multivariados.
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<pre><code>6.1. Test de Cointegración de Granger</code></pre>
+<pre><code>6.1. Modelo ARIMAX
+6.2. Modelo VAR
+6.3. Modelo VARMA</code></pre>
 </div>
 </div>
 </div>
@@ -494,7 +461,7 @@ Capítulo 6: Cointegración
 </div>
 <div class="callout-body-container">
 <p><span class="green">Evaluación:</span><br> El mayor enfoque del curso estara en las aplicaciones de la teoria de series de tiempo a series financieras y en las investigaciones que los alumnos puedan realizar sobre el tema. De esta manera, el curso será dividido en dos etapas una práctica y una teorica. En cada una de ellas se realizaran dos o tres evaluaciones y el promedio final del curso sera el promedio de cada una de las areas siguiendo la siguiente estructura.\</p>
-<p><span class="math display"> NF = 0.6\overline{T} + 0.4\overline{P}</span></p>
+<p><span class="math display"> NF = 0.65\overline{T} + 0.35\overline{P}</span></p>
 <p>Donde <span class="math inline">\overline{T}</span> es el promedio de los Trabajos y <span class="math inline">\overline{P}</span> es el promedio de las pruebas. Para aprobar el curso se deberan cumplir los siguientes requisitos,\</p>
 <ul>
 <li><span class="math inline">T_i \geq 4.0</span>, <span class="math inline">\forall ~ i=1,\ldots,3</span>. (ie, todos los trabajos aprobados)</li>
@@ -513,18 +480,32 @@ Capítulo 6: Cointegración
 </div>
 <div class="callout-body-container">
 <ul>
-<li>Trabajo 1 (T1): 25 de Octubre (Planteamiento Problema-Hechos Estilizados-ARCH)</li>
-<li>Pep 1 (P1): 8 de Noviembre (Calculo de Retornos y Modelos Heterocedásticos)</li>
-<li>Trabajo 2 (T2): 6 de Diciembre (Investigación-Ajuste Modelos Heterocedásticos)</li>
-<li>Pep 2 (P2): 20 de Diciembre (Volatilidad Estocástica y Métodos Multivariados)</li>
-<li>Trabajo 3 (T3): 15 de Enero (Modelos Multivariados y Conclusiones)</li>
+<li>Trabajo 1 (T1): 24 de Septiembre (Planteamiento Problema-Análisis Descriptivo-Proceso de Larga Memoria)</li>
+<li>Trabajo 2 (T2): 29 de Octubre (Investigación-Ajuste Modelos Heteroced{'a}sticos)</li>
+<li>Pep (P): 26 de Noviembre (Toda la Materia)</li>
+<li>Trabajo 3 (T3): 17 de Diciembre (Modelos Multivariados y Conclusiones)</li>
 </ul>
 </div>
 </div>
 </div>
 </section>
-<section id="bibliografía" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Bibliografía</h1>
+<section id="cursos-anteriores" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Cursos Anteriores</h1>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ul>
+<li><a href="../../courses/FinancialTS/2-2024/index.html" target="_blank">2-2024</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="bibliografía" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Bibliografía</h1>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-Ame" class="csl-entry" role="listitem">
 Amenc, Noel, y Veronique Le Sourd. 2003. <em>Portfolio Theory and Performance Analysis</em>. John Wiley &amp; Sons. <a href="https://www.wiley.com/en-dk/Portfolio+Theory+and+Performance+Analysis-p-9780470858745">https://www.wiley.com/en-dk/Portfolio+Theory+and+Performance+Analysis-p-9780470858745</a>.
