@@ -1,25 +1,52 @@
+<style>
+.img-container {
+  width: 600px;      /* ancho fijo */
+  height: 360px;     /* alto fijo */
+  margin: auto;      /* centra el bloque */
+  overflow: hidden;  /* recorta lo que sobra */
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ajusta sin deformar */
+}
+</style>
+
 <div class="research-grid">
 
-## Astro-estadística
-<div style="text-align: center;">
-[![Ver más](astro.jpg)](astro/index.qmd){width=200px height=100px}
+<h2>Astro-estadística</h2>
+<div class="img-container">
+  <a href="astro/index.qmd">
+    <img src="astro.jpg">
+  </a>
 </div>
-Desarrollo modelos para series de tiempo irregulares aplicados a astronomía, como el **iAR**, **CiAR**, **BiAR**, variantes con promedios móviles y nuevos métodos de estimación como **SIMEX**. Recientemente, he trabajado en estimación online para detección de cambios estructurales en tiempo real, con miras a aplicaciones en grandes encuestas astronómicas.
+<p>
+Desarrollo modelos para series de tiempo irregulares aplicados a astronomía, como el <b>iAR</b>, <b>CiAR</b>, <b>BiAR</b>, variantes con promedios móviles y nuevos métodos de estimación como <b>SIMEX</b>. Recientemente, he trabajado en estimación online para detección de cambios estructurales en tiempo real, con miras a aplicaciones en grandes encuestas astronómicas.
+</p>
 
----
+<hr>
 
-## Salud pública e inequidades
-<div style="text-align: center;">
-[![Ver más](PH.png)](PH/index.qmd){width="200px" height="100px"}
+<h2>Salud pública e inequidades</h2>
+<div class="img-container">
+  <a href="PH/index.qmd">
+    <img src="PH.png">
+  </a>
 </div>
+<p>
 Estudio cómo las desigualdades sociales impactan en la salud de las personas, analizando mortalidad, hospitalizaciones y enfermedades infecciosas como COVID-19 y tuberculosis para aportar evidencia que ayude a reducir inequidades en salud.
+</p>
 
----
+<hr>
 
-## Paquete iAR
-<div style="text-align: center;">
-[![Ver más](iAR.jpg)](iAR/index.qmd){width=200px}
+<h2>Paquete iAR</h2>
+<div class="img-container">
+  <a href="iAR/index.qmd">
+    <img src="iAR.jpg">
+  </a>
 </div>
-Soy autor de **iAR**, un paquete en R para simular y estimar modelos autoregresivos irregulares, complejos y bivariados. La herramienta permite generar series de tiempo con distintas distribuciones y correlaciones, y está diseñada para aplicaciones en astronomía y otras áreas.
+<p>
+Soy autor de <b>iAR</b>, un paquete en R para simular y estimar modelos autoregresivos irregulares, complejos y bivariados. La herramienta permite generar series de tiempo con distintas distribuciones y correlaciones, y está diseñada para aplicaciones en astronomía y otras áreas.
+</p>
 
 </div>

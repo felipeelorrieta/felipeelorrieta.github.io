@@ -6,10 +6,14 @@ bibliographystyle: apa
 
 ## Astro-Statistics
 
+::: {.callout-tip collapse="true" icon=false}
+## Descripción
+
 Esta línea de investigación se centra en el desarrollo y aplicación de modelos estadísticos avanzados para el análisis de datos astronómicos, con énfasis en series de tiempo observadas de forma irregular. Estos modelos permiten caracterizar la variabilidad de objetos como estrellas variables, núcleos activos de galaxias y otros fenómenos transitorios.
 Con este fin, he contribuido a la creación de modelos autorregresivos irregulares, como el modelo iAR (Eyheramendy et al. 2018), su extensión para capturar correlaciones negativas CiAR (Elorrieta et al. 2019) y su versión bivariada BiAR (Elorrieta et al. 2021), así como variantes que incorporan estructuras de promedio móvil (Ojeda et al. 2023) y nuevos métodos de estimación, como SIMEX, para datos con errores instrumentales o parámetros cercanos a la raíz unitaria (Elorrieta et al. 2025). En paralelo, he desarrollado estrategias de estimación online para el modelo iAR (Elorrieta et al. 2023), que permiten estimaciones eficientes en tiempo real y rápida adaptación a cambios estructurales en series temporales con muestreo irregular y en entornos de datos en streaming.
 Estas herramientas, combinadas con métodos de aprendizaje estadístico, han sido aplicadas tanto al mapeo de la estructura de la Vía Láctea mediante estrellas RR Lyrae en el sondeo VVV (Gran et al. 2016; Dékány et al. 2018; Elorrieta et al. 2016), como a sistemas de clasificación automática de curvas de luz, en particular el broker astronómico ALeRCE (Förster et al. 2021; Sánchez-Sáez et al. 2021), que procesa en tiempo real millones de alertas provenientes de telescopios de gran escala como ZTF. Este sistema se prepara para recibir el flujo masivo de datos del Observatorio Vera C. Rubin, cuyo proyecto principal, el Legacy Survey of Space and Time (LSST), escaneará el cielo austral cada tres o cuatro noches con una cámara de 3,2 gigapíxeles, generando hasta 10 millones de alertas por noche y un total estimado de 60 petabytes de imágenes en seis bandas ópticas (u, g, r, i, z, y) las que serán procesadas por ALeRCE.
 En el futuro, continuaré esta línea de investigación desarrollando métodos estadísticos avanzados para la detección de cambios estructurales en series temporales astronómicas, integrándolos en la infraestructura de ALeRCE para posibilitar el descubrimiento automático y en tiempo real de fenómenos como AGN que cambian de estado, aprovechando el enorme volumen de datos que generará el LSST del Observatorio Vera C. Rubin.
+::: 
 
 # Artículos relacionados
 
