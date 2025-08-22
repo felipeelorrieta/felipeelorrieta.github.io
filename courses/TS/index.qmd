@@ -52,7 +52,7 @@ library(reticulate)
     1.3. Estacionaridad.
     1.4. Función de Autocovarianza.
 - [Diapositivas](Clase1.pdf){target="_blank"}
-- [Código R](Clase1.R){target="_blank"}
+- [Código 1](CodigoClase.R){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
