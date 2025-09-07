@@ -60,6 +60,7 @@ library(reticulate)
     
     2.1. Alisado Exponencial de Holt-Winters.
     2.2. Enfoque de Regresión
+- [Diapositivas](Clase2.pdf){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}

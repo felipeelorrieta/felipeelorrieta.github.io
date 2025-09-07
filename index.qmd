@@ -17,7 +17,7 @@ about:
         href: https://github.com/felipeelorrieta
       - icon: instagram
         text: instagram
-        href: https://www.instagram.com/felocarril
+        href: https://www.instagram.com/felipeelorrieta
       - icon: linkedin
         aria-label: "LinkedIn"
         href: https://www.linkedin.com/in/felipe-elorrieta-0165a259/
