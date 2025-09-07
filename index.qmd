@@ -14,7 +14,7 @@ about:
         href: https://twitter.com/felocarril
       - icon: github
         text: Github
-        href: https://github.com/felipeelorrieta
+        href: https://github.com/felipelorrieta
       - icon: instagram
         text: instagram
         href: https://www.instagram.com/felipeelorrieta

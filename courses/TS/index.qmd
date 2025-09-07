@@ -107,6 +107,7 @@ library(reticulate)
 # Material de Apoyo
 
 ::: {.callout-tip appearance="simple" icon=false}
+- [Guia 1](Guia1.pdf){target="_blank"}
 :::
 
 # Procedimiento de evaluación
