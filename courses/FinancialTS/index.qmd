@@ -66,6 +66,8 @@ library(reticulate)
     2.1. Diferenciación Fraccionaria
     2.2. Indice de Hurst
     2.3. Modelo ARFIMA
+- [Diapositivas](Clase2.pdf){target="_blank"}
+- [Código 3](C3-ARFIMA.R){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
@@ -76,6 +78,8 @@ library(reticulate)
     3.3. Representación de Volterra.
     3.4. Estimación de parametros de un modelo ARCH.
     3.5. Predicción en modelos ARCH.
+- [Diapositivas](Clase3.pdf){target="_blank"}
+- [Código 4](C4-ARCH.r){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
