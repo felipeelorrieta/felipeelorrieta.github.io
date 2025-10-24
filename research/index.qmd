@@ -42,7 +42,7 @@ Estudio cómo las desigualdades sociales impactan en la salud de las personas, a
 <h2>Paquete iAR</h2>
 <div class="img-container">
   <a href="iAR/index.qmd">
-    <img src="iAR.jpg">
+    <img src="iAR-package.png">
   </a>
 </div>
 <p>
