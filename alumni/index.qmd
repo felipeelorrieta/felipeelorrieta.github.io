@@ -35,6 +35,7 @@ library(wordcloud)
 
 ID | Nombre           | Titulo                               | Año |
 --|----------------|--------------------------------------|------|
+|45| Lesly Dote Guiñez    | Series Temporales Interrumpidas para Evaluar el Impacto de la Pandemia y Post-Pandemia de COVID-19 en Chile | 2025 |
 |44| Alan Vivar Yancas       | Detección de Cambios Estructurales en Modelos Autorregresivos Streaming Data | 2024 |
 |43| Pablo Vicari Ruíz    | Estimación de Parámetros mediante Simulación-Extrapolación en Procesos Autorregresivos cercanos a la Raíz Unitaria  | 2024 |
 |42| Michael Lizama Gaete   | Perfilación de comunas chilenas basada en datos delictuales: un enfoque de machine learning con clustering no supervisado   | 2024 |
