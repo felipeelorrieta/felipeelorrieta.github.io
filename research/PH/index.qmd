@@ -16,6 +16,7 @@ Mi investigación en salud pública se centra en entender cómo los determinante
 
 ---
 nocite: |
+  @Elorrieta2025BMJ
   @AYALA2023
   @MUNOZ2024
   @Vargas_2025
