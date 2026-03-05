@@ -1,0 +1,142 @@
+---
+title: "Métodos Multivariantes"
+description: "Descripción del curso"
+# author:
+#   - name: Felipe Elorrieta López
+#     email: felipe.elorrieta@usach.cl
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    toc-expand: 2
+    html-math-method: katex
+#    theme: simplex
+lang: es
+highlight-style: github
+toc: false
+toc-title: "Contenidos"
+toc-expand: false
+toc-depth: 2
+number-sections: true
+number-depth: 2
+bibliography: refs.bib
+#title-block-banner: false
+#image: cover.png
+---
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(reticulate)
+# use_python('C:/ProgramData/Anaconda3/python.exe')
+```
+
+
+
+# Objetivos del curso 
+
+::: {.callout-tip appearance="simple" icon=false}
+- Proporcionar al estudiante el fundamento teórico que hay detrás de los principales modelos y/o procedimientos multivariados.
+:::
+
+# Programa del curso
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 1: Análisis Descriptivo de Datos Multivariados
+
+    1.1. Algebra Matricial
+    1.2. Distancias.
+    1.3. Transformaciones Lineales.
+    1.4. Representación de datos multivariados.
+    1.5. Matriz de Correlaciones/Distancias.
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 2: Inferencia Multivariada
+    
+    2.1. Vectores y matrices aleatorias.
+    2.2. Distribución Normal Multivariada. 
+    2.3. Distribución Wishart. 
+    2.4. T-cuadrado de Hotelling. 
+    2.5. Regiones de Confianza. 
+    2.6. Test de hipótesis multivariados.
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 3: Métodos de reducción de dimensiones
+
+    3.1. Análisis en Componentes Principales.
+    3.2. Análisis de Correspondencia.
+    3.3. Análisis Factorial.
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 4: Técnicas de Clasificación No Supervisada
+
+    4.1. Medidas de Validación de Clusters.
+    4.2. Clustering Jerárquico (Aglomerativo, Disociativo).
+    4.3. Clustering Particional (K-Medias,K-Medoides,K-Medianas,K-Modas).
+    4.4. Clustering Basado en Densidades (DBSCAN,OPTICS,Mean Shift).
+    4.5. Clustering Basado en Modelos (GMM, SOM)
+:::
+
+::: {.callout-tip collapse="true" icon=false}
+## Capítulo 5: Técnicas de Clasificación Supervisada.
+
+    5.1. Validación de Clasificadores
+    5.2. Análisis Discriminante.
+    5.3. Regresión Logística
+    5.4. Arboles de Decisión
+    5.5. Support Vector Machine
+    5.6. Redes Neuronales
+:::
+
+
+# Material de Apoyo
+
+::: {.callout-tip appearance="simple" icon=false}
+:::
+
+# Procedimiento de evaluación
+
+::: {.callout-tip appearance="simple" icon=false}
+[Evaluación:]{.green}</br>
+En el curso se realizaran 2 pruebas teóricas, 2 controles, 1 trabajo parcial y un proyecto final, el cual deberá ser presentado. La nota final del curso se calculará a partir de la siguiente expresión,
+
+$$NF = 0.5P + 0.3T_p + 0.2TF$$
+Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overline{P} = 0.4*P_1 + 0.6 P_2$. Además, $T_p$ es el promedio de los controles y trabajos parciales y $TF$ es la nota del trabajo final. Para aprobar el curso se deberan cumplir los siguientes requisitos,
+
+- $P_i \geq 4.0$, para algún i=1,2. (ie, Al menos una prueba sobre 4)
+- $\overline{TF} \geq 4.0$
+- $\overline{NF} \geq 4.0$
+:::
+
+# Fechas de Evaluaciones
+
+::: {.callout-tip appearance="simple" icon=false}
+- Control 1 (C1): 8 de Septiembre (Capitulos 1-2)
+- Pep 1 (P1): 6 de Octubre (Capitulos 1-4)
+- Control 1 (C2): 27 de Octubre (Capitulos 5-6)
+- Pep 2 (P2): 1 de Diciembre (Capitulos 5-7)
+- Presentación Final (TF): 15 de Diciembre
+- Examen Final:  Enero - Marzo
+:::
+
+# Cursos Anteriores
+
+::: {.callout-tip appearance="simple" icon=false}
+- [1-2025](1-2025/index.qmd){target="_blank"}
+:::
+
+# Bibliografía
+
+---
+nocite: |
+  @Box,@Bro,@Cha,@Ham,@Mor,@Pal1,@Pal2,@Shu
+---
+
+::: {#refs}
+:::
