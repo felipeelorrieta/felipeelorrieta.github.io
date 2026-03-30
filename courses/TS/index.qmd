@@ -60,7 +60,6 @@ library(reticulate)
     
     2.1. Alisado Exponencial de Holt-Winters.
     2.2. Enfoque de Regresión
-- [Diapositivas](Clase2.pdf){target="_blank"}
 :::
 
 ::: {.callout-tip collapse="true" icon=false}
@@ -127,12 +126,12 @@ Donde $\overline{P}$ es el promedio ponderado de las Pep, definido por $\overlin
 # Fechas de Evaluaciones
 
 ::: {.callout-tip appearance="simple" icon=false}
-- Control 1 (C1): 8 de Septiembre (Capitulos 1-2)
-- Pep 1 (P1): 6 de Octubre (Capitulos 1-4)
-- Control 1 (C2): 27 de Octubre (Capitulos 5-6)
-- Pep 2 (P2): 1 de Diciembre (Capitulos 5-7)
-- Presentación Final (TF): 15 de Diciembre
-- Examen Final:  Enero - Marzo
+- Control 1 (C1): 27 de Abril (Capitulos 1-2)
+- Pep 1 (P1): 1 de Junio (Capitulos 1-4)
+- Control 1 (C2): 3 de Julio (Capitulos 5-6)
+- Pep 2 (P2): 13 de Julio (Capitulos 5-7)
+- Presentación Final (TF): 27 de Julio
+- Examen Final: Agosto
 :::
 
 # Cursos Anteriores
