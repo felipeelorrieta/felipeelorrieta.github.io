@@ -35,31 +35,31 @@ library(wordcloud)
 
 ID | Nombre           | Titulo                               | Año |
 --|----------------|--------------------------------------|------|
-|50| Constanza Wasttson Ferrer | Evolución de la desigualdad de exposición al material particulado y su  impacto estimado en la mortalidad en las comunas de Santiago | 2026 |
-|49| Bárbara Ocares Pizarro | Relación entre el Índice de Deprivación y la Razón de Hospitalización por Enfermedades CSAP | 2026 |
-|48| Néstor Manríquez Figueroa | Aplicación de procesos autorregresivos en series temporales regular e irregularmente observadas con datos ausentes | 2026 |
-|47| Catalina Piutrín Bravo | Clasificación de objetos astronómicos utilizando características derivadas de path signature | 2026 |
-|46| Lesly Dote Guiñez | Series Temporales Interrumpidas para Evaluar el Impacto de la Pandemia y Post-Pandemia de COVID-19 en Chile | 2025 |
-|45| Alan Vivar Yancas | Detección de Cambios Estructurales en Modelos Autorregresivos Streaming Data | 2024 |
-|44| Pablo Vicari Ruíz    | Estimación de Parámetros mediante Simulación-Extrapolación en Procesos Autorregresivos cercanos a la Raíz Unitaria  | 2024 |
-|43| Michael Lizama Gaete   | Perfilación de comunas chilenas basada en datos delictuales: un enfoque de machine learning con clustering no supervisado   | 2024 |
-|42| Guillermo Grandón Rodríguez | Clasificación de datos astronómicos bajo regresión logística funcional | 2024 |
-|41| Michelle Vergara Olivares | Análisis espacial de la mortalidad por enfermedad renal crónica y coronaria y su asociación con la deprivación comunal en Chile | 2023 |
-|40| Patricia Tobar Echegoyen | Modelos predictivos a corto plazo para el número de contagios diario del virus SARS-COV-2 en Chile | 2023 |
-|39| Estefany Muñoz Ponce | Análisis Intracomunal de la Deprivación en Chile | 2023 |
-|38| Nathaly Garrido Neira | Evaluación de métodos de estimación bayesiana para clasificación logística con efectos temporales | 2023 |
-|37| Sebastián Ríos Silva | Criterios de Selección para Modelos Estacionarios e Irregularmente Observados | 2022 |
-|36| Andrés Ayala Muñoz | Entendiendo las causas y consecuencias del COVID-19: un análisis espacio-temporal | 2022 |
-|35| Lucas Osses Camblor | Modelos Autoregresivos Online Bayesianos | 2022 |
-|34| Catalina Hernández Martínez | El brote epidémico de SARS-COV-2 en Santiago | 2021 |
-|33| Pedro Osorio Meza | Sistema de monitoreo de la pandemia de Covid-19 en Chile mediante análisis de Change-Point | 2021 |
-|32| Valentina Navarro Muñoz | Métodos de nowcasting en base a los informes epidemiológicos de SARS-CoV-2 | 2021 |
-|31| Darinka Carvajal Miranda | Análisis Espacio-Temporal de la Tasa de Contagios de Covid-19 en base a la Movilidad en la Región Metropolitana, Chile | 2021 |
-|30| Alberto Umanzor Troncoso | Métodos de estimación de periodo para series de tiempo astronómicas irregularmente espaciadas | 2021 |
+|50| Constanza Wasttson Ferrer | [Evolución de la desigualdad de exposición al material particulado y su impacto estimado en la mortalidad en las comunas de Santiago](GuiaTesisPregrado/GuiaConstanzaWasttson.pdf) | 2026 |
+|49| Bárbara Ocares Pizarro | [Relación entre el Índice de Deprivación y la Razón de Hospitalización por Enfermedades CSAP](GuiaTesisPregrado/GuiaBarbaraOcares.pdf) | 2026 |
+|48| Néstor Manríquez Figueroa | [Aplicación de procesos autorregresivos en series temporales regular e irregularmente observadas con datos ausentes](GuiaTesisPregrado/GuiaNestorManriquez.pdf) | 2026 |
+|47| Catalina Piutrín Bravo | [Clasificación de objetos astronómicos utilizando características derivadas de path signature](GuiaTesisPregrado/GuiaCatalinaPiutrin.pdf) | 2026 |
+|46| Lesly Dote Guiñez | [Series Temporales Interrumpidas para Evaluar el Impacto de la Pandemia y Post-Pandemia de COVID-19 en Chile](GuiaTesisPregrado/GuiaLeslyDote.pdf) | 2025 |
+|45| Alan Vivar Yancas | [Detección de Cambios Estructurales en Modelos Autorregresivos Streaming Data](GuiaTesisPregrado/GuiaAlanVivar.pdf) | 2024 |
+|44| Pablo Vicari Ruíz | [Estimación de Parámetros mediante Simulación-Extrapolación en Procesos Autorregresivos cercanos a la Raíz Unitaria](GuiaTesisPregrado/GuiaPabloVicari.pdf) | 2024 |
+|43| Michael Lizama Gaete | [Perfilación de comunas chilenas basada en datos delictuales: un enfoque de machine learning con clustering no supervisado](GuiaTesisPregrado/GuiaMichaelLizama.pdf) | 2024 |
+|42| Guillermo Grandón Rodríguez | [Clasificación de datos astronómicos bajo regresión logística funcional](GuiaTesisPregrado/GuiaGuillermoGrandon.pdf) | 2024 |
+|41| Michelle Vergara Olivares | [Análisis espacial de la mortalidad por enfermedad renal crónica y coronaria y su asociación con la deprivación comunal en Chile](GuiaTesisPregrado/GuiaMichelleVergara.pdf) | 2023 |
+|40| Patricia Tobar Echegoyen | [Modelos predictivos a corto plazo para el número de contagios diario del virus SARS-COV-2 en Chile](GuiaTesisPregrado/GuiaPatriciaTobar.pdf) | 2023 |
+|39| Estefany Muñoz Ponce | [Análisis Intracomunal de la Deprivación en Chile](GuiaTesisPregrado/GuiaEstefanyMunoz.pdf) | 2023 |
+|38| Nathaly Garrido Neira | [Evaluación de métodos de estimación bayesiana para clasificación logística con efectos temporales](GuiaTesisPregrado/GuiaNathalyGarrido.pdf) | 2023 |
+|37| Sebastián Ríos Silva | [Criterios de Selección para Modelos Estacionarios e Irregularmente Observados](GuiaTesisPregrado/GuiaSebastianRios.pdf) | 2022 |
+|36| Andrés Ayala Muñoz | [Entendiendo las causas y consecuencias del COVID-19: un análisis espacio-temporal](GuiaTesisPregrado/GuiaAndresAyala.pdf) | 2022 |
+|35| Lucas Osses Camblor | [Modelos Autoregresivos Online Bayesianos](GuiaTesisPregrado/GuiaLucasOsses.pdf) | 2022 |
+|34| Catalina Hernández Martínez | [El brote epidémico de SARS-COV-2 en Santiago](GuiaTesisPregrado/GuiaCatalinaHernandez.pdf) | 2021 |
+|33| Pedro Osorio Meza | [Sistema de monitoreo de la pandemia de Covid-19 en Chile mediante análisis de Change-Point](GuiaTesisPregrado/GuiaPedroOsorio.pdf) | 2021 |
+|32| Valentina Navarro Muñoz | [Métodos de nowcasting en base a los informes epidemiológicos de SARS-CoV-2](GuiaTesisPregrado/GuiaValentinaNavarro.pdf) | 2021 |
+|31| Darinka Carvajal Miranda | [Análisis Espacio-Temporal de la Tasa de Contagios de Covid-19 en base a la Movilidad en la Región Metropolitana, Chile](GuiaTesisPregrado/GuiaDarinkaCarvajal.pdf) | 2021 |
+|30| Alberto Umanzor Troncoso | [Métodos de estimación de periodo para series de tiempo astronómicas irregularmente espaciadas](GuiaTesisPregrado/GuiaAlbertoUmanzor.pdf) | 2021 |
 |29| Jorge Quevedo Álvarez | [Revisión de Métodos para Estimar la Dependencia Temporal de Series de Tiempo Desigualmente Espaciadas](GuiaTesisPregrado/GuiaJorgeQuevedo.pdf) | 2021 |
 |28| Matías Cáceres Parravicini | [Métodos de Aprendizaje en línea para Modelos ARIMA](GuiaTesisPregrado/GuiaMatiasCaceres.pdf) | 2020 |
 |27| Estefanía Cerda Millán | [Análisis bayesiano de un modelo espacio temporal aplicado a hurtos en la Región Metropolitana de Chile](GuiaTesisPregrado/GuiaEstefaniaCerda.pdf) | 2020 |
-|26| Yerko Carreño Pérez | [Implementación de un algoritmo de clasificación en línea usando técnicas de Ensemble learning](GuiaTesisPregrado/GuiaYerkoCarreno.pdf) | 2020 |
+|26| Yerko Carreño Pérez | [Implementación de un algoritmo de clasificación en línea usando técnicas de Ensemble learning](GuiaTesisPregrado/GuiaYerkoCarreño.pdf) | 2020 |
 |25| Belén Tramolao Mardones | [Determinar factores que expliquen la Percepción de Inseguridad en Chile controlado por las elecciones](GuiaTesisPregrado/GuiaBelenTramolao.pdf) | 2020 |
 |24| Camila Guerrero Padilla | [¿Se modifica el efecto de la contaminación del aire sobre la mortalidad diaria cuando hay un brote de influenza estacional?](GuiaTesisPregrado/GuiaCamilaGuerrero.pdf) | 2020 |
 |23| Sebastián Fuentes Aleuy | [Procesos Gaussianos para mejorar la performance de un clasificador con clases desbalanceadas](GuiaTesisPregrado/GuiaSebastianFuentes.pdf) | 2019 |
