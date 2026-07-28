@@ -1,7 +1,7 @@
 ---
 title: "Outreach"
 ---
-
-## [Medios](Medios/index.qmd)
+## [Parsimonia del Caos](Parsimonia/index.qmd)
 ## [Por sobre la Media](PSM/index.qmd)
+## [Medios](Medios/index.qmd)
 <!-- ## [All you need is Lab](ALL/index.qmd) -->

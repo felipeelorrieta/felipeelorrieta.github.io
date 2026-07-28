@@ -1,0 +1,56 @@
+---
+title: "Parsimonia del Caos"
+about:
+  template: trestles
+  image: file.jpg
+lang: es
+---
+
+🎙️ Bienvenidos a ραʀѕмσηɪα ᴅєʟ ᴄασѕ: La estadística está más cerca de lo que crees 👁️
+Un vodcast conducido por Felipe Elorrieta y Esteban Avarca, donde conversamos sobre estadística, datos, ciencia y experiencias reales desde una mirada cercana y sin tecnicismos innecesarios.
+En cada capítulo invitamos a personas de distintos ámbitos para conversar sobre cómo la estadística se conecta con la investigación, la salud, la educación, la industria y la vida cotidiana. Porque la estadística está mucho más presente de lo que creemos. Disponible en [Spotify](https://open.spotify.com/show/033hYDt7YjsAKO3P0RVqEF) y [Apple Podcast](https://podcasts.apple.com/cl/podcast/parsimonia-del-caos-vodcast/id1896846712) y [Youtube](https://www.youtube.com/@parsimoniadelcaos)
+
+
+## Temporada 1
+
+<div class="video-grid">
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/75XhvwQA6RQ/0.jpg)](https://youtu.be/75XhvwQA6RQ)
+<p> EP.01 Educación Estadística | Parsimonia del caos Vodcast </p>
+:::
+
+::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/UnpYBFj6IBg/0.jpg)](https://youtu.be/UnpYBFj6IBg)
+<p> EP.01 La Bioestadística | Parsimonia del caos Vodcast </p>
+:::
+
+</div>
+
+<style>
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video-item {
+    width: 30%;
+    min-width: 200px;
+    text-align: center;
+}
+
+.video-item img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video-item p {
+    font-size: 12px;
+    color: #444;
+    margin-top: 5px;
+}
+</style>
