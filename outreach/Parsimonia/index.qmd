@@ -2,7 +2,7 @@
 title: "Parsimonia del Caos"
 about:
   template: trestles
-  image: file.jpg
+  image: Logos.png
 lang: es
 ---
 
