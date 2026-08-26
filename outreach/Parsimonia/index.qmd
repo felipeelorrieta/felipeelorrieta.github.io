@@ -16,8 +16,13 @@ En cada capítulo invitamos a personas de distintos ámbitos para conversar sobr
 <div class="video-grid">
 
 ::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/mTe-_q4lyec/0.jpg)](https://youtu.be/mTe-_q4lyec)
+<p> EP.03 Consultoría Estadística | Parsimonia del caos Vodcast </p>
+:::
+
+::: {.video-item}
 [![Ver video](https://img.youtube.com/vi/75XhvwQA6RQ/0.jpg)](https://youtu.be/75XhvwQA6RQ)
-<p> EP.01 Educación Estadística | Parsimonia del caos Vodcast </p>
+<p> EP.02 Educación Estadística | Parsimonia del caos Vodcast </p>
 :::
 
 ::: {.video-item}
