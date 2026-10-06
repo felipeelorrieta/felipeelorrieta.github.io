@@ -19,6 +19,7 @@ En el futuro, continuaré esta línea de investigación desarrollando métodos e
 
 ---
 nocite: |
+  @Elorrieta_2026
   @Elorrieta_2025
   @Elorrieta_2023
   @Ojeda_2023
