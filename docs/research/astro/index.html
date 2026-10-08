@@ -23,26 +23,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -102,8 +83,38 @@ div.csl-indent {
   }
 </style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -244,44 +255,267 @@ div.csl-indent {
 </div>
 </div>
 </section>
-<section id="artículos-relacionados" class="level1">
-<h1>Artículos relacionados</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-dekany:2018" class="csl-entry" role="listitem">
-Dékány, István, Gergely Hajdu, Eva K. Grebel, et al. 2018. <span>“A Near-Infrared RR Lyrae Census Along the Southern Galactic Plane: The Milky Way’s Stellar Fossil Brought to Light.”</span> <em>The Astrophysical Journal</em> 857 (1): 54. <a href="http://stacks.iop.org/0004-637X/857/i=1/a=54">http://stacks.iop.org/0004-637X/857/i=1/a=54</a>.
+<section id="artículos-relacionados" class="level2">
+<h2 class="anchored" data-anchor-id="artículos-relacionados">Artículos relacionados</h2>
+<div class="publication-card">
+<div class="publication-cover">
+<a href="Elorrieta_2026.pdf"><img src="images/papers/Elorrieta_2026.png" alt="Primera página del artículo"></a>
 </div>
-<div id="ref-Elorrieta_2023" class="csl-entry" role="listitem">
-<span class="nocase">Elorrieta, Felipe et al.</span> 2023. <span>“Online Estimation Methods for Irregular Autoregressive Models.”</span> In <em>Theory and Applications of Time Series Analysis</em>, <span class="nocase">edited by Olga Valenzuela et al.</span> Springer Nature Switzerland.
+<div class="publication-info">
+<div class="publication-year">
+2026
 </div>
-<div id="ref-Elorrieta_2016" class="csl-entry" role="listitem">
-Elorrieta, Felipe, Eyheramendy, Susana, Jordán, Andrés, et al. 2016. <span>“A Machine Learned Classifier for RR Lyrae in the VVV Survey.”</span> <em>A&amp;A</em> 595: A82. <a href="https://doi.org/10.1051/0004-6361/201628700">https://doi.org/10.1051/0004-6361/201628700</a>.
+<h3 class="anchored">
+The R Journal: iAR: An R Package for Autoregressive Modeling Irregularly Observed Time Series
+</h3>
+<p class="publication-authors">
+Felipe Elorrieta Susana Eyheramendy Wilfredo Palma Cesar Ojeda
+</p>
+<p class="publication-journal">
+The R Journal
+</p>
+<a class="paper-link" href=" Elorrieta_2026.pdf ">Leer PDF ↗</a>
 </div>
-<div id="ref-Elorrieta_2021" class="csl-entry" role="listitem">
-Elorrieta, Felipe, Susana Eyheramendy, Wilfredo Palma, and Cesar Ojeda. 2021. <span>“<span class="nocase">A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series</span>.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 505 (1): 1105–16.
 </div>
-<div id="ref-Elorrieta_2026" class="csl-entry" role="listitem">
-Elorrieta, Felipe, Susana Eyheramendy, Wilfredo Palma, and Cesar Ojeda. 2026. <span>“The r Journal: iAR: An r Package for Autoregressive Modeling Irregularly Observed Time Series.”</span> <em>The R Journal</em> 18: 1. <a href="https://doi.org/10.32614/RJ-2026-036">https://doi.org/10.32614/RJ-2026-036</a>.
+<div class="publication-card">
+<div class="publication-cover">
+<a href="Elorrieta_2025.pdf"><img src="images/papers/Elorrieta_2025.png" alt="Primera página del artículo"></a>
 </div>
-<div id="ref-Elorrieta_2019" class="csl-entry" role="listitem">
-Elorrieta, F, S Eyheramendy, and W Palma. 2019. <span>“Discrete-Time Autoregressive Model for Unequally Spaced Time-Series Observations.”</span> <em>A&amp;A</em> 627: A120. <a href="https://doi.org/10.1051/0004-6361/201935560">https://doi.org/10.1051/0004-6361/201935560</a>.
+<div class="publication-info">
+<div class="publication-year">
+2025
 </div>
-<div id="ref-Elorrieta_2025" class="csl-entry" role="listitem">
-Elorrieta, F, W Palma, S Eyheramendy, F E Bauer, and E Camacho. 2025. <span>“Novel SIMEX Algorithm for Autoregressive Models to Estimate AGN Variability.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 540 (1): 521–31. <a href="https://doi.org/10.1093/mnras/staf764">https://doi.org/10.1093/mnras/staf764</a>.
+<h3 class="anchored">
+Novel SIMEX algorithm for autoregressive models to estimate AGN variability
+</h3>
+<p class="publication-authors">
+F Elorrieta W Palma S Eyheramendy F E Bauer E Camacho
+</p>
+<p class="publication-journal">
+Monthly Notices of the Royal Astronomical Society
+</p>
+<details>
+<summary>
+Ver abstract
+</summary>
+<p>
+The origin of the variability in accretion discs of active galactic nuclei (AGNs) is still unknown, but its behaviour can be characterized by modelling the time series of optical wavelength fluxes with damped random walk (DRW) being the most popular model for this purpose. The DRW depends on a fluctuation amplitude $\sigma$ and damping time-scale $\tau$, the latter potentially related to the mass and accretion rate on to the massive black hole. Estimating $\tau$ is challenging. Popular methods such as maximum likelihood (ML) and least-square error (LSE) result in biased estimators. This bias typically arises due to: (i) light curve observed with additive noise, (ii) the cadence scheme, and/or (iii) autocorrelation parameter near one – the so-called unit root problem, a known statistical challenge. To improve the estimation procedures for $\tau$, we developed a simulation-extrapolation (SIMEX) methodology in the context of time series analysis. We applied it to both a standard autoregressive process (regular time intervals) and a recently developed irregularly autoregressive process (iAR). Its performance was evaluated under near-unit-root behaviour and additive noise via Monte Carlo simulations. This methodology was also tested in AGN light curves from the Zwicky Transient Facility survey, assessing its accuracy in estimating $\tau$. Simulation results confirm that the SIMEX approach outperforms ML and LSE methods, reducing estimation bias by 30&nbsp;per cent to 90 per cent. Real-data applications validate the methodology, yielding better fits and lower mean squared errors. A more accurate estimation of $\tau$ can contribute to understanding the links between DRW parameters and physical characteristics of AGN.
+</p>
+</details>
+<a class="paper-link" href=" Elorrieta_2025.pdf ">Leer PDF ↗</a>
 </div>
-<div id="ref-iAR" class="csl-entry" role="listitem">
-Eyheramendy, Susana, Felipe Elorrieta, and Wilfredo Palma. 2018. <span>“<span class="nocase">An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves</span>.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 481 (4): 4311–22.
 </div>
-<div id="ref-Forster_2021" class="csl-entry" role="listitem">
-<span class="nocase">Förster, F., G. Cabrera-Vives, E. Castillo-Navarrete, et al.</span> 2021. <span>“The Automatic Learning for the Rapid Classification of Events (<span>ALeRCE</span>) Alert Broker.”</span> <em>The Astronomical Journal</em> 161 (5): 242. <a href="https://doi.org/10.3847/1538-3881/abe9bc">https://doi.org/10.3847/1538-3881/abe9bc</a>.
+<div class="publication-card">
+<div class="publication-cover">
+
 </div>
-<div id="ref-gran:2016" class="csl-entry" role="listitem">
-Gran, F., Minniti, D., Saito, R. K., et al. 2016. <span>“Mapping the Outer Bulge with RRab Stars from the VVV Survey.”</span> <em>A&amp;A</em> 591: A145. <a href="https://doi.org/10.1051/0004-6361/201527511">https://doi.org/10.1051/0004-6361/201527511</a>.
+<div class="publication-info">
+<div class="publication-year">
+2023
 </div>
-<div id="ref-Ojeda_2023" class="csl-entry" role="listitem">
-Ojeda, C, W Palma, S Eyheramendy, and F Elorrieta. 2023. <span>“Extending Time-Series Models for Irregular Observational Gaps with a Moving Average Structure for Astronomical Sequences.”</span> <em>RAS Techniques and Instruments</em> 2 (1): 33–44. <a href="https://doi.org/10.1093/rasti/rzac011">https://doi.org/10.1093/rasti/rzac011</a>.
+<h3 class="anchored">
+Online Estimation Methods for Irregular Autoregressive Models
+</h3>
+<p class="publication-authors">
+Felipe Elorrieta others
+</p>
+<p class="publication-journal">
+</p>
 </div>
-<div id="ref-Sanchez_Saez_2021" class="csl-entry" role="listitem">
-<span class="nocase">Sánchez-Sáez, P. et al.</span> 2021. <span>“Alert Classification for the <span>ALeRCE</span> Broker System: The Light Curve Classifier.”</span> <em>The Astronomical Journal</em> 161 (3): 141. <a href="https://doi.org/10.3847/1538-3881/abd5c1">https://doi.org/10.3847/1538-3881/abd5c1</a>.
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+<a href="Ojeda_2023.pdf"><img src="images/papers/Ojeda_2023.png" alt="Primera página del artículo"></a>
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2023
+</div>
+<h3 class="anchored">
+Extending time-series models for irregular observational gaps with a moving average structure for astronomical sequences
+</h3>
+<p class="publication-authors">
+C Ojeda W Palma S Eyheramendy F Elorrieta
+</p>
+<p class="publication-journal">
+RAS Techniques and Instruments
+</p>
+<details>
+<summary>
+Ver abstract
+</summary>
+<p>
+In this study, we introduce a novel moving-average model for analyzing stationary time-series observed irregularly in time. The process is strictly stationary and ergodic under normality and weakly stationary when normality is not assumed. Maximum likelihood (ML) estimation can be efficiently carried out through a Kalman algorithm obtained from the state-space representation of the model. The Kalman algorithm has order O(n) (where n is the number of observations in the sequence), from which it is possible to efficiently generate parameter estimators, linear predictors, and their mean-squared errors. Two procedures were developed for assessing parameter estimation errors: one based on the Hessian of the likelihood function and another one based on the bootstrap method. The behaviour of these estimators was assessed through Monte Carlo experiments. Both methods give accurate estimation performance, even with relatively small number of observations. Moreover, it is shown that for non-Gaussian data, specifically for the Student’s t and generalized error distributions, the parameters of the model can be estimated precisely by ML. The proposed model is compared to the continuous autoregressive moving average (MA) models, showing better performance when the MA parameter is negative or close to one. We illustrate the implementation of the proposed model with light curves of variable stars from the OGLE and HIPPARCOS surveys and stochastic objects from Zwicky Transient Facility. The results suggest that the irregular MA model is a suitable alternative for modelling astronomical light curves, particularly when they have negative autocorrelation.
+</p>
+</details>
+<a class="paper-link" href=" Ojeda_2023.pdf ">Leer PDF ↗</a>
+</div>
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+<a href="Forster_2021.pdf"><img src="images/papers/Forster_2021.png" alt="Primera página del artículo"></a>
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2021
+</div>
+<h3 class="anchored">
+The Automatic Learning for the Rapid Classification of Events ({ALeRCE}) Alert Broker
+</h3>
+<p class="publication-authors">
+F. Förster G. Cabrera-Vives E. Castillo-Navarrete others
+</p>
+<p class="publication-journal">
+The Astronomical Journal
+</p>
+<a class="paper-link" href=" Forster_2021.pdf ">Leer PDF ↗</a>
+</div>
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+<a href="Sanchez_Saez_2021.pdf"><img src="images/papers/Sanchez_Saez_2021.png" alt="Primera página del artículo"></a>
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2021
+</div>
+<h3 class="anchored">
+Alert Classification for the {ALeRCE} Broker System: The Light Curve Classifier
+</h3>
+<p class="publication-authors">
+P. Sánchez-Sáez others
+</p>
+<p class="publication-journal">
+The Astronomical Journal
+</p>
+<a class="paper-link" href=" Sanchez_Saez_2021.pdf ">Leer PDF ↗</a>
+</div>
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+<a href="Elorrieta_2021.pdf"><img src="images/papers/Elorrieta_2021.png" alt="Primera página del artículo"></a>
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2021
+</div>
+<h3 class="anchored">
+{A novel bivariate autoregressive model for predicting and forecasting irregularly observed time series}
+</h3>
+<p class="publication-authors">
+Felipe Elorrieta Susana Eyheramendy Wilfredo Palma Cesar Ojeda
+</p>
+<p class="publication-journal">
+Monthly Notices of the Royal Astronomical Society
+</p>
+<a class="paper-link" href=" Elorrieta_2021.pdf ">Leer PDF ↗</a>
+</div>
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+<a href="Elorrieta_2019.pdf"><img src="images/papers/Elorrieta_2019.png" alt="Primera página del artículo"></a>
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2019
+</div>
+<h3 class="anchored">
+Discrete-time autoregressive model for unequally spaced time-series observations
+</h3>
+<p class="publication-authors">
+F Elorrieta S Eyheramendy W Palma
+</p>
+<p class="publication-journal">
+A&amp;amp;A
+</p>
+<a class="paper-link" href=" Elorrieta_2019.pdf ">Leer PDF ↗</a>
+</div>
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+<a href="iAR.pdf"><img src="images/papers/iAR.png" alt="Primera página del artículo"></a>
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2018
+</div>
+<h3 class="anchored">
+{An irregular discrete time series model to identify residuals with autocorrelation in astronomical light curves}
+</h3>
+<p class="publication-authors">
+Susana Eyheramendy Felipe Elorrieta Wilfredo Palma
+</p>
+<p class="publication-journal">
+Monthly Notices of the Royal Astronomical Society
+</p>
+<a class="paper-link" href=" iAR.pdf ">Leer PDF ↗</a>
+</div>
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2018
+</div>
+<h3 class="anchored">
+A Near-infrared RR Lyrae Census along the Southern Galactic Plane: The Milky Way’s Stellar Fossil Brought to Light
+</h3>
+<p class="publication-authors">
+István Dékány Gergely Hajdu Eva K. Grebel Márcio Catelan Felipe Elorrieta Susana Eyheramendy Daniel Majaess Andrés Jordán
+</p>
+<p class="publication-journal">
+The Astrophysical Journal
+</p>
+<details>
+<summary>
+Ver abstract
+</summary>
+<p>
+RR Lyrae stars (RRLs) are tracers of the Milky Way’s fossil record, holding valuable information on its formation and early evolution. Owing to the high interstellar extinction endemic to the Galactic plane, distant RRLs lying at low Galactic latitudes have been elusive. We attained a census of 1892 high-confidence RRLs by exploiting the near-infrared photometric database of the VVV survey’s disk footprint spanning ∼70<span class="math inline">\(\,^{\circ}\)</span> of Galactic longitude, using a machine-learned classifier. Novel data-driven methods were employed to accurately characterize their spatial distribution using sparsely sampled multi-band photometry. The RRL metallicity distribution function (MDF) was derived from their K s -band light-curve parameters using machine-learning methods. The MDF shows remarkable structural similarities to both the spectroscopic MDF of red clump giants and the MDF of bulge RRLs. We model the MDF with a multi-component density distribution and find that the number density of stars associated with the different model components systematically changes with both the Galactocentric radius and vertical distance from the Galactic plane, equivalent to weak metallicity gradients. Based on the consistency with results from the ARGOS survey, three MDF modes are attributed to the old disk populations, while the most metal-poor RRLs are probably halo interlopers. We propose that the dominant [Fe/H] component with a mean of −1 dex might correspond to the outskirts of an ancient Galactic spheroid or classical bulge component residing in the central Milky Way. The physical origins of the RRLs in this study need to be verified by kinematical information.
+</p>
+</details>
+</div>
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2016
+</div>
+<h3 class="anchored">
+Mapping the outer bulge with RRab stars from the VVV Survey
+</h3>
+<p class="publication-authors">
+Gran, F. Minniti, D. Saito, R. K. Zoccali, M. Gonzalez, O. A. Navarrete, C. Catelan, M. Contreras Ramos, R. Elorrieta, F. Eyheramendy, S. Jordán, A.
+</p>
+<p class="publication-journal">
+A&amp;A
+</p>
+<a class="paper-link" href="https://doi.org/ 10.1051/0004-6361/201527511 ">Ver artículo ↗</a>
+</div>
+</div>
+<div class="publication-card">
+<div class="publication-cover">
+<a href="Elorrieta_2016.pdf"><img src="images/papers/Elorrieta_2016.png" alt="Primera página del artículo"></a>
+</div>
+<div class="publication-info">
+<div class="publication-year">
+2016
+</div>
+<h3 class="anchored">
+A machine learned classifier for RR Lyrae in the VVV survey
+</h3>
+<p class="publication-authors">
+Elorrieta, Felipe Eyheramendy, Susana Jordán, Andrés Dékány, István Catelan, Márcio Angeloni, Rodolfo Alonso-García, Javier Contreras-Ramos, Rodrigo Gran, Felipe Hajdu, Gergely Espinoza, Néstor Saito, Roberto K. Minniti, Dante
+</p>
+<p class="publication-journal">
+A&amp;A
+</p>
+<a class="paper-link" href=" Elorrieta_2016.pdf ">Leer PDF ↗</a>
 </div>
 </div>
 

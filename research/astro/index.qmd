@@ -2,11 +2,14 @@
 title: "My Research"
 bibliography: [Astrobib.bib]
 bibliographystyle: apa
+format:
+  html:
+    css: styles.css
 ---
-
 ## Astro-Statistics
 
 ::: {.callout-tip collapse="true" icon=false}
+
 ## Descripción
 
 Esta línea de investigación se centra en el desarrollo y aplicación de modelos estadísticos avanzados para el análisis de datos astronómicos, con énfasis en series de tiempo observadas de forma irregular. Estos modelos permiten caracterizar la variabilidad de objetos como estrellas variables, núcleos activos de galaxias y otros fenómenos transitorios.
@@ -15,25 +18,161 @@ Estas herramientas, combinadas con métodos de aprendizaje estadístico, han sid
 En el futuro, continuaré esta línea de investigación desarrollando métodos estadísticos avanzados para la detección de cambios estructurales en series temporales astronómicas, integrándolos en la infraestructura de ALeRCE para posibilitar el descubrimiento automático y en tiempo real de fenómenos como AGN que cambian de estado, aprovechando el enorme volumen de datos que generará el LSST del Observatorio Vera C. Rubin.
 ::: 
 
-# Artículos relacionados
+## Artículos relacionados
 
----
-nocite: |
-  @Elorrieta_2026
-  @Elorrieta_2025
-  @Elorrieta_2023
-  @Ojeda_2023
-  @Forster_2021
-  @Sanchez_Saez_2021
-  @Elorrieta_2021
-  @Elorrieta_2019
-  @iAR
-  @dekany:2018
-  @gran:2016
-  @Elorrieta_2016
----
+```{r}
+#| echo: false
+#| results: asis
+#| warning: false
 
-::: {#refs}
-:::
+library(RefManageR)
+library(pdftools)
 
+bib <- ReadBib("Astrobib.bib")
+
+claves <- c(
+  "Elorrieta_2026",
+  "Elorrieta_2025",
+  "Elorrieta_2023",
+  "Ojeda_2023",
+  "Forster_2021",
+  "Sanchez_Saez_2021",
+  "Elorrieta_2021",
+  "Elorrieta_2019",
+  "iAR",
+  "dekany:2018",
+  "gran:2016",
+  "Elorrieta_2016"
+)
+
+escapar <- function(x) {
+  x <- paste(as.character(x), collapse = " ")
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x
+}
+
+publicaciones <- lapply(claves, function(clave) {
+  entrada <- bib[clave]
+  if (length(entrada) == 0) return(NULL)
+
+  anio <- suppressWarnings(
+    as.integer(as.character(entrada[[1]]$year))
+  )
+
+  list(
+    clave = clave,
+    entrada = entrada[[1]],
+    anio = anio
+  )
+})
+
+publicaciones <- Filter(Negate(is.null), publicaciones)
+
+publicaciones <- publicaciones[
+  order(
+    sapply(publicaciones, function(x) x$anio),
+    decreasing = TRUE,
+    na.last = TRUE
+  )
+]
+
+dir.create("images/papers",
+           recursive = TRUE,
+           showWarnings = FALSE)
+
+for (pub in publicaciones) {
+
+  p <- pub$entrada
+  clave <- pub$clave
+
+  titulo <- escapar(p$title)
+  autores <- escapar(p$author)
+  revista <- escapar(
+    if (!is.null(p$journal)) p$journal else ""
+  )
+  abstract <- escapar(
+    if (!is.null(p$abstract)) p$abstract else ""
+  )
+
+  pdf <- file.path("papers", paste0(clave, ".pdf"))
+  if (!file.exists(pdf)) {
+    pdf <- paste0(clave, ".pdf")
+  }
+
+  imagen <- ""
+
+  if (file.exists(pdf)) {
+    archivo_imagen <- paste0(
+      gsub("[^a-zA-Z0-9_-]", "_", clave),
+      ".png"
+    )
+    ruta_imagen <- file.path(
+      "images/papers", archivo_imagen
+    )
+
+    if (!file.exists(ruta_imagen)) {
+      invisible(capture.output(
+  suppressMessages(
+    pdftools::pdf_convert(
+      pdf,
+      format = "png",
+      pages = 1,
+      dpi = 90,
+      filenames = ruta_imagen,
+      verbose = FALSE
+    )
+  )
+))
+    }
+
+    imagen <- paste0(
+      '<a href="', pdf, '">',
+      '<img src="', ruta_imagen, '" ',
+      'alt="Primera página del artículo">',
+      '</a>'
+    )
+  }
+
+  cat('<div class="publication-card">')
+
+  cat('<div class="publication-cover">',
+      imagen, '</div>')
+
+  cat('<div class="publication-info">')
+
+  cat('<div class="publication-year">',
+      pub$anio, '</div>')
+
+  cat('<h3>', titulo, '</h3>')
+
+  cat('<p class="publication-authors">',
+      autores, '</p>')
+
+  cat('<p class="publication-journal">',
+      revista, '</p>')
+
+  if (nzchar(abstract)) {
+    cat(
+      '<details><summary>Ver abstract</summary>',
+      '<p>', abstract, '</p></details>'
+    )
+  }
+
+  if (file.exists(pdf)) {
+    cat(
+      '<a class="paper-link" href="',
+      pdf, '">Leer PDF ↗</a>'
+    )
+  } else if (!is.null(p$doi)) {
+    cat(
+      '<a class="paper-link" href="https://doi.org/',
+      escapar(p$doi), '">Ver artículo ↗</a>'
+    )
+  }
+
+  cat('</div></div>\n')
+}
+```
 
