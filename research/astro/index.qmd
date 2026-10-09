@@ -40,8 +40,8 @@ claves <- c(
   "Elorrieta_2021",
   "Elorrieta_2019",
   "iAR",
-  "dekany:2018",
-  "gran:2016",
+  "dekany_2018",
+  "gran_2016",
   "Elorrieta_2016"
 )
 
