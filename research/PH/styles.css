@@ -1,0 +1,63 @@
+/* My Research — publication cards for Quarto */
+.publication-card {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 22px;
+  padding: 22px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: box-shadow .2s ease;
+}
+.publication-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+.publication-card .publication-cover {
+  flex: 0 0 110px !important;
+  width: 110px !important;
+  max-width: 110px !important;
+  min-width: 110px;
+}
+.publication-card .publication-cover img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 110px !important;
+  height: auto !important;
+  margin: 0 !important;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+.publication-card .publication-info { flex: 1; min-width: 0; }
+.publication-card .publication-year { font-size: .85rem; font-weight: 600; color: #64748b; margin-bottom: 8px; }
+.publication-card .publication-info h3 { font-size: 1.12rem; font-weight: 650; line-height: 1.4; margin: 0 0 10px; }
+.publication-card .publication-authors { font-size: .92rem; line-height: 1.5; margin-bottom: 6px; }
+.publication-card .publication-journal { font-size: .9rem; font-style: italic; color: #64748b; margin-bottom: 12px; }
+.publication-card details { margin: 12px 0; font-size: .9rem; line-height: 1.6; }
+.publication-card summary { cursor: pointer; color: #2563eb; font-weight: 500; }
+.publication-card details p { margin-top: 10px; text-align: justify; }
+.publication-card .paper-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px 14px;
+  font-size: .88rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  transition: all .2s ease;
+}
+.publication-card .paper-link:hover { background-color: #2563eb; color: #fff; }
+[data-bs-theme="dark"] .publication-card, .quarto-dark .publication-card { background-color: #22272e; border-color: #444c56; }
+[data-bs-theme="dark"] .publication-card .publication-year,
+[data-bs-theme="dark"] .publication-card .publication-journal,
+.quarto-dark .publication-card .publication-year,
+.quarto-dark .publication-card .publication-journal { color: #aeb8c5; }
+@media (max-width: 600px) {
+  .publication-card { gap: 12px; padding: 12px; }
+  .publication-card .publication-cover { flex: 0 0 75px !important; width: 75px !important; max-width: 75px !important; min-width: 75px; }
+  .publication-card .publication-cover img { width: 75px !important; max-width: 75px !important; }
+  .publication-card .publication-info h3 { font-size: 1rem; }
+  .publication-card .publication-authors, .publication-card .publication-journal { font-size: .82rem; }
+}

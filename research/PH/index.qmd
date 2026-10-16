@@ -2,6 +2,9 @@
 title: "My Research"
 bibliography: [PH.bib]
 bibliographystyle: apa
+format:
+  html:
+    css: styles.css
 ---
 
 ## Public-Health
@@ -12,20 +15,176 @@ bibliographystyle: apa
 Mi investigación en salud pública se centra en entender cómo los determinantes sociales y territoriales impactan en la distribución de enfermedades y la mortalidad en Chile. Durante la pandemia de COVID-19, participé en estudios que caracterizaron las olas de contagio, la adherencia a medidas de protección y el impacto desigual de la pandemia según nivel socioeconómico, evidenciando un exceso de mortalidad y años de vida perdidos en las comunas más vulnerables del Gran Santiago. Más recientemente, amplié esta línea al estudio de tuberculosis, analizando cómo factores como la migración, el hacinamiento y los ingresos modelan su distribución espacial. Estos trabajos buscan aportar evidencia para reducir inequidades en salud y orientar políticas públicas más justas y focalizadas.
 ::: 
 
-# Artículos relacionados
 
----
-nocite: |
-  @Elorrieta2025BMJ
-  @AYALA2023
-  @MUNOZ2024
-  @Vargas_2025
-  @Varas_2022
-  @Ayala2023_2
-  @Ayala2021
----
+## Artículos relacionados
 
-::: {#refs}
-:::
+```{r}
+#| echo: false
+#| results: asis
+#| message: false
+#| warning: false
+
+library(RefManageR)
+library(pdftools)
+
+bib <- ReadBib("PH.bib")
+
+claves <- c("Maddaleno2026",
+  "Elorrieta2025BMJ",
+  "AYALA2023",
+  "MUNOZ2024",
+  "Vargas_2025",
+  "Varas_2022",
+  "Ayala2023_2",
+  "Ayala2021"
+)
+
+escapar <- function(x) {
+  x <- paste(as.character(x), collapse = " ")
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x
+}
+
+publicaciones <- lapply(claves, function(clave) {
+  entrada <- bib[clave]
+  if (length(entrada) == 0) return(NULL)
+
+  anio <- suppressWarnings(
+    as.integer(as.character(entrada[[1]]$year))
+  )
+
+  list(
+    clave = clave,
+    entrada = entrada[[1]],
+    anio = anio
+  )
+})
+
+publicaciones <- Filter(Negate(is.null), publicaciones)
+
+publicaciones <- publicaciones[
+  order(
+    sapply(publicaciones, function(x) x$anio),
+    decreasing = TRUE,
+    na.last = TRUE
+  )
+]
+
+dir.create(
+  "images/papers",
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
+for (pub in publicaciones) {
+
+  p <- pub$entrada
+  clave <- pub$clave
+
+  titulo <- escapar(p$title)
+  autores <- escapar(p$author)
+  revista <- escapar(
+    if (!is.null(p$journal)) p$journal else ""
+  )
+  abstract <- escapar(
+    if (!is.null(p$abstract)) p$abstract else ""
+  )
+
+  pdf <- file.path("papers", paste0(clave, ".pdf"))
+
+  if (!file.exists(pdf)) {
+    pdf <- paste0(clave, ".pdf")
+  }
+
+  imagen <- ""
+
+  if (file.exists(pdf)) {
+
+    archivo_imagen <- paste0(
+      gsub("[^a-zA-Z0-9_-]", "_", clave),
+      ".png"
+    )
+
+    ruta_imagen <- file.path(
+      "images/papers", archivo_imagen
+    )
+
+    if (!file.exists(ruta_imagen)) {
+      invisible(capture.output(
+        suppressMessages(
+          pdftools::pdf_convert(
+            pdf,
+            format = "png",
+            pages = 1,
+            dpi = 90,
+            filenames = ruta_imagen,
+            verbose = FALSE
+          )
+        )
+      ))
+    }
+
+    imagen <- paste0(
+      '<a href="', pdf, '">',
+      '<img src="', ruta_imagen, '" ',
+      'alt="Primera página del artículo">',
+      '</a>'
+    )
+  }
+
+  enlace <- ""
+
+  if (file.exists(pdf)) {
+    enlace <- paste0(
+      '<a class="paper-link" href="',
+      pdf, '">Leer PDF ↗</a>'
+    )
+  } else if (!is.null(p$doi)) {
+    enlace <- paste0(
+      '<a class="paper-link" href="https://doi.org/',
+      escapar(p$doi),
+      '">Ver artículo ↗</a>'
+    )
+  }
+
+  abstract_html <- if (nzchar(abstract)) {
+    paste0(
+      '<details>',
+      '<summary>Ver abstract</summary>',
+      '<p>', abstract, '</p>',
+      '</details>'
+    )
+  } else {
+    ""
+  }
+
+  tarjeta <- paste0(
+    '<div class="publication-card">',
+      '<div class="publication-cover">',
+        imagen,
+      '</div>',
+      '<div class="publication-info">',
+        '<div class="publication-year">',
+          pub$anio,
+        '</div>',
+        '<h3>', titulo, '</h3>',
+        '<p class="publication-authors">',
+          autores,
+        '</p>',
+        '<p class="publication-journal">',
+          revista,
+        '</p>',
+        abstract_html,
+        enlace,
+      '</div>',
+    '</div>'
+  )
+
+  cat(tarjeta, "\n\n")
+}
+```
+
 
 
