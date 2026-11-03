@@ -16,6 +16,11 @@ En cada capítulo invitamos a personas de distintos ámbitos para conversar sobr
 <div class="video-grid">
 
 ::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/o2ifIkfmCKo/0.jpg)](https://youtu.be/o2ifIkfmCKo)
+<p> EP.05 Tecnología y Emprendimiento | Parsimonia del caos Vodcast </p>
+:::
+
+::: {.video-item}
 [![Ver video](https://img.youtube.com/vi/U10z2XTchTc/0.jpg)](https://youtu.be/U10z2XTchTc)
 <p> EP.04 Perspectiva Crítica | Parsimonia del caos Vodcast </p>
 :::
