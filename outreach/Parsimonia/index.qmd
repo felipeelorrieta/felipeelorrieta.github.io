@@ -16,6 +16,11 @@ En cada capítulo invitamos a personas de distintos ámbitos para conversar sobr
 <div class="video-grid">
 
 ::: {.video-item}
+[![Ver video](https://img.youtube.com/vi/abfomyOt8ME/0.jpg)](https://youtu.be/abfomyOt8ME)
+<p> EP.06 Abriendo la Ciencia | Parsimonia del caos Vodcast </p>
+:::
+
+::: {.video-item}
 [![Ver video](https://img.youtube.com/vi/o2ifIkfmCKo/0.jpg)](https://youtu.be/o2ifIkfmCKo)
 <p> EP.05 Tecnología y Emprendimiento | Parsimonia del caos Vodcast </p>
 :::
