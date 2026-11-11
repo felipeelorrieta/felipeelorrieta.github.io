@@ -8,7 +8,15 @@ lang: es
 
 🎙️ Bienvenidos a ραʀѕмσηɪα ᴅєʟ ᴄασѕ: La estadística está más cerca de lo que crees 👁️
 Un vodcast conducido por Felipe Elorrieta y Esteban Avarca, donde conversamos sobre estadística, datos, ciencia y experiencias reales desde una mirada cercana y sin tecnicismos innecesarios.
-En cada capítulo invitamos a personas de distintos ámbitos para conversar sobre cómo la estadística se conecta con la investigación, la salud, la educación, la industria y la vida cotidiana. Porque la estadística está mucho más presente de lo que creemos. Disponible en [Spotify](https://open.spotify.com/show/033hYDt7YjsAKO3P0RVqEF) y [Apple Podcast](https://podcasts.apple.com/cl/podcast/parsimonia-del-caos-vodcast/id1896846712) y [Youtube](https://www.youtube.com/@parsimoniadelcaos)
+En cada capítulo invitamos a personas de distintos ámbitos para conversar sobre cómo la estadística se conecta con la investigación, la salud, la educación, la industria y la vida cotidiana. Porque la estadística está mucho más cerca de lo que crees. Disponible en:
+
+::: {.text-center}
+
+[![](https://cdn.simpleicons.org/spotify/1DB954){width="100px"}](https://open.spotify.com/show/033hYDt7YjsAKO3P0RVqEF)
+[![](https://cdn.simpleicons.org/applepodcasts/9933CC){width="100px"}](https://podcasts.apple.com/cl/podcast/parsimonia-del-caos-vodcast/id1896846712)
+[![](https://cdn.simpleicons.org/youtube/FF0000){width="100px"}](https://www.youtube.com/@parsimoniadelcaos)
+
+:::
 
 
 ## Temporada 1
