@@ -1,7 +1,43 @@
 ---
 title: "Outreach"
 ---
-## [Parsimonia del Caos](Parsimonia/index.qmd)
-## [Por sobre la Media](PSM/index.qmd)
-## [Medios](Medios/index.qmd)
-<!-- ## [All you need is Lab](ALL/index.qmd) -->
+
+::: {.columns}
+
+::: {.column width="33%"}
+
+::: {.text-center}
+
+[![](parsimonia.png){height="250px"}](Parsimonia/index.qmd)
+
+### [Parsimonia del Caos](Parsimonia/index.qmd)
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {.text-center}
+
+[![](psm.jpg){height="250px"}](PSM/index.qmd)
+
+### [Por sobre la Media](PSM/index.qmd)
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {.text-center}
+
+[![](medios-3LY.jpeg){height="250px"}](Medios/index.qmd)
+
+### [Medios](Medios/index.qmd)
+
+:::
+
+:::
+
+:::
