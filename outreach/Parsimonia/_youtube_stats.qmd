@@ -1,0 +1,3 @@
+## Parsimonia del Caos en números
+
+*Las estadísticas aparecerán después de ejecutar la actualización de YouTube en GitHub Actions.*

@@ -1,0 +1,25 @@
+name: Actualizar estadísticas de YouTube
+on:
+  schedule:
+    - cron: '17 10 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Consultar YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python .github/scripts/youtube_stats.py
+      - name: Guardar resultados
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Parsimonia/youtube_stats.json Parsimonia/_youtube_stats.qmd
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualizar estadísticas de YouTube'
+            git push
+          fi
