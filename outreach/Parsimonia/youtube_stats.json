@@ -2,5 +2,49 @@
   "subscribers": 123,
   "views": 2528,
   "episodes": 6,
-  "updated_utc": "2026-11-12 00:41 UTC"
+  "episode_stats": [
+    {
+      "title": "EP06 · Abriendo la Ciencia",
+      "video_id": "abfomyOt8ME",
+      "views": 95,
+      "likes": 6,
+      "comments": 0
+    },
+    {
+      "title": "EP05 · Tecnología y Emprendimiento",
+      "video_id": "o2ifIkfmCKo",
+      "views": 337,
+      "likes": 21,
+      "comments": 1
+    },
+    {
+      "title": "EP04 · Perspectiva Crítica",
+      "video_id": "U10z2XTchTc",
+      "views": 368,
+      "likes": 21,
+      "comments": 1
+    },
+    {
+      "title": "EP03 · Consultoría Estadística",
+      "video_id": "mTe-_q4lyec",
+      "views": 805,
+      "likes": 58,
+      "comments": 8
+    },
+    {
+      "title": "EP02 · Educación Estadística",
+      "video_id": "75XhvwQA6RQ",
+      "views": 315,
+      "likes": 28,
+      "comments": 1
+    },
+    {
+      "title": "EP01 · La Bioestadística",
+      "video_id": "UnpYBFj6IBg",
+      "views": 608,
+      "likes": 50,
+      "comments": 2
+    }
+  ],
+  "updated_utc": "2026-11-12 03:10 UTC"
 }
