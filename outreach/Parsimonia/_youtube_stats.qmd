@@ -4,4 +4,15 @@
 |:---:|:---:|:---:|
 | **123** | **2.528** | **6** |
 
-*Actualizado: 2026-11-12 00:41 UTC. Las cifras de suscriptores pueden estar redondeadas por YouTube.*
+### Estadísticas por episodio
+
+| Episodio | Visualizaciones | Likes | Comentarios |
+|:---|---:|---:|---:|
+| [EP06 · Abriendo la Ciencia](https://www.youtube.com/watch?v=abfomyOt8ME) | 95 | 6 | 0 |
+| [EP05 · Tecnología y Emprendimiento](https://www.youtube.com/watch?v=o2ifIkfmCKo) | 337 | 21 | 1 |
+| [EP04 · Perspectiva Crítica](https://www.youtube.com/watch?v=U10z2XTchTc) | 368 | 21 | 1 |
+| [EP03 · Consultoría Estadística](https://www.youtube.com/watch?v=mTe-_q4lyec) | 805 | 58 | 8 |
+| [EP02 · Educación Estadística](https://www.youtube.com/watch?v=75XhvwQA6RQ) | 315 | 28 | 1 |
+| [EP01 · La Bioestadística](https://www.youtube.com/watch?v=UnpYBFj6IBg) | 608 | 50 | 2 |
+
+*Actualizado: 2026-11-12 03:10 UTC. Las cifras de suscriptores pueden estar redondeadas por YouTube.*
