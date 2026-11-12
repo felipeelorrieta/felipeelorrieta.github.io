@@ -59,8 +59,8 @@ En cada capítulo invitamos a personas de distintos ámbitos para conversar sobr
 
 </div>
 
-{{< include _spotify_stats.qmd >}}
 {{< include _youtube_stats.qmd >}}
+{{< include _spotify_stats.qmd >}}
 
 <style>
 .video-grid {

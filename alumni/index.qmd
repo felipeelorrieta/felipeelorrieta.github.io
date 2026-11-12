@@ -35,6 +35,8 @@ library(wordcloud)
 
 ID | Nombre           | Titulo                               | Año |
 --|----------------|--------------------------------------|------|
+|52| Tania Vega Figueroa | [Asociación entre las hospitalizaciones por accidente cerebrovascular y la deprivación socioeconómica: un análisis intracomunal en Santiago y Estación Central](GuiaTesisPregrado/GuiaTaniaVega.pdf) | 2026 |
+|51| Nicol González Machuca | [iARstream: un paquete computacional en R para la estimación de parámetros en modelos autorregresivos regular e irregularmente observados](GuiaTesisPregrado/GuiaNicolGonzalez.pdf) | 2026 |
 |50| Constanza Wasttson Ferrer | [Evolución de la desigualdad de exposición al material particulado y su impacto estimado en la mortalidad en las comunas de Santiago](GuiaTesisPregrado/GuiaConstanzaWasttson.pdf) | 2026 |
 |49| Bárbara Ocares Pizarro | [Relación entre el Índice de Deprivación y la Razón de Hospitalización por Enfermedades CSAP](GuiaTesisPregrado/GuiaBarbaraOcares.pdf) | 2026 |
 |48| Néstor Manríquez Figueroa | [Aplicación de procesos autorregresivos en series temporales regular e irregularmente observadas con datos ausentes](GuiaTesisPregrado/GuiaNestorManriquez.pdf) | 2026 |
@@ -91,8 +93,8 @@ ID | Nombre           | Titulo                               | Año |
 
 ID | Nombre           | Titulo                               | Año |
 --|----------------|--------------------------------------|------|
-|2| Juan Carlos Cornejo | Extracción de características desde estimaciones en línea del Modelo Autorregresivo Irregular (iAR) | 2024 |
-|1| Miguel Valdés Hernández | Filtro de Partículas Para la Estimación Online de Procesos Autorregresivos Irregularmente Observados  | 2024 |
+|2| Juan Carlos Cornejo | [Extracción de características desde estimaciones en línea del Modelo Autorregresivo Irregular (iAR)](GuiaTesisPregrado/GuiaJuanCornejo.pdf) | 2024 |
+|1| Miguel Valdés Hernández | [Filtro de Partículas Para la Estimación Online de Procesos Autorregresivos Irregularmente Observados](GuiaTesisPregrado/GuiaMiguelValdes.pdf)  | 2024 |
 
 # Nube de palabras
 
