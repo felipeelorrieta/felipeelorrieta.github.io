@@ -1,3 +1,7 @@
 ## Parsimonia del Caos en números
 
-*Las estadísticas aparecerán después de ejecutar la actualización de YouTube en GitHub Actions.*
+| Suscriptores en YouTube | Vistas de los 6 episodios | Episodios |
+|:---:|:---:|:---:|
+| **123** | **2.528** | **6** |
+
+*Actualizado: 2026-11-12 00:41 UTC. Las cifras de suscriptores pueden estar redondeadas por YouTube.*
