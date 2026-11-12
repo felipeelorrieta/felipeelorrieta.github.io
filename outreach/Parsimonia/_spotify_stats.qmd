@@ -1,0 +1,19 @@
+## Spotify
+
+| Escuchas y descargas | Escuchas en Spotify | Descargas en otros sitios |
+|:---:|:---:|:---:|
+| **396** | **331** | **65** |
+
+### Evolución mensual
+
+| Mes | Total | Spotify | Otros sitios |
+|:---|---:|---:|---:|
+| 2026-05 | 45 | 43 | 2 |
+| 2026-06 | 29 | 27 | 2 |
+| 2026-07 | 54 | 44 | 10 |
+| 2026-08 | 55 | 40 | 15 |
+| 2026-09 | 88 | 77 | 11 |
+| 2026-10 | 74 | 62 | 12 |
+| 2026-11 | 51 | 38 | 13 |
+
+*Fuente: Spotify for Creators. Datos hasta el 12/11/2026. Actualizar el CSV para renovar estas cifras.*
