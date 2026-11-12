@@ -14,11 +14,15 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python .github/scripts/youtube_stats.py
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Renderizar página Parsimonia
+        run: quarto render outreach/Parsimonia/index.qmd
       - name: Guardar resultados
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add outreach/Parsimonia/youtube_stats.json outreach/Parsimonia/_youtube_stats.qmd
+          git add outreach/Parsimonia/youtube_stats.json outreach/Parsimonia/_youtube_stats.qmd docs/
           if ! git diff --cached --quiet; then
             git commit -m 'Actualizar estadísticas de YouTube'
             git push
