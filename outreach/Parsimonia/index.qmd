@@ -18,8 +18,6 @@ En cada capítulo invitamos a personas de distintos ámbitos para conversar sobr
 
 :::
 
-{{< include _youtube_stats.qmd >}}
-
 ## Temporada 1
 
 <div class="video-grid">
@@ -56,6 +54,8 @@ En cada capítulo invitamos a personas de distintos ámbitos para conversar sobr
 
 </div>
 
+{{< include _youtube_stats.qmd >}}
+
 <style>
 .video-grid {
     display: flex;
@@ -83,3 +83,5 @@ En cada capítulo invitamos a personas de distintos ámbitos para conversar sobr
     margin-top: 5px;
 }
 </style>
+
+

@@ -31,8 +31,8 @@ result = {
     'episodes': len(videos),
     'updated_utc': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
 }
-folder = Path('Parsimonia')
-folder.mkdir(exist_ok=True)
+folder = Path('outreach/Parsimonia')
+folder.mkdir(parents=True, exist_ok=True)
 (folder / 'youtube_stats.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 fmt = lambda n: f'{n:,}'.replace(',', '.') if n is not None else 'No disponible'
 markdown = f'''## Parsimonia del Caos en números

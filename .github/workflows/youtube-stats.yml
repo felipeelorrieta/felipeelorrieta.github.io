@@ -18,7 +18,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add Parsimonia/youtube_stats.json Parsimonia/_youtube_stats.qmd
+          git add outreach/Parsimonia/youtube_stats.json outreach/Parsimonia/_youtube_stats.qmd
           if ! git diff --cached --quiet; then
             git commit -m 'Actualizar estadísticas de YouTube'
             git push
