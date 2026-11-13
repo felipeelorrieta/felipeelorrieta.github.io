@@ -2,17 +2,17 @@
 
 | Suscriptores en YouTube | Vistas de los episodios | Episodios |
 |:---:|:---:|:---:|
-| **123** | **2.560** | **6** |
+| **123** | **2.594** | **6** |
 
 ### Estadísticas por episodio
 
 | Episodio | Visualizaciones | Likes | Comentarios |
 |:---|---:|---:|---:|
-| [EP.06 Abriendo la Ciencia – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=abfomyOt8ME) | 126 | 6 | 0 |
-| [EP.05 Tecnología y Emprendimiento – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=o2ifIkfmCKo) | 337 | 21 | 1 |
+| [EP.06 Abriendo la Ciencia – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=abfomyOt8ME) | 150 | 8 | 1 |
+| [EP.05 Tecnología y Emprendimiento – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=o2ifIkfmCKo) | 339 | 22 | 1 |
 | [EP.04 Perspectiva Crítica – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=U10z2XTchTc) | 368 | 21 | 1 |
-| [EP.03 Consultoría Estadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=mTe-_q4lyec) | 805 | 58 | 8 |
-| [EP.02 Educación Estadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=75XhvwQA6RQ) | 315 | 28 | 1 |
-| [EP.01 La Bioestadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=UnpYBFj6IBg) | 609 | 50 | 2 |
+| [EP.03 Consultoría Estadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=mTe-_q4lyec) | 808 | 59 | 8 |
+| [EP.02 Educación Estadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=75XhvwQA6RQ) | 317 | 29 | 1 |
+| [EP.01 La Bioestadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=UnpYBFj6IBg) | 612 | 50 | 2 |
 
-*Actualizado: 2026-11-12 18:23 UTC. Las cifras de suscriptores pueden estar redondeadas por YouTube.*
+*Actualizado: 2026-11-13 17:49 UTC. Las cifras de suscriptores pueden estar redondeadas por YouTube.*
