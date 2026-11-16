@@ -1,13 +1,13 @@
 {
   "subscribers": 124,
-  "views": 2638,
+  "views": 2652,
   "episodes": 6,
   "episode_stats": [
     {
       "title": "EP.06 Abriendo la Ciencia | Parsimonia del caos Vodcast",
       "number": 6,
       "video_id": "abfomyOt8ME",
-      "views": 171,
+      "views": 184,
       "likes": 9,
       "comments": 1
     },
@@ -15,7 +15,7 @@
       "title": "EP.05 Tecnología y Emprendimiento | Parsimonia del caos Vodcast",
       "number": 5,
       "video_id": "o2ifIkfmCKo",
-      "views": 341,
+      "views": 342,
       "likes": 22,
       "comments": 1
     },
@@ -52,5 +52,5 @@
       "comments": 2
     }
   ],
-  "updated_utc": "2026-11-15 17:14 UTC"
+  "updated_utc": "2026-11-16 20:31 UTC"
 }
