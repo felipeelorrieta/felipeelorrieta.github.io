@@ -1,13 +1,13 @@
 {
   "subscribers": 125,
-  "views": 2665,
+  "views": 2673,
   "episodes": 6,
   "episode_stats": [
     {
       "title": "EP.06 Abriendo la Ciencia | Parsimonia del caos Vodcast",
       "number": 6,
       "video_id": "abfomyOt8ME",
-      "views": 195,
+      "views": 197,
       "likes": 11,
       "comments": 1
     },
@@ -23,7 +23,7 @@
       "title": "EP.04 Perspectiva Crítica | Parsimonia del caos Vodcast",
       "number": 4,
       "video_id": "U10z2XTchTc",
-      "views": 377,
+      "views": 380,
       "likes": 21,
       "comments": 1
     },
@@ -31,7 +31,7 @@
       "title": "EP.03 Consultoría Estadística | Parsimonia del caos Vodcast",
       "number": 3,
       "video_id": "mTe-_q4lyec",
-      "views": 812,
+      "views": 815,
       "likes": 59,
       "comments": 8
     },
@@ -52,5 +52,5 @@
       "comments": 2
     }
   ],
-  "updated_utc": "2026-11-17 19:13 UTC"
+  "updated_utc": "2026-11-18 18:52 UTC"
 }
