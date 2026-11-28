@@ -2,7 +2,7 @@
 
 | Suscriptores en YouTube | Vistas de los episodios | Episodios |
 |:---:|:---:|:---:|
-| **127** | **2.775** | **6** |
+| **127** | **2.776** | **6** |
 
 ### Estadísticas por episodio
 
@@ -11,8 +11,8 @@
 | [EP.06 Abriendo la Ciencia – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=abfomyOt8ME) | 227 | 12 | 2 |
 | [EP.05 Tecnología y Emprendimiento – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=o2ifIkfmCKo) | 349 | 22 | 1 |
 | [EP.04 Perspectiva Crítica – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=U10z2XTchTc) | 395 | 22 | 2 |
-| [EP.03 Consultoría Estadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=mTe-_q4lyec) | 848 | 59 | 8 |
+| [EP.03 Consultoría Estadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=mTe-_q4lyec) | 849 | 59 | 8 |
 | [EP.02 Educación Estadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=75XhvwQA6RQ) | 327 | 29 | 1 |
 | [EP.01 La Bioestadística – Parsimonia del caos Vodcast](https://www.youtube.com/watch?v=UnpYBFj6IBg) | 629 | 51 | 2 |
 
-*Actualizado: 2026-11-27 19:30 UTC. Las cifras de suscriptores pueden estar redondeadas por YouTube.*
+*Actualizado: 2026-11-28 18:17 UTC. Las cifras de suscriptores pueden estar redondeadas por YouTube.*
